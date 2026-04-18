@@ -1,10 +1,15 @@
 import Link from "next/link";
 
 import { ClickableCard } from "@/components/clickable-card";
-import { buildWeekDays } from "@/lib/content";
+import { buildWeekDays, formatDutchDate, getWeekDaysForDate } from "@/lib/content";
 
-export default function WeekPage() {
-  const weekDays = buildWeekDays();
+export default async function WeekPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ datum?: string }>;
+}) {
+  const { datum } = await searchParams;
+  const weekDays = datum ? getWeekDaysForDate(datum) : buildWeekDays();
 
   return (
     <div className="stack-lg">
@@ -13,6 +18,7 @@ export default function WeekPage() {
           <div>
             <p className="eyebrow">Deze week</p>
             <h1>Weekoverzicht</h1>
+            {datum ? <p className="muted-small">Week van {formatDutchDate(datum)}</p> : null}
           </div>
         </div>
 

@@ -3,7 +3,13 @@ import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
-import { formatDutchDate, getAllTrainings, getPlannedTrainings, getTrainingPageData } from "@/lib/content";
+import {
+  formatDutchDate,
+  getAllTrainings,
+  getPlannedTrainings,
+  getTrainingNavigation,
+  getTrainingPageData,
+} from "@/lib/content";
 
 export function generateStaticParams() {
   const slugs = new Set<string>();
@@ -26,6 +32,7 @@ export default async function TrainingDetailPage({
 }) {
   const { slug } = await params;
   const training = getTrainingPageData(slug);
+  const navigation = getTrainingNavigation(slug);
 
   if (!training) {
     notFound();
@@ -33,48 +40,51 @@ export default async function TrainingDetailPage({
 
   return (
     <div className="stack-lg">
-      <Link href="/week" className="back-link">
+      <Link href={`/week?datum=${training.datum}`} className="back-link">
         Terug naar week
       </Link>
 
       <section className="panel stack-md">
         <div>
-          <p className="eyebrow">Training</p>
+          <p className="eyebrow">Training - {formatDutchDate(training.datum)}</p>
           <h1>{training.primair_thema}</h1>
         </div>
 
-        <dl className="meta-list">
-          <div>
-            <dt>Datum</dt>
-            <dd>{formatDutchDate(training.datum)}</dd>
-          </div>
-          <div>
-            <dt>Periode</dt>
-            <dd>{training.periode}</dd>
-          </div>
-          <div>
-            <dt>Primair thema</dt>
-            <dd>{training.primair_thema}</dd>
-          </div>
-          {training.secundair_thema ? (
+        <details className="meta-accordion">
+          <summary>Trainingsinformatie</summary>
+          <dl className="meta-list">
             <div>
-              <dt>Secundair thema</dt>
-              <dd>{training.secundair_thema}</dd>
+              <dt>Datum</dt>
+              <dd>{formatDutchDate(training.datum)}</dd>
             </div>
-          ) : null}
-          <div>
-            <dt>Slagfocus</dt>
-            <dd>{training.slagfocus}</dd>
-          </div>
-          <div>
-            <dt>Afstand</dt>
-            <dd>{training.totale_afstand_m ? `${training.totale_afstand_m}m` : "Nog niet ingevuld"}</dd>
-          </div>
-          <div>
-            <dt>Duur</dt>
-            <dd>{training.duur_min ? `${training.duur_min} min` : "Nog niet ingevuld"}</dd>
-          </div>
-        </dl>
+            <div>
+              <dt>Periode</dt>
+              <dd>{training.periode}</dd>
+            </div>
+            <div>
+              <dt>Primair thema</dt>
+              <dd>{training.primair_thema}</dd>
+            </div>
+            {training.secundair_thema ? (
+              <div>
+                <dt>Secundair thema</dt>
+                <dd>{training.secundair_thema}</dd>
+              </div>
+            ) : null}
+            <div>
+              <dt>Slagfocus</dt>
+              <dd>{training.slagfocus}</dd>
+            </div>
+            <div>
+              <dt>Afstand</dt>
+              <dd>{training.totale_afstand_m ? `${training.totale_afstand_m}m` : "Nog niet ingevuld"}</dd>
+            </div>
+            <div>
+              <dt>Duur</dt>
+              <dd>{training.duur_min ? `${training.duur_min} min` : "Nog niet ingevuld"}</dd>
+            </div>
+          </dl>
+        </details>
       </section>
 
       {training.isUitgewerkt && training.content ? (
@@ -97,7 +107,7 @@ export default async function TrainingDetailPage({
             </div>
           </dl>
           <div className="actions-row">
-            <Link href="/week" className="button-secondary">
+            <Link href={`/week?datum=${training.datum}`} className="button-secondary">
               Terug naar week
             </Link>
             <Link href="/overzicht/trainingskalender" className="button-secondary">
@@ -106,6 +116,28 @@ export default async function TrainingDetailPage({
           </div>
         </section>
       )}
+
+      <section className="panel training-nav">
+        {navigation.previous ? (
+          <Link href={`/trainingen/${navigation.previous.slug}`} className="button-secondary">
+            Vorige training
+          </Link>
+        ) : (
+          <span className="button-disabled">Vorige training</span>
+        )}
+
+        <Link href={`/week?datum=${training.datum}`} className="button-secondary">
+          Week overzicht
+        </Link>
+
+        {navigation.next ? (
+          <Link href={`/trainingen/${navigation.next.slug}`} className="button-secondary">
+            Volgende training
+          </Link>
+        ) : (
+          <span className="button-disabled">Volgende training</span>
+        )}
+      </section>
     </div>
   );
 }

@@ -65,6 +65,19 @@ export type TrainingPageData = {
   isUitgewerkt: boolean;
 };
 
+export type TrainingNavigation = {
+  previous?: {
+    slug: string;
+    datum: string;
+    primair_thema: string;
+  };
+  next?: {
+    slug: string;
+    datum: string;
+    primair_thema: string;
+  };
+};
+
 export type DagStatus =
   | "vandaag-training"
   | "volgende-training"

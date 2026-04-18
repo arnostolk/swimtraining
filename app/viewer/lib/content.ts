@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 import matter from "gray-matter";
-import { format, parseISO, startOfWeek, endOfWeek } from "date-fns";
+import { addWeeks, format, parseISO, startOfWeek, endOfWeek } from "date-fns";
 import { nl } from "date-fns/locale";
 
 import type {
@@ -10,6 +10,7 @@ import type {
   SeizoensKalender,
   Training,
   TrainingFrontmatter,
+  TrainingNavigation,
   TrainingPageData,
   WeekDag,
 } from "@/lib/types";
@@ -152,6 +153,21 @@ export function getTrainingForDate(date: string): PlannedTraining | undefined {
   return getPlannedTrainings().find((training) => training.datum === date);
 }
 
+export function getWeekDaysForDate(date: string | Date): WeekDag[] {
+  const targetDate = typeof date === "string" ? parseISO(date) : date;
+  return buildWeekDays(targetDate);
+}
+
+export function getWeekAnchorDate(date: string | Date) {
+  const targetDate = typeof date === "string" ? parseISO(date) : date;
+  return format(startOfWeek(targetDate, { weekStartsOn: 1 }), "yyyy-MM-dd");
+}
+
+export function shiftWeekAnchorDate(date: string | Date, offset: number) {
+  const targetDate = typeof date === "string" ? parseISO(date) : date;
+  return format(addWeeks(startOfWeek(targetDate, { weekStartsOn: 1 }), offset), "yyyy-MM-dd");
+}
+
 export function getVacationForDate(date: string) {
   const calendar = getSeasonCalendar();
   return calendar.vakanties.find((vakantie) => date >= vakantie.start && date <= vakantie.einde);
@@ -271,5 +287,34 @@ export function getTrainingPageData(slug: string): TrainingPageData | undefined 
     reden: geplandeTraining.reden,
     duur_min: 60,
     isUitgewerkt: false,
+  };
+}
+
+export function getTrainingNavigation(slug: string): TrainingNavigation {
+  const trainingen = getPlannedTrainings();
+  const index = trainingen.findIndex((training) => training.slug === slug);
+
+  if (index === -1) {
+    return {};
+  }
+
+  const previous = index > 0 ? trainingen[index - 1] : undefined;
+  const next = index < trainingen.length - 1 ? trainingen[index + 1] : undefined;
+
+  return {
+    previous: previous
+      ? {
+          slug: previous.slug,
+          datum: previous.datum,
+          primair_thema: previous.primair_thema,
+        }
+      : undefined,
+    next: next
+      ? {
+          slug: next.slug,
+          datum: next.datum,
+          primair_thema: next.primair_thema,
+        }
+      : undefined,
   };
 }

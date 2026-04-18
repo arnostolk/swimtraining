@@ -1,11 +1,25 @@
 import Link from "next/link";
 
 import { ClickableCard } from "@/components/clickable-card";
-import { buildWeekDays, formatDutchDate, getTodayCard } from "@/lib/content";
+import {
+  formatDutchDate,
+  getTodayCard,
+  getWeekAnchorDate,
+  getWeekDaysForDate,
+  shiftWeekAnchorDate,
+} from "@/lib/content";
 
-export default function Home() {
+export default async function Home({
+  searchParams,
+}: {
+  searchParams: Promise<{ week?: string }>;
+}) {
+  const { week } = await searchParams;
   const todayCard = getTodayCard();
-  const weekDays = buildWeekDays();
+  const weekAnchor = week ?? getWeekAnchorDate(new Date());
+  const weekDays = getWeekDaysForDate(weekAnchor);
+  const previousWeek = shiftWeekAnchorDate(weekAnchor, -1);
+  const nextWeek = shiftWeekAnchorDate(weekAnchor, 1);
 
   return (
     <div className="stack-lg">
@@ -52,9 +66,6 @@ export default function Home() {
                 <p className="summary-line">
                   {todayCard.nextTraining.slagfocus} • {todayCard.nextTraining.sessievorm}
                 </p>
-                <Link href={`/trainingen/${todayCard.nextTraining.slug}`} className="button-primary">
-                  Open training
-                </Link>
               </ClickableCard>
             ) : null}
             <div className="actions-row">
@@ -71,8 +82,11 @@ export default function Home() {
 
       <section className="panel">
         <div className="section-head">
-          <h2>Deze week</h2>
-          <Link href="/week">Volledig overzicht</Link>
+          <div>
+            <h2>Deze week</h2>
+            <p className="muted-small">Week van {formatDutchDate(weekAnchor)}</p>
+          </div>
+          <Link href={`/week?datum=${weekAnchor}`}>Volledig overzicht</Link>
         </div>
 
         <div className="week-list">
@@ -119,6 +133,15 @@ export default function Home() {
             </ClickableCard>
           ))}
         </div>
+      </section>
+
+      <section className="panel training-nav">
+        <Link href={`/?week=${previousWeek}`} className="button-secondary">
+          Vorige week
+        </Link>
+        <Link href={`/?week=${nextWeek}`} className="button-secondary">
+          Volgende week
+        </Link>
       </section>
     </div>
   );

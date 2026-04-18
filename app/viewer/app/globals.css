@@ -168,6 +168,18 @@ h2 {
   font-weight: 600;
 }
 
+.button-disabled {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  padding: 0 1rem;
+  border-radius: 999px;
+  font-weight: 600;
+  background: #eef2f7;
+  color: #8a98ab;
+}
+
 .button-primary {
   background: var(--accent);
   color: white;
@@ -272,6 +284,54 @@ h2 {
 .meta-list {
   display: grid;
   gap: 0.75rem;
+}
+
+.meta-accordion {
+  border: 1px solid var(--line);
+  border-radius: 0.85rem;
+  background: rgba(93, 185, 230, 0.08);
+}
+
+.meta-accordion summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.9rem 1rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.meta-accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.meta-accordion summary::after {
+  content: "+";
+  float: right;
+  font-size: 1.1rem;
+}
+
+.meta-accordion[open] summary::after {
+  content: "-";
+}
+
+.meta-accordion .meta-list {
+  padding: 0 1rem 1rem;
+}
+
+.training-nav {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.training-nav > * {
+  width: 100%;
+}
+
+@media (max-width: 560px) {
+  .training-nav {
+    grid-template-columns: 1fr;
+  }
 }
 
 .meta-list div {
