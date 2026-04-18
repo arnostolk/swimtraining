@@ -27,8 +27,54 @@ De app is een mobile-first coach-tool waarmee trainers vooral de training van va
 - Zondag blijft zichtbaar, ook als er geen training is.
 - Als er een wedstrijd op zondag is, moet die expliciet zichtbaar zijn.
 - Als er geen training is vanwege vakantie, moet de reden expliciet zichtbaar zijn.
-- Metadata op de detailpagina staat als compacte lijst bovenaan.
+- Metadata op de detailpagina staat in een inklapbare accordion bovenaan.
 - De trainingsinhoud wordt uit Markdown gerenderd.
+
+## Header
+
+- De appnaam in de header is `Trainingen`.
+- De titel staat onderaan uitgelijnd met het logo.
+- De titel heeft een kleine ondermarge zodat hij optisch iets hoger staat.
+- Het hoofdmenu is een hamburgermenu op dezelfde hoogte als het logo.
+- Het hamburgermenu sluit bij klik op een menu-item.
+- Het hamburgermenu sluit ook bij klik buiten het menu.
+
+## Datumformaten
+
+- De algemene datumweergave in de app gebruikt: `Maandag 17-08-2026`.
+- In weekoverzichten gebruiken daglabels de korte notatie: `ma 17-08-2026`.
+- De titelregel op de trainingspagina toont de lange notatie.
+
+## Home
+
+- Als er vandaag geen training is, staat alleen `Geen training vandaag` bovenaan.
+- De extra regel `Reden: Geen training vandaag` wordt niet getoond.
+- De tegel `Eerstvolgende training` is volledig klikbaar.
+- Binnen die tegel staat geen losse knop `Open training`.
+- Onder het blok `Deze week` staat een apart navigatieblok met `Vorige week` en `Volgende week`.
+
+## Weekoverzicht
+
+- Daglabels krijgen extra horizontale ruimte zodat de datumkolom rustiger oogt.
+- De datumkolom staat iets van de linkerrand af.
+- Weekenddagen krijgen een subtiel andere achtergrondkleur.
+- Doordeweekse dagen krijgen ook een subtiele rand, maar zonder infill-kleur.
+- Er staan geen scheidingslijnen meer tussen de dagen.
+- De eerste dag van de week heeft dezelfde hoogte als de andere dagen.
+
+## Trainingsdetail
+
+- Bovenaan staan knoppen voor `Vorige training`, `Week overzicht` en `Volgende training`.
+- `Week overzicht` opent altijd de week van de huidige training.
+- Als er geen vorige of volgende training is, wordt een disabled knop getoond.
+- Geplande trainingen zonder uitgewerkt Markdown-bestand hebben toch een detailpagina.
+- Op zo'n detailpagina is zichtbaar dat de training nog niet is uitgewerkt.
+
+## Klikgedrag
+
+- Hoofdkaarten en trainingsrijen zijn klikbaar als geheel.
+- Interne knoppen en links binnen zulke kaarten blijven apart klikbaar.
+- Navigatie voor trainingen werkt ook voor geplande, nog niet uitgewerkte sessies.
 
 ## Routes
 
