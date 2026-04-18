@@ -28,7 +28,7 @@ public: true
 
 ## Blok 2 - Snelheid - Alle slagen - 1300m
 
-- `12x25m` `WIS` `R:0:25` `100%` sprint
-- `6x50m` `BC` `R:0:20` `95%` snel maar beheerst
+- `12x25m` `WIS` `R:0:25` `100%` - sprint
+- `6x50m` `BC` `R:0:20` `95%` - snel maar beheerst
 - `4x100m` `50 RC` `70%` > `50 SS` `90%` `R:0:20`
 - `1x200m` `SNK` `50%` herstel

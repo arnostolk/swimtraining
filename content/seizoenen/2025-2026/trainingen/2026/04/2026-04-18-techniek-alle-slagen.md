@@ -22,14 +22,14 @@ public: true
 
 ## Blok 1 - Techniek - Alle slagen - 700m
 
-- `4x50m` `25 BC drill` > `25 BC`
-- `4x50m` `25 RC drill` > `25 RC`
-- `4x50m` `25 SS drill` > `25 SS`
-- `2x50m` `WIS` toepassen
+- `4x50m` `25 BC drill` > `25 BC` {{coach: let op een rustige insteek en direct water pakken in de eerste volledige armslag}}
+- `4x50m` `25 RC drill` > `25 RC` {{coach: houd het hoofd stil en laat de rotatie vanuit de romp komen, niet vanuit de schouders}}
+- `4x50m` `25 SS drill` > `25 SS` {{coach: bewaak een smalle beenslag en voorkom te lang glijden na de trap}}
+- `2x50m` `WIS` toepassen {{coach: kijk of de techniekpunten uit de drills ook zichtbaar blijven in het volledige ritme}}
 
 ## Blok 2 - Start en keerpunt - Alle slagen - 1200m
 
-- `8x25m` `BC` `R:0:25` `95%` snelle breakout
-- `8x25m` `RC` `R:0:25` `95%` keerpunt + onderwaterfase
-- `4x50m` `SS` `R:0:20` `80%` keerpunt strak uitzwemmen
+- `8x25m` `BC` `R:0:25` `95%` - snelle breakout {{coach: focus op een strakke stroomlijn en meteen ritme pakken na de eerste armslag}}
+- `8x25m` `RC` `R:0:25` `95%` - keerpunt + onderwaterfase {{coach: tel de dolfijnbeenslagen en houd de afzet recht onder de lijn}}
+- `4x50m` `SS` `R:0:20` `80%` - keerpunt strak uitzwemmen {{coach: laat de zwemmers uit het keerpunt direct lengte houden en niet omhoog komen in de eerste slag}}
 - `2x100m` `SNK` `50%` herstel

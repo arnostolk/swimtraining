@@ -29,7 +29,7 @@ public: true
 
 ## Blok 2 - Wedstrijdtempo - SS - 1400m
 
-- `6x50m` `SS` `R:0:20` `95%` wedstrijdtempo
-- `6x100m` `SS` `R:0:20` `90%` eerste 50 op tempo, tweede 50 door
-- `4x25m` `SS` `R:0:25` `100%` sprint
+- `6x50m` `SS` `R:0:20` `95%` - wedstrijdtempo
+- `6x100m` `SS` `R:0:20` `90%` - eerste 50 op tempo, tweede 50 door
+- `4x25m` `SS` `R:0:25` `100%` - sprint
 - `1x200m` `SNK` `50%` herstel

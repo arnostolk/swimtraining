@@ -29,7 +29,7 @@ public: true
 
 ## Blok 2 - Start en keerpunt - Alle slagen - 1200m
 
-- `8x25m` `BC` `R:0:25` `95%` snelle breakout
-- `8x25m` `RC` `R:0:25` `95%` keerpunt + onderwaterfase
-- `4x50m` `SS` `R:0:20` `80%` keerpunt strak uitzwemmen
+- `8x25m` `BC` `R:0:25` `95%` - snelle breakout
+- `8x25m` `RC` `R:0:25` `95%` - keerpunt + onderwaterfase
+- `4x50m` `SS` `R:0:20` `80%` - keerpunt strak uitzwemmen
 - `2x100m` `SNK` `50%` herstel

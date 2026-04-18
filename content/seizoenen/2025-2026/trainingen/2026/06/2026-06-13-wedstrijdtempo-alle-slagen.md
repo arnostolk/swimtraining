@@ -29,7 +29,7 @@ public: true
 
 ## Blok 2 - Wedstrijdtempo - Alle slagen - 1400m
 
-- `8x50m` `WIS` `R:0:20` `90%` tempo vast houden
-- `4x100m` `WIS` `R:0:20` `85%` strakke overgangen
-- `4x25m` `BC` `R:0:25` `100%` sprint
+- `8x50m` `WIS` `R:0:20` `90%` - tempo vast houden
+- `4x100m` `WIS` `R:0:20` `85%` - strakke overgangen
+- `4x25m` `BC` `R:0:25` `100%` - sprint
 - `1x200m` `SNK` `50%` herstel

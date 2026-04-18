@@ -516,6 +516,110 @@ h2 {
   margin-top: 0.45rem;
 }
 
+.markdown-body li code {
+  margin-right: 0.2rem;
+}
+
+.coach-line-item {
+  list-style: inherit;
+}
+
+.coach-line-hitarea {
+  width: 100%;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  justify-content: space-between;
+  outline: none;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.coach-line__content {
+  font: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  flex: 1;
+  min-width: 0;
+}
+
+.coach-line-hitarea,
+.coach-line__content,
+.coach-line__content :not(code) {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.coach-line__meta {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.coach-line-hitarea:focus-visible {
+  outline: 2px solid rgba(93, 185, 230, 0.45);
+  outline-offset: 2px;
+  border-radius: 0.35rem;
+}
+
+.coach-line__badge {
+  flex-shrink: 0;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.coach-sheet-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: flex;
+  align-items: flex-end;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.coach-sheet {
+  width: 100%;
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 0.85rem 1rem 1.25rem;
+  border-top-left-radius: 1.1rem;
+  border-top-right-radius: 1.1rem;
+  background: var(--surface);
+  box-shadow: 0 -10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.coach-sheet__grabber {
+  width: 2.75rem;
+  height: 0.3rem;
+  margin: 0 auto 0.9rem;
+  border-radius: 999px;
+  background: #ccd7e6;
+}
+
+.coach-sheet__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.85rem;
+}
+
+.coach-sheet__close {
+  border: 0;
+  background: transparent;
+  color: var(--accent);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 .markdown-body p + p,
 .markdown-body ul + p,
 .markdown-body p + ul {

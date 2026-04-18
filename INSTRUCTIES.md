@@ -81,7 +81,9 @@ Het doel is een werkwijze in 2 stappen:
 
 ### Opmaak set-regels
 
-- Vaste volgorde per regel: `herhaling` `slag` `R:xx` `intensiteit` beschrijving
+- Vaste volgorde per regel: `herhaling` `slag` `R:xx` `intensiteit` `-` beschrijving
+- Zet altijd een expliciet scheidingsteken `-` tussen de intensiteit en de vrije beschrijving.
+- Voorbeeld: `- ` `8x50m` `BC` `R:0:15` `95%` `-` wedstrijdtempo`
 - Elke regel begint altijd met `{N}x{afstand}m`, bijvoorbeeld `4x100m` of `2x150m`
 - Na het genereren altijd controleren of de benoemde afstanden per blok en het sessietotaal kloppen met de optelsom van de setregels
 - Voorbeeld: `4x100m` `BC` `R:0:20` `75%` eerste 50 hard, tweede 50 ontspannen
@@ -93,6 +95,10 @@ Het doel is een werkwijze in 2 stappen:
 - Slagen worden altijd als afkorting geschreven: `BC`, `VL`, `RC`, `SS`, `WIS`, `SNK`
 - `WIS` betekent wisselslag (alle vier slagen). `IM` is de Engelse term voor hetzelfde en wordt niet gebruikt als slagafkorting.
 - Nooit uitgeschreven als 'vlinder', 'rugcrawl', 'schoolslag', etc.
+- Optionele trainerinfo per setregel wordt genoteerd als `{{coach: ...}}`
+- Voorbeeld: `3x200m` `BC` `R:0:20` `75%` `{{coach: let op lange doorhaal en stabiele ellebooghoogte}}`
+- `{{coach: ...}}` hoort direct aan het einde van de setregel
+- Gebruik trainerinfo alleen als er echt een nuttig aandachtspunt voor de trainer is
 
 ## Doel Van Het Systeem
 

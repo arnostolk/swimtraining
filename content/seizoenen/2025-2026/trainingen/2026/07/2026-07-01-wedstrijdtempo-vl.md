@@ -29,7 +29,7 @@ public: true
 
 ## Blok 2 - Wedstrijdtempo - VL - 1400m
 
-- `6x50m` `VL` `R:0:25` `95%` wedstrijdtempo
+- `6x50m` `VL` `R:0:25` `95%` - wedstrijdtempo
 - `6x100m` `50 BC` `70%` > `50 VL` `90%` `R:0:20`
-- `4x25m` `VL` `R:0:30` `100%` sprint
+- `4x25m` `VL` `R:0:30` `100%` - sprint
 - `1x200m` `SNK` `50%` herstel

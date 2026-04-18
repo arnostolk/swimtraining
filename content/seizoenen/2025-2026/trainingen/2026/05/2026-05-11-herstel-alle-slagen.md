@@ -22,13 +22,13 @@ public: true
 
 ## Blok 1 - Techniek - Alle slagen - 700m
 
-- `4x50m` `25 BC catch-up` > `25 BC`
-- `4x50m` `25 RC 1 arm` > `25 RC`
-- `4x50m` `25 SS glij` > `25 SS`
-- `2x50m` `WIS` rustig toepassen
+- `4x50m` `25 BC catch-up` > `25 BC` {{coach: houd voorin lengte en neem diezelfde rustige timing mee in de tweede 25}}
+- `4x50m` `25 RC 1 arm` > `25 RC` {{coach: bewaak balans op de zij en laat de volledige rugcrawl daarna even rustig doorlopen}}
+- `4x50m` `25 SS glij` > `25 SS` {{coach: maak de glijfase voelbaar maar voorkom dat je stilvalt tussen trap en haal}}
+- `2x50m` `WIS` rustig toepassen {{coach: zwem elke slag ontspannen en technisch zuiver zonder extra tempo te zoeken}}
 
 ## Blok 2 - Herstel - Alle slagen - 1200m
 
-- `3x200m` `WIS` `R:0:20` `70%`
-- `4x100m` `BC` `R:0:15` `70%`
-- `2x100m` `SNK` `50%` herstel
+- `3x200m` `WIS` `R:0:20` `70%` {{coach: houd de overgangen vloeiend en laat de inspanning in alle slagen gelijkmatig aanvoelen}}
+- `4x100m` `BC` `R:0:15` `70%` {{coach: kies een rustige ademhaling en houd een lange efficiënte borstcrawl zonder te forceren}}
+- `2x100m` `SNK` `50%` herstel {{coach: laat de uitdrijffase lang worden zodat hartslag en spierspanning echt zakken}}

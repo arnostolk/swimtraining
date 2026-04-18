@@ -30,8 +30,8 @@ public: true
 
 ## Blok 2 - Wedstrijdtempo + Snelheid - BC - 1550m
 
-- `8x50m` `BC` `R:0:15` `95%` 1-4 op wedstrijdtempo, 5-8 snel maar ontspannen
-- `1x200m` `BC` `R:0:30` `70%` rustig
-- `6x100m` `BC` `R:0:20` `95%` eerste 50 op wedstrijdtempo, tweede 50 `75%` strak door
-- `6x25m` `BC` `R:0:25` `100%` sprint vanuit push
+- `8x50m` `BC` `R:0:15` `95%` - 1-4 op wedstrijdtempo, 5-8 snel maar ontspannen
+- `1x200m` `BC` `R:0:30` `70%` - rustig
+- `6x100m` `BC` `R:0:20` `95%` - eerste 50 op wedstrijdtempo, tweede 50 `75%` strak door
+- `6x25m` `BC` `R:0:25` `100%` - sprint vanuit push
 - `1x200m` `SNK` `50%` herstel

@@ -30,9 +30,9 @@ public: true
 
 ## Blok 2 - Wedstrijdtempo - BC - 1400m
 
-- `6x50m` `BC` `R:0:20` `95%` wedstrijdtempo, veel controle
+- `6x50m` `BC` `R:0:20` `95%` - wedstrijdtempo, veel controle
 - `4x100m` `BC` `R:0:30` eerste 25 `95%` snel, rest `70%` ontspannen door
 - `4x50m` `BC` `R:0:20` afwisselend: 1 `95%` wedstrijdtempo, 1 `70%` rustig
-- `6x25m` `BC` `R:0:30` `95%` starts of snelle onderwaterfase
-- `3x50m` `BC` `R:0:20` `70%` rustig uitzwemmen
+- `6x25m` `BC` `R:0:30` `95%` - starts of snelle onderwaterfase
+- `3x50m` `BC` `R:0:20` `70%` - rustig uitzwemmen
 - `1x200m` `SNK` `50%` herstel

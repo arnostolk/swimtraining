@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
+
+import { TrainingMarkdown } from "@/components/training-markdown";
 
 import {
   formatDutchLongNumericDate,
@@ -92,7 +92,7 @@ export default async function TrainingDetailPage({
 
       {training.isUitgewerkt && training.content ? (
         <article className="panel markdown-body">
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>{training.content}</ReactMarkdown>
+          <TrainingMarkdown content={training.content} />
         </article>
       ) : (
         <section className="panel stack-md">

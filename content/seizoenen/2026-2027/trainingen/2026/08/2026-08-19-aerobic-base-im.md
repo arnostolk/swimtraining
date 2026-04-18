@@ -29,5 +29,5 @@ public: true
 ## Conditieblok - Aerobic base - WIS - 1500m
 
 - `3x300m` `WIS` `R:0:30` `75%`
-- `3x100m` `WIS` `R:0:20` `80%` per 25 oplopend
+- `3x100m` `WIS` `R:0:20` `80%` - per 25 oplopend
 - `2x150m` `50 BC` > `50 RC` > `50 SS` `R:0:20` `75%`

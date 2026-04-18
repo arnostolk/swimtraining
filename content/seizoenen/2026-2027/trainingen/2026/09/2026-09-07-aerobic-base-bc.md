@@ -35,5 +35,5 @@ public: true
 - `2x300m` `BC` `R:0:30` `70%`
 - `4x100m` `BC` `R:0:20` `75%`
 - `2x100m` `BC` `R:0:20` `80%`
-- `1x100m` `SNK` `R:1:00` `50%` herstel
+- `1x100m` `SNK` `R:1:00` `50%` - herstel
 - Hele set herhalen als tijd over is, anders 1x uitvoeren

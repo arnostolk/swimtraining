@@ -31,4 +31,4 @@ public: true
 ## Blok 2 - Aerobic base - SS - 1200m
 
 - `4x200m` `SS` `R:0:20` `75%`
-- `4x100m` `SS` `R:0:20` `80%` laatste 25 versnellen
+- `4x100m` `SS` `R:0:20` `80%` - laatste 25 versnellen

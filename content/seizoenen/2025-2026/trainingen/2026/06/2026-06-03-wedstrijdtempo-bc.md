@@ -29,7 +29,7 @@ public: true
 
 ## Blok 2 - Wedstrijdtempo - BC - 1400m
 
-- `8x50m` `BC` `R:0:15` `95%` wedstrijdtempo
-- `4x100m` `BC` `R:0:20` `90%` eerste 50 op tempo, tweede 50 strak door
-- `4x50m` `BC` `R:0:20` `70%` rustig
-- `4x25m` `BC` `R:0:25` `100%` sprint vanuit push
+- `8x50m` `BC` `R:0:15` `95%` - wedstrijdtempo
+- `4x100m` `BC` `R:0:20` `90%` - eerste 50 op tempo, tweede 50 strak door
+- `4x50m` `BC` `R:0:20` `70%` - rustig
+- `4x25m` `BC` `R:0:25` `100%` - sprint vanuit push

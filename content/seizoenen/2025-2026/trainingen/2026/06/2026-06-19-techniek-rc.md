@@ -31,4 +31,4 @@ public: true
 ## Blok 2 - Wedstrijdtempo - RC - 1200m
 
 - `4x200m` `RC` `R:0:25` `80%`
-- `4x100m` `RC` `R:0:20` `90%` laatste 25 versnellen
+- `4x100m` `RC` `R:0:20` `90%` - laatste 25 versnellen

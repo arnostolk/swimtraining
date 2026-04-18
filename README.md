@@ -46,6 +46,7 @@ Systeem voor het genereren van zwemtrainingen en een viewer-app voor trainers.
 ## Contentmodel
 
 - Elke training is een los Markdown-bestand met frontmatter.
+- In set-regels staat altijd een `-` tussen intensiteit en vrije beschrijving, bijvoorbeeld `` `95%` - wedstrijdtempo ``.
 - Per seizoen bestaat een `kalender.json` met trainingsdagen, vakanties en wedstrijden.
 - Overzichtsdocumenten blijven ook in Markdown beschikbaar.
 

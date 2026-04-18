@@ -30,7 +30,7 @@ public: true
 
 ## Blok 2 - Snelheid - SS - 1400m
 
-- `8x25m` `SS` `R:0:25` `100%` sprint
-- `6x50m` `SS` `R:0:20` `95%` snel maar beheerst
-- `4x100m` `SS` `R:0:20` `90%` eerste 50 snel, tweede 50 door
+- `8x25m` `SS` `R:0:25` `100%` - sprint
+- `6x50m` `SS` `R:0:20` `95%` - snel maar beheerst
+- `4x100m` `SS` `R:0:20` `90%` - eerste 50 snel, tweede 50 door
 - `1x200m` `SNK` `50%` herstel

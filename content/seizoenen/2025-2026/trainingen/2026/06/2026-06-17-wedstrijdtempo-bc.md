@@ -29,7 +29,7 @@ public: true
 
 ## Blok 2 - Wedstrijdtempo - BC - 1400m
 
-- `6x50m` `BC` `R:0:15` `95%` wedstrijdtempo
-- `6x100m` `BC` `R:0:20` `90%` eerste 50 op tempo, tweede 50 door
-- `4x25m` `BC` `R:0:25` `100%` sprint
+- `6x50m` `BC` `R:0:15` `95%` - wedstrijdtempo
+- `6x100m` `BC` `R:0:20` `90%` - eerste 50 op tempo, tweede 50 door
+- `4x25m` `BC` `R:0:25` `100%` - sprint
 - `1x200m` `SNK` `50%` herstel

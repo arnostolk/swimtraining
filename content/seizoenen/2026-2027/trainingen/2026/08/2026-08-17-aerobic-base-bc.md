@@ -35,5 +35,5 @@ public: true
 
 - `3x200m` `BC` `R:0:20` `75%`
 - `4x100m` `BC` `R:0:20` `75%`
-- `2x50m` `BC` `R:0:15` `80%` laatste 15m versnellen
-- `1x100m` `SNK` `R:1:00` `50%` herstel
+- `2x50m` `BC` `R:0:15` `80%` - laatste 15m versnellen
+- `1x100m` `SNK` `R:1:00` `50%` - herstel

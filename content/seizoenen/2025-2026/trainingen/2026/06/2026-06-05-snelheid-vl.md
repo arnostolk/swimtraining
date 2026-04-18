@@ -30,7 +30,7 @@ public: true
 
 ## Blok 2 - Snelheid - VL - 1400m
 
-- `8x25m` `VL` `R:0:30` `100%` sprint
-- `6x50m` `VL` `R:0:25` `95%` snel maar beheerst
+- `8x25m` `VL` `R:0:30` `100%` - sprint
+- `6x50m` `VL` `R:0:25` `95%` - snel maar beheerst
 - `4x100m` `50 BC` `70%` > `50 VL` `90%` `R:0:20`
 - `1x200m` `SNK` `50%` herstel

@@ -29,5 +29,5 @@ public: true
 ## Conditieblok - Aerobic base - WIS - 1600m
 
 - `4x200m` `WIS` `R:0:25` `75%`
-- `4x100m` `WIS` `R:0:20` `80%` strakke overgangen
+- `4x100m` `WIS` `R:0:20` `80%` - strakke overgangen
 - `2x200m` `50 BC` > `50 RC` > `50 SS` > `50 BC` `R:0:25` `75%`
