@@ -61,7 +61,7 @@ Het doel is een werkwijze in 2 stappen:
 - De afstand van het inzwemmen is altijd vast.
 - De inhoud van het inzwemmen is volledig vrij.
 - Het inzwemmen mag per training anders zijn.
-- Hetzelfde inzwemblok mag ook kort na elkaar terugkomen.
+- Het inzwemmen begint nooit met `WIS`. Altijd eerst opwarmen met een andere slag.
 - Het Excel-bestand is de inspiratiebron voor het inzwemmen.
 
 ### Kern van de sessie
@@ -72,27 +72,24 @@ Het doel is een werkwijze in 2 stappen:
 - Alternatief is `1` lang conditieblok.
 - Een lang conditieblok past vooral vroeg in het seizoen.
 
-### Opmaak trainingsheader
-
-- De header van elke training wordt weergegeven als een 2-koloms tabel.
-- Rijen: Datum, Periode, Primair thema, Secundair thema, Sessievorm, Slagfocus, Totale afstand.
-- Slagfocus en afstand staan in backticks, overige waarden als gewone tekst.
-
 ### Opmaak bloktitel
 
-- Elk blok (inclusief inzwemmen) heeft een vette regelkop boven de setregels.
-- Formaat inzwemmen: `**Inzwemmen — afstand**`
-- Formaat kernblok: `**Blok N — Thema — SLAG — afstand**`
-- Voorbeeld: `**Blok 1 — Techniek — BC — 800m**`
+- De titel van een blok vermeldt altijd: thema, slagafkorting en afstand.
+- Formaat: `Blok N` `Thema` `SLAG` `afstand`
+- Voorbeeld: `Blok 1` `Techniek` `BC` `800m`
 - Als een blok meerdere slagen combineert, staan alle slagen vermeld of wordt `WIS` gebruikt.
-- Trainingen worden gescheiden door een horizontale lijn (`---`).
 
 ### Opmaak set-regels
 
 - Vaste volgorde per regel: `herhaling` `slag` `R:xx` `intensiteit` beschrijving
+- Elke regel begint altijd met `{N}x{afstand}m`, bijvoorbeeld `4x100m` of `2x150m`
+- Na het genereren altijd controleren of de benoemde afstanden per blok en het sessietotaal kloppen met de optelsom van de setregels
 - Voorbeeld: `4x100m` `BC` `R:0:20` `75%` eerste 50 hard, tweede 50 ontspannen
 - Backticks worden gebruikt voor: herhaling, afstand, slagafkorting, rusttijd, intensiteit, slagcombinaties
 - Beschrijvingen (instructies, uitleg) staan als gewone tekst achter de codes
+- **Elke setregel met een tempo-intentie krijgt altijd een percentage.** Extra duiding mag daarna als tekst volgen.
+- Gangbare percentages: `50%` herstel, `70%` rustig, `75%` aëroob, `80%` aëroob hoog, `85-90%` omslagpunt, `95%` wedstrijdtempo, `100%` sprint
+- Techniekregels waar "rustig" een uitvoeringsinstructie is (geen tempo-aanduiding) hoeven geen percentage
 - Slagen worden altijd als afkorting geschreven: `BC`, `VL`, `RC`, `SS`, `WIS`, `SNK`
 - `WIS` betekent wisselslag (alle vier slagen). `IM` is de Engelse term voor hetzelfde en wordt niet gebruikt als slagafkorting.
 - Nooit uitgeschreven als 'vlinder', 'rugcrawl', 'schoolslag', etc.
