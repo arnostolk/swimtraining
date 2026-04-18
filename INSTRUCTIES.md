@@ -11,10 +11,10 @@ Het doel is een werkwijze in 2 stappen:
 
 ## Werkafspraak
 
-- `INSTRUCTIES.md` is het centrale bronbestand.
-- Bij elke inhoudelijke wijziging moet `INSTRUCTIES.md` worden bijgewerkt.
-- Nieuwe regels, aannames, tuning en structuurkeuzes komen altijd ook in `INSTRUCTIES.md`.
-- Andere bestanden mogen bestaan, maar `INSTRUCTIES.md` blijft leidend.
+- `INSTRUCTIES.md` is het centrale bronbestand voor trainingsgeneratie.
+- Bij elke inhoudelijke wijziging aan trainingsopzet, schrijfregels of periodisering moet `INSTRUCTIES.md` worden bijgewerkt.
+- App-specifieke keuzes, UX en viewer-gedrag horen in `APP_INSTRUCTIES.md`.
+- Andere bestanden mogen bestaan, maar `INSTRUCTIES.md` blijft leidend voor trainingsinhoud.
 
 ## Bronnen In De Werkmap
 
@@ -113,7 +113,12 @@ Wedstrijden en trainingen houden rekening met:
 - `SS`
 - `RC`
 - `VL`
-- `IM`
+- `WIS`
+
+### Taalregel voor wisselslag
+
+- `WIS` is de enige te gebruiken slagafkorting voor wisselslag.
+- `IM` blijft alleen bestaan als themanaam en niet als slagafkorting.
 
 ## Thema's
 
@@ -300,7 +305,7 @@ Deze thema's zijn nu vastgelegd voor de trainingskalender:
 
 ## Slagfocus-Regels
 
-- `IM` als thema geeft `IM` als slagfocus.
+- `IM` als thema geeft `WIS` als slagfocus.
 - `Start en keerpunt` geeft meestal `Alle slagen`.
 - `Herstel` geeft meestal `Alle slagen`.
 - In andere gevallen rouleert de slagfocus over `BC`, `SS`, `RC` en `VL`.
