@@ -7,26 +7,5 @@
     { "naam": "Voorjaarsvakantie", "start": "2027-02-20", "einde": "2027-02-28" },
     { "naam": "Meivakantie", "start": "2027-04-24", "einde": "2027-05-02" }
   ],
-  "wedstrijden": [
-    { "datum": "2026-09-13", "naam": "Wedstrijd" },
-    { "datum": "2026-09-27", "naam": "Wedstrijd" },
-    { "datum": "2026-10-11", "naam": "Wedstrijd" },
-    { "datum": "2026-10-18", "naam": "Wedstrijd" },
-    { "datum": "2026-11-08", "naam": "Wedstrijd" },
-    { "datum": "2026-11-22", "naam": "Wedstrijd" },
-    { "datum": "2026-12-06", "naam": "Wedstrijd" },
-    { "datum": "2026-12-13", "naam": "Wedstrijd" },
-    { "datum": "2027-01-10", "naam": "Wedstrijd" },
-    { "datum": "2027-01-24", "naam": "Wedstrijd" },
-    { "datum": "2027-02-07", "naam": "Wedstrijd" },
-    { "datum": "2027-02-14", "naam": "Wedstrijd" },
-    { "datum": "2027-03-14", "naam": "Wedstrijd" },
-    { "datum": "2027-03-28", "naam": "Wedstrijd" },
-    { "datum": "2027-04-11", "naam": "Wedstrijd" },
-    { "datum": "2027-04-18", "naam": "Wedstrijd" },
-    { "datum": "2027-05-16", "naam": "Wedstrijd" },
-    { "datum": "2027-05-30", "naam": "Wedstrijd" },
-    { "datum": "2027-06-13", "naam": "Wedstrijd" },
-    { "datum": "2027-06-27", "naam": "Wedstrijd" }
-  ]
+  "wedstrijden": []
 }

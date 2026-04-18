@@ -127,6 +127,12 @@ a {
   background: var(--accent-soft);
 }
 
+.topnav-divider {
+  height: 1px;
+  margin: 0.25rem 0;
+  background: var(--line);
+}
+
 .page-wrap {
   width: min(100%, 42rem);
   margin: 0 auto;
@@ -263,8 +269,13 @@ h2 {
   position: relative;
   display: grid;
   grid-template-columns: minmax(7.75rem, 9.5rem) 1fr;
+  align-items: stretch;
   gap: 0.75rem;
   padding: 0.85rem 0;
+}
+
+.week-row {
+  min-height: 4.75rem;
 }
 
 .week-row > :first-child,
@@ -381,6 +392,86 @@ h2 {
 
 .training-nav > * {
   width: 100%;
+}
+
+.season-tabs {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.season-tab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.5rem;
+  padding: 0 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.season-tab--active {
+  background: var(--accent-soft);
+}
+
+.calendar-training-list {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.calendar-training-card {
+  display: grid;
+  gap: 0.45rem;
+  padding: 0.95rem;
+  border: 1px solid var(--line);
+  border-radius: 0.9rem;
+  background: #fbfdff;
+}
+
+.calendar-training-card--competition {
+  background: #fff8ef;
+  border-color: #f2d2a6;
+}
+
+.calendar-training-card__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.calendar-training-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.calendar-training-card__meta span {
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.85rem;
+}
+
+.calendar-training-card__themes {
+  font-weight: 600;
+}
+
+.competition-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 1.9rem;
+  padding: 0 0.7rem;
+  border-radius: 999px;
+  background: #fde7c2;
+  color: #9a5a00;
+  font-size: 0.85rem;
+  font-weight: 700;
 }
 
 @media (max-width: 560px) {

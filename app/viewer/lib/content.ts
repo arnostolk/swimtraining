@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 import matter from "gray-matter";
-import { addWeeks, format, parseISO, startOfWeek, endOfWeek } from "date-fns";
+import { addWeeks, endOfWeek, format, parseISO, startOfWeek } from "date-fns";
 import { nl } from "date-fns/locale";
 
 import type {
@@ -16,8 +16,7 @@ import type {
 } from "@/lib/types";
 
 const ROOT = path.resolve(process.cwd(), "..", "..");
-const CONTENT_ROOT = path.join(ROOT, "content", "seizoenen", "2026-2027");
-const TRAININGEN_ROOT = path.join(CONTENT_ROOT, "trainingen");
+const SEIZOENEN_ROOT = path.join(ROOT, "content", "seizoenen");
 
 function normalizeDate(value: unknown): string {
   if (typeof value === "string") {
@@ -32,6 +31,10 @@ function normalizeDate(value: unknown): string {
 }
 
 function walkMarkdownFiles(dir: string): string[] {
+  if (!fs.existsSync(dir)) {
+    return [];
+  }
+
   const entries = fs.readdirSync(dir, { withFileTypes: true });
 
   return entries.flatMap((entry) => {
@@ -45,40 +48,46 @@ function walkMarkdownFiles(dir: string): string[] {
   });
 }
 
-export function getAllTrainings(): Training[] {
-  const files = walkMarkdownFiles(TRAININGEN_ROOT);
-
-  return files
-    .map((filePath) => {
-      const file = fs.readFileSync(filePath, "utf8");
-      const { data, content } = matter(file);
-
-      const frontmatter = data as TrainingFrontmatter & { datum: unknown };
-
-      return {
-        ...frontmatter,
-        datum: normalizeDate(frontmatter.datum),
-        content,
-        path: filePath,
-      } satisfies Training;
-    })
-    .filter((training) => training.public !== false)
-    .sort((a, b) => a.datum.localeCompare(b.datum));
+function getSeasonRoot(seizoen: string) {
+  return path.join(SEIZOENEN_ROOT, seizoen);
 }
 
-export function getTrainingBySlug(slug: string): Training | undefined {
-  return getAllTrainings().find((training) => training.slug === slug);
+function getTrainingsRoot(seizoen: string) {
+  return path.join(getSeasonRoot(seizoen), "trainingen");
 }
 
-export function getSeasonCalendar(): SeizoensKalender {
-  const filePath = path.join(CONTENT_ROOT, "metadata", "kalender.json");
-  const file = fs.readFileSync(filePath, "utf8");
-  return JSON.parse(file) as SeizoensKalender;
+function getSeasonBounds(seizoen: string) {
+  const [startYear, endYear] = seizoen.split("-").map(Number);
+
+  return {
+    start: `${startYear}-08-01`,
+    end: `${endYear}-07-31`,
+  };
 }
 
-export function getOverviewDocument(slug: "kalender" | "trainingskalender") {
-  const filePath = path.join(CONTENT_ROOT, "overzicht", `${slug}.md`);
-  return fs.readFileSync(filePath, "utf8");
+export function getAvailableSeasons() {
+  return fs
+    .readdirSync(SEIZOENEN_ROOT, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => entry.name)
+    .sort();
+}
+
+export function formatSeasonShortLabel(seizoen: string) {
+  const [startYear, endYear] = seizoen.split("-");
+  return `${startYear.slice(2)}-${endYear.slice(2)}`;
+}
+
+export function resolveSeasonForDate(date: string | Date) {
+  const isoDate = typeof date === "string" ? date : format(date, "yyyy-MM-dd");
+  const seasons = getAvailableSeasons();
+
+  const matchedSeason = seasons.find((seizoen) => {
+    const bounds = getSeasonBounds(seizoen);
+    return isoDate >= bounds.start && isoDate <= bounds.end;
+  });
+
+  return matchedSeason ?? seasons[seasons.length - 1];
 }
 
 function parseDutchDate(input: string): string {
@@ -117,40 +126,102 @@ function buildPlannedTrainingSlug(datum: string, primair_thema: string, slagfocu
   return `${datum}-${slugify(primair_thema)}-${slugify(slagfocus)}`;
 }
 
-export function getPlannedTrainings(): PlannedTraining[] {
-  const file = getOverviewDocument("trainingskalender");
-  const lines = file.split(/\r?\n/);
-  const trainings = getAllTrainings();
+export function getAllTrainings(seizoen?: string): Training[] {
+  const seasons = seizoen ? [seizoen] : getAvailableSeasons();
+
+  return seasons
+    .flatMap((currentSeason) => {
+      const files = walkMarkdownFiles(getTrainingsRoot(currentSeason));
+
+      return files.map((filePath) => {
+        const file = fs.readFileSync(filePath, "utf8");
+        const { data, content } = matter(file);
+        const frontmatter = data as TrainingFrontmatter & { datum: unknown };
+
+        return {
+          ...frontmatter,
+          datum: normalizeDate(frontmatter.datum),
+          content,
+          path: filePath,
+        } satisfies Training;
+      });
+    })
+    .filter((training) => training.public !== false)
+    .sort((a, b) => a.datum.localeCompare(b.datum));
+}
+
+export function getTrainingBySlug(slug: string, seizoen?: string): Training | undefined {
+  return getAllTrainings(seizoen).find((training) => training.slug === slug);
+}
+
+export function getSeasonCalendar(seizoen: string): SeizoensKalender {
+  const filePath = path.join(getSeasonRoot(seizoen), "metadata", "kalender.json");
+  const file = fs.readFileSync(filePath, "utf8");
+  return JSON.parse(file) as SeizoensKalender;
+}
+
+export function getOverviewDocument(seizoen: string, slug: "kalender" | "trainingskalender") {
+  const filePath = path.join(getSeasonRoot(seizoen), "overzicht", `${slug}.md`);
+  return fs.readFileSync(filePath, "utf8");
+}
+
+export function getPlannedTrainings(seizoen?: string): PlannedTraining[] {
+  const seasons = seizoen ? [seizoen] : getAvailableSeasons();
+  const trainings = getAllTrainings(seizoen);
   const slugByDate = new Map(trainings.map((training) => [training.datum, training.slug]));
 
-  return lines
-    .filter((line) => line.startsWith("| ") && !line.includes("---") && !line.includes("Datum |"))
-    .map((line) => line.split("|").map((part) => part.trim()).filter(Boolean))
-    .map(([datum, periode, primair_thema, secundair_thema, sessievorm, slagfocus, reden]) => {
-      const isoDate = parseDutchDate(datum);
+  return seasons
+    .flatMap((currentSeason) => {
+      const file = getOverviewDocument(currentSeason, "trainingskalender");
+      const lines = file.split(/\r?\n/);
 
-      return {
-        datum: isoDate,
-      periode,
-      primair_thema,
-      secundair_thema,
-      sessievorm,
-      slagfocus,
-      reden,
-        slug: slugByDate.get(isoDate) ?? buildPlannedTrainingSlug(isoDate, primair_thema, slagfocus),
-      };
+      return lines
+        .filter((line) => line.startsWith("| ") && !line.includes("---") && !line.includes("Datum |"))
+        .map((line) => line.split("|").map((part) => part.trim()).filter(Boolean))
+        .map(([datum, periode, primair_thema, secundair_thema, sessievorm, slagfocus, reden]) => {
+          const isoDate = parseDutchDate(datum);
+
+          return {
+            datum: isoDate,
+            periode,
+            primair_thema,
+            secundair_thema,
+            sessievorm,
+            slagfocus,
+            reden,
+            slug: slugByDate.get(isoDate) ?? buildPlannedTrainingSlug(isoDate, primair_thema, slagfocus),
+          } satisfies PlannedTraining;
+        });
     })
     .sort((a, b) => a.datum.localeCompare(b.datum));
 }
 
+export function getSeasonDefaultWeekAnchor(seizoen: string) {
+  const today = format(new Date(), "yyyy-MM-dd");
+  const todaySeason = resolveSeasonForDate(today);
+
+  if (todaySeason === seizoen) {
+    return getWeekAnchorDate(today);
+  }
+
+  const firstTraining = getPlannedTrainings(seizoen)[0];
+
+  if (firstTraining) {
+    return getWeekAnchorDate(firstTraining.datum);
+  }
+
+  const bounds = getSeasonBounds(seizoen);
+  return getWeekAnchorDate(bounds.start);
+}
+
 export function getUpcomingTraining(today = new Date()): PlannedTraining | undefined {
   const isoToday = format(today, "yyyy-MM-dd");
-
   return getPlannedTrainings().find((training) => training.datum >= isoToday);
 }
 
 export function getTrainingForDate(date: string): PlannedTraining | undefined {
-  return getPlannedTrainings().find((training) => training.datum === date);
+  const seizoen = resolveSeasonForDate(date);
+  return getPlannedTrainings(seizoen).find((training) => training.datum === date);
 }
 
 export function getWeekDaysForDate(date: string | Date): WeekDag[] {
@@ -168,13 +239,24 @@ export function shiftWeekAnchorDate(date: string | Date, offset: number) {
   return format(addWeeks(startOfWeek(targetDate, { weekStartsOn: 1 }), offset), "yyyy-MM-dd");
 }
 
+function getBlockedDayName(date: string) {
+  const seizoen = resolveSeasonForDate(date);
+  const calendar = getSeasonCalendar(seizoen) as SeizoensKalender & {
+    geen_training_dagen?: Array<{ datum: string; naam: string }>;
+  };
+
+  return calendar.geen_training_dagen?.find((dag) => dag.datum === date)?.naam;
+}
+
 export function getVacationForDate(date: string) {
-  const calendar = getSeasonCalendar();
+  const seizoen = resolveSeasonForDate(date);
+  const calendar = getSeasonCalendar(seizoen);
   return calendar.vakanties.find((vakantie) => date >= vakantie.start && date <= vakantie.einde);
 }
 
 export function getCompetitionForDate(date: string) {
-  const calendar = getSeasonCalendar();
+  const seizoen = resolveSeasonForDate(date);
+  const calendar = getSeasonCalendar(seizoen);
   return calendar.wedstrijden.find((wedstrijd) => wedstrijd.datum === date);
 }
 
@@ -182,7 +264,6 @@ export function buildWeekDays(today = new Date()): WeekDag[] {
   const weekStart = startOfWeek(today, { weekStartsOn: 1 });
   const weekEnd = endOfWeek(today, { weekStartsOn: 1 });
   const upcoming = getUpcomingTraining(today);
-
   const days: WeekDag[] = [];
 
   for (let cursor = weekStart; cursor <= weekEnd; cursor = new Date(cursor.getFullYear(), cursor.getMonth(), cursor.getDate() + 1)) {
@@ -190,6 +271,7 @@ export function buildWeekDays(today = new Date()): WeekDag[] {
     const vacation = getVacationForDate(isoDate);
     const competition = getCompetitionForDate(isoDate);
     const training = getTrainingForDate(isoDate);
+    const blockedDay = getBlockedDayName(isoDate);
 
     let status: WeekDag["status"] = "geen-training";
     let reden: string | undefined;
@@ -197,6 +279,9 @@ export function buildWeekDays(today = new Date()): WeekDag[] {
     if (vacation) {
       status = "vakantie";
       reden = vacation.naam;
+    } else if (blockedDay) {
+      status = "geen-training";
+      reden = blockedDay;
     } else if (training) {
       status = "training";
     } else if (competition) {
@@ -229,6 +314,7 @@ export function getTodayCard(today = new Date()) {
   const training = getTrainingForDate(isoToday);
   const vacation = getVacationForDate(isoToday);
   const competition = getCompetitionForDate(isoToday);
+  const blockedDay = getBlockedDayName(isoToday);
   const upcoming = getUpcomingTraining(today);
 
   if (training) {
@@ -242,7 +328,7 @@ export function getTodayCard(today = new Date()) {
   return {
     type: "geen-training" as const,
     title: "Vandaag",
-    reason: vacation?.naam ?? competition?.naam ?? "Geen training vandaag",
+    reason: vacation?.naam ?? blockedDay ?? competition?.naam ?? "Geen training vandaag",
     nextTraining: upcoming,
   };
 }

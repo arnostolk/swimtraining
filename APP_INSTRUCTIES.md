@@ -115,12 +115,34 @@ Per seizoen is er een JSON-bestand met:
 - trainingsdagen
 - vakanties
 - wedstrijden
+- optioneel extra `geen_training_dagen`
+
+## Multi-season gedrag
+
+- De app ondersteunt meerdere seizoenen onder `content/seizoenen/`.
+- Het actieve seizoen wordt standaard bepaald op basis van de datum.
+- Home, weekoverzicht en trainingsdetail moeten automatisch uit het juiste seizoen lezen.
+- Trainingsnavigatie vorige/volgende mag over het volledige beschikbare trainingsaanbod lopen.
+- Overzichtspagina's voor kalender en trainingskalender moeten per seizoen kunnen laden.
+- De viewer hoeft geen expliciete seizoenschakelaar in de primaire flow te hebben.
 
 ## Contentstructuur
 
 ```text
 content/
   seizoenen/
+    2025-2026/
+      metadata/
+        kalender.json
+      overzicht/
+        kalender.md
+        trainingskalender.md
+      trainingen/
+        2026/
+          04/
+          05/
+          06/
+          07/
     2026-2027/
       metadata/
         kalender.json

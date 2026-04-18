@@ -7,6 +7,7 @@ import {
   formatDutchLongNumericDate,
   formatDutchDate,
   getAllTrainings,
+  resolveSeasonForDate,
   getPlannedTrainings,
   getTrainingNavigation,
   getTrainingPageData,
@@ -34,6 +35,7 @@ export default async function TrainingDetailPage({
   const { slug } = await params;
   const training = getTrainingPageData(slug);
   const navigation = getTrainingNavigation(slug);
+  const season = training ? resolveSeasonForDate(training.datum) : undefined;
 
   if (!training) {
     notFound();
@@ -111,7 +113,7 @@ export default async function TrainingDetailPage({
             <Link href={`/week?datum=${training.datum}`} className="button-secondary">
               Terug naar week
             </Link>
-            <Link href="/overzicht/trainingskalender" className="button-secondary">
+            <Link href={`/overzicht/trainingskalender?seizoen=${season}`} className="button-secondary">
               Open trainingskalender
             </Link>
           </div>

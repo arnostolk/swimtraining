@@ -3,7 +3,15 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 
-export function MenuToggle() {
+type MenuToggleProps = {
+  seasons: Array<{
+    seizoen: string;
+    label: string;
+    href: string;
+  }>;
+};
+
+export function MenuToggle({ seasons }: MenuToggleProps) {
   const [open, setOpen] = useState(false);
   const rootRef = useRef<HTMLDivElement | null>(null);
 
@@ -54,6 +62,12 @@ export function MenuToggle() {
           <Link href="/archief" onClick={() => setOpen(false)}>
             Archief
           </Link>
+          <div className="topnav-divider" />
+          {seasons.map((season) => (
+            <Link key={season.seizoen} href={season.href} onClick={() => setOpen(false)}>
+              Seizoen {season.label}
+            </Link>
+          ))}
         </nav>
       ) : null}
     </div>

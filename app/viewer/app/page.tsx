@@ -45,7 +45,7 @@ export default async function Home({
               <Link href={`/trainingen/${todayCard.training.slug}`} className="button-primary">
                 Open training
               </Link>
-              <Link href="/week" className="button-secondary">
+              <Link href={`/week?datum=${todayCard.training.datum}`} className="button-secondary">
                 Deze week
               </Link>
             </div>
