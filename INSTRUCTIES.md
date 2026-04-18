@@ -72,12 +72,20 @@ Het doel is een werkwijze in 2 stappen:
 - Alternatief is `1` lang conditieblok.
 - Een lang conditieblok past vooral vroeg in het seizoen.
 
+### Opmaak trainingsheader
+
+- De header van elke training wordt weergegeven als een 2-koloms tabel.
+- Rijen: Datum, Periode, Primair thema, Secundair thema, Sessievorm, Slagfocus, Totale afstand.
+- Slagfocus en afstand staan in backticks, overige waarden als gewone tekst.
+
 ### Opmaak bloktitel
 
-- De titel van een blok vermeldt altijd: thema, slagafkorting en afstand.
-- Formaat: `Blok N` `Thema` `SLAG` `afstand`
-- Voorbeeld: `Blok 1` `Techniek` `BC` `800m`
+- Elk blok (inclusief inzwemmen) heeft een vette regelkop boven de setregels.
+- Formaat inzwemmen: `**Inzwemmen — afstand**`
+- Formaat kernblok: `**Blok N — Thema — SLAG — afstand**`
+- Voorbeeld: `**Blok 1 — Techniek — BC — 800m**`
 - Als een blok meerdere slagen combineert, staan alle slagen vermeld of wordt `WIS` gebruikt.
+- Trainingen worden gescheiden door een horizontale lijn (`---`).
 
 ### Opmaak set-regels
 
