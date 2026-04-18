@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
+
+import { MenuToggle } from "@/components/menu-toggle";
+
 import "./globals.css";
 
 const geistSans = Geist({
@@ -40,18 +43,7 @@ export default function RootLayout({
               />
               <span className="brand-text">Trainingen</span>
             </Link>
-            <details className="menu-toggle">
-              <summary aria-label="Open menu">
-                <span></span>
-                <span></span>
-                <span></span>
-              </summary>
-              <nav className="topnav">
-                <Link href="/">Vandaag</Link>
-                <Link href="/week">Deze week</Link>
-                <Link href="/archief">Archief</Link>
-              </nav>
-            </details>
+            <MenuToggle />
           </header>
           <main className="page-wrap">{children}</main>
         </div>

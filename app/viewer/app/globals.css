@@ -62,7 +62,7 @@ a {
 
 .brand {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-end;
   gap: 0.75rem;
 }
 
@@ -75,13 +75,14 @@ a {
   font-size: 1rem;
   font-weight: 700;
   color: var(--accent);
+  margin-bottom: 5px;
 }
 
 .menu-toggle {
   position: relative;
 }
 
-.menu-toggle summary {
+.menu-button {
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
@@ -93,14 +94,9 @@ a {
   border-radius: 999px;
   background: var(--surface);
   cursor: pointer;
-  list-style: none;
 }
 
-.menu-toggle summary::-webkit-details-marker {
-  display: none;
-}
-
-.menu-toggle summary span {
+.menu-button span {
   width: 100%;
   height: 2px;
   border-radius: 999px;
