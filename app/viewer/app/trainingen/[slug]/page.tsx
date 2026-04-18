@@ -4,6 +4,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
 import {
+  formatDutchLongNumericDate,
   formatDutchDate,
   getAllTrainings,
   getPlannedTrainings,
@@ -46,7 +47,7 @@ export default async function TrainingDetailPage({
 
       <section className="panel stack-md">
         <div>
-          <p className="eyebrow">Training - {formatDutchDate(training.datum)}</p>
+          <p className="eyebrow">Training - {formatDutchLongNumericDate(training.datum)}</p>
           <h1>{training.primair_thema}</h1>
         </div>
 

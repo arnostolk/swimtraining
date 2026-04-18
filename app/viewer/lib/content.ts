@@ -213,7 +213,7 @@ export function buildWeekDays(today = new Date()): WeekDag[] {
     days.push({
       datum: isoDate,
       dagnaamKort: format(cursor, "EEE", { locale: nl }),
-      dagLabel: format(cursor, "EEE d MMM", { locale: nl }),
+      dagLabel: formatDutchShortNumericDate(isoDate),
       status,
       reden,
       training,
@@ -248,7 +248,18 @@ export function getTodayCard(today = new Date()) {
 }
 
 export function formatDutchDate(date: string) {
-  return format(parseISO(date), "EEE d MMM yyyy", { locale: nl });
+  return formatDutchLongNumericDate(date);
+}
+
+export function formatDutchLongNumericDate(date: string) {
+  const formatted = format(parseISO(date), "EEEE dd-MM-yyyy", { locale: nl });
+  return formatted.charAt(0).toUpperCase() + formatted.slice(1);
+}
+
+export function formatDutchShortNumericDate(date: string) {
+  const formatted = format(parseISO(date), "EE dd-MM-yyyy", { locale: nl });
+  const [day, ...rest] = formatted.split(" ");
+  return `${day.toLowerCase()} ${rest.join(" ")}`;
 }
 
 export function getTrainingPageData(slug: string): TrainingPageData | undefined {

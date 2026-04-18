@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Oceanus Aalsmeer Trainingsviewer",
+  title: "Oceanus Aalsmeer Trainingen",
   description: "Mobile-first viewer voor Oceanus-trainers met focus op vandaag en deze week.",
 };
 
@@ -38,13 +38,20 @@ export default function RootLayout({
                 height={80}
                 priority
               />
-              <span className="brand-text">Trainingsviewer</span>
+              <span className="brand-text">Trainingen</span>
             </Link>
-            <nav className="topnav">
-              <Link href="/">Vandaag</Link>
-              <Link href="/week">Deze week</Link>
-              <Link href="/archief">Archief</Link>
-            </nav>
+            <details className="menu-toggle">
+              <summary aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </summary>
+              <nav className="topnav">
+                <Link href="/">Vandaag</Link>
+                <Link href="/week">Deze week</Link>
+                <Link href="/archief">Archief</Link>
+              </nav>
+            </details>
           </header>
           <main className="page-wrap">{children}</main>
         </div>

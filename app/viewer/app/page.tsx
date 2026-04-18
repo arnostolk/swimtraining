@@ -53,7 +53,6 @@ export default async function Home({
         ) : (
           <>
             <h1>Geen training vandaag</h1>
-            <p className="muted">Reden: {todayCard.reason}</p>
             {todayCard.nextTraining ? (
               <ClickableCard
                 className="next-card"
