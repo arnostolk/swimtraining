@@ -12,6 +12,7 @@ import {
   getSeasonDefaultWeekAnchor,
   resolveSeasonForDate,
 } from "@/lib/content";
+import { VIEWER_HOME_DESCRIPTION, VIEWER_HOME_TITLE } from "@/lib/metadata";
 
 import "./globals.css";
 
@@ -40,8 +41,8 @@ const viewerRobots: NonNullable<Metadata["robots"]> = {
 };
 
 export const metadata: Metadata = {
-  title: "Oceanus Aalsmeer Trainingen",
-  description: "Mobile-first viewer voor Oceanus-trainers met focus op vandaag en deze week.",
+  title: VIEWER_HOME_TITLE,
+  description: VIEWER_HOME_DESCRIPTION,
   icons: {
     icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
     shortcut: [{ url: "/icon.svg", type: "image/svg+xml" }],

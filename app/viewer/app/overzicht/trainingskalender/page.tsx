@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
 import {
@@ -8,6 +9,16 @@ import {
   getSeasonCalendar,
   resolveSeasonForDate,
 } from "@/lib/content";
+import { createSeasonOverviewMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<{ seizoen?: string }>;
+}): Promise<Metadata> {
+  const { seizoen } = await searchParams;
+  return createSeasonOverviewMetadata("trainingskalender", seizoen ?? resolveSeasonForDate(new Date()));
+}
 
 type CalendarEntry =
   | {

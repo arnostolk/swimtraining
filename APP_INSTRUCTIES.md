@@ -97,6 +97,10 @@ De app is een mobile-first coach-tool waarmee trainers vooral de training van va
 - Niet-indexeerbaarheid is een vaste app-afspraak voor alle viewer-omgevingen en alle viewer-routes.
 - Alle viewer-routes geven `noindex` en `nofollow`, inclusief home, week, archief, overzichten en trainingsdetailpagina's.
 - De viewer levert ook een `robots.txt` die crawlers de app niet laat indexeren.
+- Deelmetadata voor viewer-routes is wel toegestaan en staat los van indexeerbaarheid.
+- Home gebruikt voor delen titel `Oceanus Aalsmeer Trainingen` en beschrijving `Training viewer`.
+- Trainingsdetail gebruikt voor delen titel `Training {datum} • {thema} • {slagfocus}` en beschrijving `Bekijk de training van {datum} met focus op {thema} en {slagfocus}.`
+- Andere viewer-routes krijgen ook expliciete deeltitels en deelbeschrijvingen passend bij hun route en functie.
 
 ## Datamodel
 

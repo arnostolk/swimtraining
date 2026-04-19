@@ -1,6 +1,10 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
 import { formatDutchDate, getAllTrainings } from "@/lib/content";
+import { createArchiveMetadata } from "@/lib/metadata";
+
+export const metadata: Metadata = createArchiveMetadata();
 
 export default function ArchiefPage() {
   const trainingen = getAllTrainings();

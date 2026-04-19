@@ -1,7 +1,18 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
 import { ClickableCard } from "@/components/clickable-card";
 import { buildWeekDays, formatDutchDate, getWeekDaysForDate } from "@/lib/content";
+import { createWeekMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<{ datum?: string }>;
+}): Promise<Metadata> {
+  const { datum } = await searchParams;
+  return createWeekMetadata(datum);
+}
 
 export default async function WeekPage({
   searchParams,

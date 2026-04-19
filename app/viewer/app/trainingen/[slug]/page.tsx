@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -12,6 +13,16 @@ import {
   getTrainingNavigation,
   getTrainingPageData,
 } from "@/lib/content";
+import { createTrainingMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  return createTrainingMetadata(slug);
+}
 
 export function generateStaticParams() {
   const slugs = new Set<string>();

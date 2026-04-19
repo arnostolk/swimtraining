@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
 import { ClickableCard } from "@/components/clickable-card";
@@ -8,6 +9,9 @@ import {
   getWeekDaysForDate,
   shiftWeekAnchorDate,
 } from "@/lib/content";
+import { createViewerMetadata, VIEWER_HOME_DESCRIPTION, VIEWER_HOME_TITLE } from "@/lib/metadata";
+
+export const metadata: Metadata = createViewerMetadata(VIEWER_HOME_TITLE, VIEWER_HOME_DESCRIPTION);
 
 export default async function Home({
   searchParams,
