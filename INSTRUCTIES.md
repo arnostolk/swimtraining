@@ -85,21 +85,27 @@ Het doel is een werkwijze in 2 stappen:
 - Zet altijd een expliciet scheidingsteken `-` tussen de intensiteit en de vrije beschrijving.
 - Voorbeeld: `- ` `8x50m` `BC` `R:0:15` `95%` `-` wedstrijdtempo`
 - Elke regel begint altijd met `{N}x{afstand}m`, bijvoorbeeld `4x100m` of `2x150m`
-- Na het genereren altijd controleren of de benoemde afstanden per blok en het sessietotaal kloppen met de optelsom van de setregels
+- Na het genereren altijd intern controleren of de benoemde afstanden per blok en het sessietotaal kloppen met de optelsom van de setregels
 - Voorbeeld: `4x100m` `BC` `R:0:20` `75%` eerste 50 hard, tweede 50 ontspannen
 - Backticks worden gebruikt voor: herhaling, afstand, slagafkorting, rusttijd, intensiteit, slagcombinaties
 - Beschrijvingen (instructies, uitleg) staan als gewone tekst achter de codes
 - **Elke setregel met een tempo-intentie krijgt altijd een percentage.** Extra duiding mag daarna als tekst volgen.
 - Gangbare percentages: `50%` herstel, `70%` rustig, `75%` aëroob, `80%` aëroob hoog, `85-90%` omslagpunt, `95%` wedstrijdtempo, `100%` sprint
 - Techniekregels waar "rustig" een uitvoeringsinstructie is (geen tempo-aanduiding) hoeven geen percentage
+- De term `drill` mag nooit los zonder specificatie worden gebruikt. Benoem altijd de concrete drill, bijvoorbeeld `catch-up`, `enkelvoudige arm` of `2 beenslagen 1 armslag`.
+- Als een drill, afkorting of uitvoerterm voor een onervaren trainer niet direct eenduidig is, voeg dan op dezelfde setregel een korte verduidelijking toe in gewone taal.
+- Termen zoals `enkelvoudige arm`, `uit push`, `breakout`, `SNK` en `WIS` krijgen waar nodig expliciete uitvoerhulp, bijvoorbeeld armwissel, startvorm, onderwaterfase, snorkel of slagvolgorde.
 - Slagen worden altijd als afkorting geschreven: `BC`, `VL`, `RC`, `SS`, `WIS`, `SNK`
 - `WIS` betekent wisselslag (alle vier slagen). `IM` is de Engelse term voor hetzelfde en wordt niet gebruikt als slagafkorting.
+- Als `WIS` als volledige set wordt gebruikt, is de afstand per herhaling `100m` of een veelvoud daarvan zodat alle vier slagen volledig terugkomen.
 - Nooit uitgeschreven als 'vlinder', 'rugcrawl', 'schoolslag', etc.
 - Trainerinfo per setregel wordt genoteerd als `{{coach: ...}}`
 - Voorbeeld: `3x200m` `BC` `R:0:20` `75%` `{{coach: let op lange doorhaal en stabiele ellebooghoogte}}`
 - `{{coach: ...}}` hoort direct aan het einde van de setregel
 - In elk trainingsblok krijgt elke setregel een trainerinfo. Er is altijd wel een nuttig aandachtspunt voor de trainer.
 - Bij het inzwemmen is trainerinfo optioneel: toevoegen wanneer het inhoudelijk iets oplevert, weglaten mag als de regel te basaal is.
+- Na het genereren volgt altijd een expliciete interne eindcontrole op de optelsom van elke setregel, per blok en voor de totale sessie. Pas daarna is de training gereed.
+- De uitkomst van die afstandscontrole wordt niet opgenomen als apart blok of aparte tekst in de uiteindelijke training.
 
 ## Doel Van Het Systeem
 

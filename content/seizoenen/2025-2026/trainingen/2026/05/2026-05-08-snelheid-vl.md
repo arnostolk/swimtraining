@@ -17,20 +17,20 @@ public: true
 ## Inzwemmen - 600m
 
 - `2x100m` `BC` `70%`
-- `2x100m` `50 VL benen` > `50 BC` `70%`
-- `2x100m` `25 VL drill` > `25 BC` > `25 RC` > `25 SS` `70%`
+- `4x50m` `25 RC` > `25 SS` `70%`
+- `2x100m` `25 VL benen` > `25 VL enkelvoudige arm` > `50 BC` `70%` - wissel de werkende arm per herhaling links en rechts af
 
-## Blok 1 - Techniek - VL - 500m
+## Blok 1 - Wedstrijdtempo - VL - 700m
 
-- `2x50m` `VL` 1 armslag op 3 beenslagen {{coach: houd de rompspanning vast en laat de beenslag het tempo dragen tussen de halen}}
-- `2x50m` `VL` linkerarm {{coach: houd de niet-werkende arm stabiel voor je en adem laag over de zijkant}}
-- `2x50m` `VL` rechterarm {{coach: laat de insteek smal en voor de schouder blijven zodat je niet naar buiten wegduwt}}
-- `2x50m` `VL` lage ademhaling {{coach: kin blijft dicht bij het water en het hoofd gaat direct terug in lijn na de ademhaling}}
-- `2x50m` `VL` volledige slag {{coach: combineer lage ademhaling met een constante tweebeenslag per armslagcyclus}}
+- `4x50m` `25 VL 2 beenslagen 1 armslag` > `25 VL` - per volledige armcyclus maak je `2` duidelijke beenslagen {{coach: houd de borst rustig en laat de timing van de tweede beenslag het ritme dragen}}
+- `4x50m` `25 VL enkelvoudige arm` > `25 VL` - wissel de werkende arm per herhaling links en rechts af {{coach: let op een ontspannen herstel over water en een vroege voorwaartse druk}}
+- `6x50m` `VL` `R:0:25` `95%` - eerste `15m` wedstrijdritme, daarna technisch uitzwemmen zonder weg te vallen in lijn {{coach: bewaak dat de snelheid uit timing komt en niet uit forceren van de ademhaling}}
 
-## Blok 2 - Snelheid - VL - 1400m
+## Blok 2 - Snelheid - VL - 1200m
 
-- `8x25m` `VL` `R:0:30` `100%` - sprint {{coach: focus op een harde eerste armslag en direct tempo uit de breakout}}
-- `6x50m` `VL` `R:0:25` `95%` - snel maar beheerst {{coach: bewaak lage ademhaling en voorkom dat de tweede 25 technisch uit elkaar valt}}
-- `4x100m` `50 BC` `70%` > `50 VL` `90%` `R:0:20` {{coach: gebruik de eerste 50 om spanning los te laten en schakel dan direct naar een strakke snelle vlinderslag}}
-- `1x200m` `SNK` `50%` herstel {{coach: maak lange rustige slagen zodat de hartslag gecontroleerd zakt na het sprintwerk}}
+- `6x25m` `VL` `R:0:30` `100%` - sprint uit push, dus vanaf de muur zonder duik {{coach: focus op snelle reactie, strakke lijn en direct ritme in de eerste twee slagen}}
+- `4x50m` `VL` `R:0:30` `95%` - breakout tot `15m`, dus eerst onderwaterfase in stroomlijn, daarna gecontroleerd door {{coach: laat de eerste slag na breakout krachtig maar lang blijven}}
+- `4x50m` `SNK` `R:0:15` `50%` - herstel met snorkel {{coach: gebruik het herstel actief en houd de schouders los}}
+- `6x25m` `VL` `R:0:35` `100%` - snel uit keerpunt naar `10m`, met compacte draai, rechte afzet en lijn tot `10m` {{coach: let op compacte draai en een rechte afzet onder de lijn}}
+- `4x50m` `VL` `R:0:25` `95%` - wedstrijdtempo met hoge waterligging {{coach: bewaak dat het ritme scherp blijft zonder in te zakken op de tweede `25m`}}
+- `6x50m` `SNK` `R:0:15` `50%` - herstel met snorkel {{coach: laat de zwemmers volledig ontspannen en fris uit het blok komen}}

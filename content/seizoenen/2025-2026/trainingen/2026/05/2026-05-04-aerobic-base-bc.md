@@ -17,23 +17,18 @@ public: true
 ## Inzwemmen - 600m
 
 - `2x100m` `BC` `70%`
-- `2x100m` `50 SS` > `50 RC` `70%`
-- `2x100m` `25 benen BC` > `50 armen BC` > `25 BC` `70%`
+- `4x50m` `25 RC` > `25 SS` `70%`
+- `2x100m` `25 benen BC` > `50 armen BC` > `25 BC` `70%` - bij `50 armen BC` alleen armactie, benen rustig mee of stil houden
 
 ## Blok 1 - Techniek - BC - 800m
 
-- `2x50m` `BC` catch-up {{coach: houd de voorste arm echt stil tot de herstelarm aansluit zodat de lengte voorin voelbaar blijft}}
-- `2x50m` `BC` schouder aantikken {{coach: tik kort aan en breng de elleboog daarna direct weer hoog naar voren}}
-- `2x50m` `BC` vingers slepen {{coach: laat de vingers licht over het water glijden om een ontspannen en hoge recovery te houden}}
-- `2x50m` `BC` Y-insteken {{coach: steek in op schouderbreedte en voorkom dat de hand naar het midden kruist}}
-- `2x50m` `BC` bijleggen {{coach: maak de versnelling van de hand richting heup duidelijk voelbaar in het tweede deel van de haal}}
-- `2x50m` `BC` doggypaddle {{coach: houd de onderarm vroeg verticaal en voel continue druk op het water voor je}}
-- `2x50m` `BC` toepassen, lang maken {{coach: combineer de technische focus met een rustige maar lange slaglengte per baan}}
-- `2x50m` `BC` vast ritme {{coach: houd cadans en lengte gelijk van eerste tot laatste 50 zodat het tempo niet wegzakt}}
+- `4x50m` `25 BC catch-up` > `25 BC` - bij catch-up wacht de voorste hand tot de andere hand heeft aangesloten, daarna pas de volgende doorhaal {{coach: let op een rustige insteek en direct druk op het water na de voorwaartse verlenging}}
+- `4x50m` `25 BC vingers slepen` > `25 BC` - tijdens de recovery slepen de vingers licht over het wateroppervlak {{coach: houd de elleboog hoog in de recover en voorkom optrekken van de schouder}}
+- `2x100m` `25 BC enkelvoudige arm links` > `25 BC enkelvoudige arm rechts` > `50 BC` {{coach: laat de niet-werkende arm stabiel voor blijven en houd de romplijn lang}}
+- `2x100m` `BC` `70%` - toepassen met lange slag en gelijk ritme {{coach: tel slagen per baan en bewaak dat de lengte behouden blijft zonder extra kracht}}
 
 ## Blok 2 - Aerobic base - BC - 1200m
 
-- `3x200m` `BC` `R:0:20` `75%` {{coach: let op een lange doorhaal en stabiele ellebooghoogte in het tweede deel van elke 200}}
-- `4x100m` `BC` `R:0:20` `75%` {{coach: bewaak een gelijk ritme en voorkom dat de beenslag wegvalt}}
-- `2x50m` `BC` `R:0:15` `80%` - laatste 15m versnellen {{coach: versnel vanuit een strakke lijn en verhoog vooral het ritme zonder korter te gaan zwemmen}}
-- `1x100m` `SNK` `R:1:00` `50%` - herstel {{coach: laat schouders en nek los en maak de uitdrijffase zo ontspannen mogelijk}}
+- `3x200m` `BC` `R:0:20` `75%` - vlak tempo met ontspannen ademhaling {{coach: stuur op gelijkmatige doorkomst en een stabiele hoofdligging}}
+- `4x100m` `BC` `R:0:15` `75%` - eerste `50m` lang, tweede `50m` iets actiever {{coach: bewaak dat de versnelling uit ritme komt en niet uit korter gaan zwemmen}}
+- `4x50m` `BC` `R:0:15` `80%` - laatste `15m` versnellen zonder te forceren {{coach: houd de versnelling technisch en laat de zwemmers de slaglengte vasthouden}}

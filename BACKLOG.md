@@ -63,30 +63,6 @@ Nieuwe ingevingen die nog niet zijn uitgewerkt.
 
 Ideeen met duidelijke waarde die binnenkort opgepakt kunnen worden.
 
-### Favicon op basis van logo
-
-- Probleem: De site gebruikt nog geen duidelijke merkbare browser-icoonweergave.
-- Idee: Maak een standaard favicon voor browser-tabs op basis van het bestaande SwimTraining-logo.
-- Waarde: Herkenbaarheid in tabbladen, favorieten en homescreen-links.
-- Type: `UX`
-- Impact: `laag`
-- Inspanning: `laag`
-- Prioriteit: `P4`
-- Status: `gereed`
-- Open vraag: Geen.
-
-### Deelweergave van de site aanpassen
-
-- Probleem: Bij delen van de site is de titel, beschrijving of preview mogelijk nog niet scherp genoeg.
-- Idee: Pas de metadata voor delen aan voor alle viewer-pagina's. Home gebruikt titel `Oceanus Aalsmeer Trainingen` en beschrijving `Training viewer`. Trainingsdetail gebruikt als titel-template `Training {datum} • {thema} • {slagfocus}` en als beschrijving-template `Bekijk de training van {datum} met focus op {thema} en {slagfocus}.` Andere viewer-pagina's krijgen ook een expliciete titel en beschrijving die passen bij hun route en functie.
-- Waarde: Professionelere presentatie en duidelijkere context bij delen.
-- Type: `UX`
-- Impact: `middel`
-- Inspanning: `laag`
-- Prioriteit: `P3`
-- Status: `gereed`
-- Open vraag: Geen.
-
 ### Trainingen tunen
 
 - Probleem: De inhoud en kwaliteit van trainingen kan waarschijnlijk nog scherper en consistenter.
@@ -166,6 +142,34 @@ Interessant, maar nu nog te vaag of te ver weg.
 - Prioriteit: `P1`
 - Status: `te verfijnen`
 - Open vraag: Moet feedback in de app blijven of buiten de app worden opgeslagen?
+
+## Gereed
+
+Afgeronde items uit de backlog.
+
+### Favicon op basis van logo
+
+- Probleem: De site gebruikt nog geen duidelijke merkbare browser-icoonweergave.
+- Idee: Maak een standaard favicon voor browser-tabs op basis van het bestaande SwimTraining-logo.
+- Waarde: Herkenbaarheid in tabbladen, favorieten en homescreen-links.
+- Type: `UX`
+- Impact: `laag`
+- Inspanning: `laag`
+- Prioriteit: `P4`
+- Status: `gereed`
+- Open vraag: Geen.
+
+### Deelweergave van de site aanpassen
+
+- Probleem: Bij delen van de site is de titel, beschrijving of preview mogelijk nog niet scherp genoeg.
+- Idee: Pas de metadata voor delen aan voor alle viewer-pagina's. Home gebruikt titel `Oceanus Aalsmeer Trainingen` en beschrijving `Training viewer`. Trainingsdetail gebruikt als titel-template `Training {datum} • {thema} • {slagfocus}` en als beschrijving-template `Bekijk de training van {datum} met focus op {thema} en {slagfocus}.` Andere viewer-pagina's krijgen ook een expliciete titel en beschrijving die passen bij hun route en functie.
+- Waarde: Professionelere presentatie en duidelijkere context bij delen.
+- Type: `UX`
+- Impact: `middel`
+- Inspanning: `laag`
+- Prioriteit: `P3`
+- Status: `gereed`
+- Open vraag: Geen.
 
 ## Beslist Niet
 
