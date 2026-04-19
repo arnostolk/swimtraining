@@ -73,6 +73,8 @@ De app is een mobile-first coach-tool waarmee trainers vooral de training van va
 - De hele setregel wordt dan klikbaar.
 - De trainerinfo verschijnt als bottom sheet op mobiel.
 - In de gewone lijstweergave wordt de coachtekst niet voluit getoond.
+- In uitgewerkte trainingsblokken wordt trainerinfo op elke setregel verwacht.
+- In het inzwemmen kan trainerinfo selectief worden gebruikt.
 
 ## Klikgedrag
 
@@ -88,6 +90,13 @@ De app is een mobile-first coach-tool waarmee trainers vooral de training van va
 - `/archief`: overzicht met filters
 - `/overzicht/kalender`: seizoenskalender
 - `/overzicht/trainingskalender`: trainingskalender
+
+## Indexeerbaarheid
+
+- De volledige viewer-app is niet bedoeld voor publieke indexering.
+- Niet-indexeerbaarheid is een vaste app-afspraak voor alle viewer-omgevingen en alle viewer-routes.
+- Alle viewer-routes geven `noindex` en `nofollow`, inclusief home, week, archief, overzichten en trainingsdetailpagina's.
+- De viewer levert ook een `robots.txt` die crawlers de app niet laat indexeren.
 
 ## Datamodel
 

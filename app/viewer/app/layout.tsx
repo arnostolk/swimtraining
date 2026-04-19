@@ -25,9 +25,24 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const viewerRobots: NonNullable<Metadata["robots"]> = {
+  index: false,
+  follow: false,
+  nocache: true,
+  googleBot: {
+    index: false,
+    follow: false,
+    noimageindex: true,
+    "max-image-preview": "none",
+    "max-snippet": -1,
+    "max-video-preview": -1,
+  },
+};
+
 export const metadata: Metadata = {
   title: "Oceanus Aalsmeer Trainingen",
   description: "Mobile-first viewer voor Oceanus-trainers met focus op vandaag en deze week.",
+  robots: viewerRobots,
 };
 
 export default function RootLayout({

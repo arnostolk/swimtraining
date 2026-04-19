@@ -95,10 +95,11 @@ Het doel is een werkwijze in 2 stappen:
 - Slagen worden altijd als afkorting geschreven: `BC`, `VL`, `RC`, `SS`, `WIS`, `SNK`
 - `WIS` betekent wisselslag (alle vier slagen). `IM` is de Engelse term voor hetzelfde en wordt niet gebruikt als slagafkorting.
 - Nooit uitgeschreven als 'vlinder', 'rugcrawl', 'schoolslag', etc.
-- Optionele trainerinfo per setregel wordt genoteerd als `{{coach: ...}}`
+- Trainerinfo per setregel wordt genoteerd als `{{coach: ...}}`
 - Voorbeeld: `3x200m` `BC` `R:0:20` `75%` `{{coach: let op lange doorhaal en stabiele ellebooghoogte}}`
 - `{{coach: ...}}` hoort direct aan het einde van de setregel
-- Gebruik trainerinfo alleen als er echt een nuttig aandachtspunt voor de trainer is
+- In elk trainingsblok krijgt elke setregel een trainerinfo. Er is altijd wel een nuttig aandachtspunt voor de trainer.
+- Bij het inzwemmen is trainerinfo optioneel: toevoegen wanneer het inhoudelijk iets oplevert, weglaten mag als de regel te basaal is.
 
 ## Doel Van Het Systeem
 
