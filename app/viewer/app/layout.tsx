@@ -42,6 +42,10 @@ const viewerRobots: NonNullable<Metadata["robots"]> = {
 export const metadata: Metadata = {
   title: "Oceanus Aalsmeer Trainingen",
   description: "Mobile-first viewer voor Oceanus-trainers met focus op vandaag en deze week.",
+  icons: {
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+    shortcut: [{ url: "/icon.svg", type: "image/svg+xml" }],
+  },
   robots: viewerRobots,
 };
 

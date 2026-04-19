@@ -63,13 +63,109 @@ Nieuwe ingevingen die nog niet zijn uitgewerkt.
 
 Ideeen met duidelijke waarde die binnenkort opgepakt kunnen worden.
 
+### Favicon op basis van logo
+
+- Probleem: De site gebruikt nog geen duidelijke merkbare browser-icoonweergave.
+- Idee: Maak een standaard favicon voor browser-tabs op basis van het bestaande SwimTraining-logo.
+- Waarde: Herkenbaarheid in tabbladen, favorieten en homescreen-links.
+- Type: `UX`
+- Impact: `laag`
+- Inspanning: `laag`
+- Prioriteit: `P4`
+- Status: `gereed`
+- Open vraag: Geen.
+
+### Deelweergave van de site aanpassen
+
+- Probleem: Bij delen van de site is de titel, beschrijving of preview mogelijk nog niet scherp genoeg.
+- Idee: Pas de metadata voor delen aan, met focus op titel en beschrijving.
+- Waarde: Professionelere presentatie en duidelijkere context bij delen.
+- Type: `UX`
+- Impact: `middel`
+- Inspanning: `laag`
+- Prioriteit: `P3`
+- Status: `te verfijnen`
+- Open vraag: Moet dit alleen voor home gelden of ook voor trainingen en overzichtspagina's?
+
+### Trainingen tunen
+
+- Probleem: De inhoud en kwaliteit van trainingen kan waarschijnlijk nog scherper en consistenter.
+- Idee: Verbeter de trainingsopbouw, inhoud en formulering op basis van praktijkgebruik.
+- Waarde: Betere trainingen en meer vertrouwen in de gegenereerde content.
+- Type: `content`
+- Impact: `hoog`
+- Inspanning: `middel`
+- Prioriteit: `P1`
+- Status: `te verfijnen`
+- Open vraag: Gaat dit eerst over inhoudelijke kwaliteit, schrijfvorm of periodisering?
+
 ## Later
 
 Goede ideeen zonder directe noodzaak.
 
+### Applicatie-architectuur verbeteren
+
+- Probleem: De huidige app-structuur kan op termijn lastig worden voor uitbreiding en onderhoud.
+- Idee: Herzie de applicatie-architectuur voor duidelijkere scheiding van verantwoordelijkheden.
+- Waarde: Betere onderhoudbaarheid en minder frictie bij doorontwikkeling.
+- Type: `beheer`
+- Impact: `hoog`
+- Inspanning: `hoog`
+- Prioriteit: `P3`
+- Status: `te verfijnen`
+- Open vraag: Zit het grootste probleem in contentlogica, routing, componentstructuur of dataflow?
+
+### URL-structuur en UX tunen
+
+- Probleem: De route-opbouw en gebruikersflow kunnen waarschijnlijk logischer en strakker.
+- Idee: Herzie URL-structuur en UX-flow voor duidelijkere navigatie.
+- Waarde: Sneller vinden, openen en delen van relevante pagina's.
+- Type: `navigatie`
+- Impact: `hoog`
+- Inspanning: `middel`
+- Prioriteit: `P1`
+- Status: `te verfijnen`
+- Open vraag: Ligt de nadruk hier op trainerflow, SEO-logica of technische consistentie?
+
+### Minioren en junioren toevoegen
+
+- Probleem: De content en app lijken nu nog niet duidelijk ingericht op meerdere doelgroepen.
+- Idee: Voeg ondersteuning toe voor minioren en junioren als aparte doelgroep of trainingslijn.
+- Waarde: Breder bruikbaar systeem met duidelijkere doelgroepsturing.
+- Type: `data`
+- Impact: `hoog`
+- Inspanning: `hoog`
+- Prioriteit: `P2`
+- Status: `te verfijnen`
+- Open vraag: Wordt dit een aparte contentstructuur, label of volledige seizoenssplitsing?
+
+### Trainingen schalen
+
+- Probleem: Trainingen zijn mogelijk nog niet flexibel schaalbaar naar niveau, groep of belasting.
+- Idee: Maak trainingen schaalbaar in afstand, complexiteit of intensiteit.
+- Waarde: 1 basistraining wordt bruikbaar voor meerdere groepen en niveaus.
+- Type: `content`
+- Impact: `hoog`
+- Inspanning: `hoog`
+- Prioriteit: `P2`
+- Status: `te verfijnen`
+- Open vraag: Wil je vooral schalen op meters, moeilijkheid, leeftijd of trainingsdoel?
+
 ## Ooit Misschien
 
 Interessant, maar nu nog te vaag of te ver weg.
+
+### Feedback over training mogelijk maken
+
+- Probleem: Er is nu geen vaste plek om feedback op een training terug te geven.
+- Idee: Voeg een manier toe om per training feedback vast te leggen.
+- Waarde: Praktijkfeedback kan direct leiden tot betere trainingen.
+- Type: `beheer`
+- Impact: `hoog`
+- Inspanning: `middel`
+- Prioriteit: `P1`
+- Status: `te verfijnen`
+- Open vraag: Moet feedback in de app blijven of buiten de app worden opgeslagen?
 
 ## Beslist Niet
 
