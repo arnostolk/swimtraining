@@ -5,6 +5,14 @@ import matter from "gray-matter";
 import { addWeeks, endOfWeek, format, parseISO, startOfWeek } from "date-fns";
 import { nl } from "date-fns/locale";
 
+import {
+  getSeasonBounds,
+  getSeasonWeekNumber,
+  getWeekAnchorForSeasonWeek,
+  isDateInSeason,
+  toSeasonSlug,
+} from "@/lib/season";
+
 import type {
   PlannedTraining,
   SeizoensKalender,
@@ -56,15 +64,6 @@ function getTrainingsRoot(seizoen: string) {
   return path.join(getSeasonRoot(seizoen), "trainingen");
 }
 
-function getSeasonBounds(seizoen: string) {
-  const [startYear, endYear] = seizoen.split("-").map(Number);
-
-  return {
-    start: `${startYear}-08-01`,
-    end: `${endYear}-07-31`,
-  };
-}
-
 export function getAvailableSeasons() {
   return fs
     .readdirSync(SEIZOENEN_ROOT, { withFileTypes: true })
@@ -74,8 +73,7 @@ export function getAvailableSeasons() {
 }
 
 export function formatSeasonShortLabel(seizoen: string) {
-  const [startYear, endYear] = seizoen.split("-");
-  return `${startYear.slice(2)}-${endYear.slice(2)}`;
+  return toSeasonSlug(seizoen);
 }
 
 export function resolveSeasonForDate(date: string | Date) {
@@ -214,13 +212,34 @@ export function getSeasonDefaultWeekAnchor(seizoen: string) {
   return getWeekAnchorDate(bounds.start);
 }
 
-export function getUpcomingTraining(today = new Date()): PlannedTraining | undefined {
+export function resolveSeasonFromSlug(seasonSlug: string) {
+  const seasons = getAvailableSeasons();
+  return seasons.find((seizoen) => toSeasonSlug(seizoen) === seasonSlug);
+}
+
+export function getWeekAnchorForSeasonNumber(seizoen: string, weekNumber: number) {
+  return getWeekAnchorForSeasonWeek(seizoen, weekNumber);
+}
+
+export function getSeasonWeekNumberForDate(date: string | Date) {
+  return getSeasonWeekNumber(date);
+}
+
+export function getUpcomingTraining(today = new Date(), seizoen?: string): PlannedTraining | undefined {
   const isoToday = format(today, "yyyy-MM-dd");
-  return getPlannedTrainings().find((training) => training.datum >= isoToday);
+  return getPlannedTrainings(seizoen).find((training) => training.datum >= isoToday);
 }
 
 export function getTrainingForDate(date: string): PlannedTraining | undefined {
   const seizoen = resolveSeasonForDate(date);
+  return getPlannedTrainings(seizoen).find((training) => training.datum === date);
+}
+
+export function getTrainingForDateInSeason(date: string, seizoen: string): PlannedTraining | undefined {
+  if (!isDateInSeason(date, seizoen)) {
+    return undefined;
+  }
+
   return getPlannedTrainings(seizoen).find((training) => training.datum === date);
 }
 
@@ -256,6 +275,15 @@ export function getVacationForDate(date: string) {
 
 export function getCompetitionForDate(date: string) {
   const seizoen = resolveSeasonForDate(date);
+  const calendar = getSeasonCalendar(seizoen);
+  return calendar.wedstrijden.find((wedstrijd) => wedstrijd.datum === date);
+}
+
+function getCompetitionForDateInSeason(date: string, seizoen: string) {
+  if (!isDateInSeason(date, seizoen)) {
+    return undefined;
+  }
+
   const calendar = getSeasonCalendar(seizoen);
   return calendar.wedstrijden.find((wedstrijd) => wedstrijd.datum === date);
 }
@@ -309,13 +337,13 @@ export function buildWeekDays(today = new Date()): WeekDag[] {
   return days;
 }
 
-export function getTodayCard(today = new Date()) {
+export function getTodayCard(today = new Date(), seizoen?: string) {
   const isoToday = format(today, "yyyy-MM-dd");
-  const training = getTrainingForDate(isoToday);
-  const vacation = getVacationForDate(isoToday);
-  const competition = getCompetitionForDate(isoToday);
-  const blockedDay = getBlockedDayName(isoToday);
-  const upcoming = getUpcomingTraining(today);
+  const training = seizoen ? getTrainingForDateInSeason(isoToday, seizoen) : getTrainingForDate(isoToday);
+  const vacation = seizoen && !isDateInSeason(isoToday, seizoen) ? undefined : getVacationForDate(isoToday);
+  const competition = seizoen ? getCompetitionForDateInSeason(isoToday, seizoen) : getCompetitionForDate(isoToday);
+  const blockedDay = seizoen && !isDateInSeason(isoToday, seizoen) ? undefined : getBlockedDayName(isoToday);
+  const upcoming = getUpcomingTraining(today, seizoen);
 
   if (training) {
     return {
@@ -348,8 +376,8 @@ export function formatDutchShortNumericDate(date: string) {
   return `${day.toLowerCase()} ${rest.join(" ")}`;
 }
 
-export function getTrainingPageData(slug: string): TrainingPageData | undefined {
-  const uitgewerkteTraining = getTrainingBySlug(slug);
+export function getTrainingPageData(slug: string, seizoen?: string): TrainingPageData | undefined {
+  const uitgewerkteTraining = getTrainingBySlug(slug, seizoen);
 
   if (uitgewerkteTraining) {
     return {
@@ -367,7 +395,7 @@ export function getTrainingPageData(slug: string): TrainingPageData | undefined 
     };
   }
 
-  const geplandeTraining = getPlannedTrainings().find((training) => training.slug === slug);
+  const geplandeTraining = getPlannedTrainings(seizoen).find((training) => training.slug === slug);
 
   if (!geplandeTraining) {
     return undefined;
@@ -387,8 +415,8 @@ export function getTrainingPageData(slug: string): TrainingPageData | undefined 
   };
 }
 
-export function getTrainingNavigation(slug: string): TrainingNavigation {
-  const trainingen = getPlannedTrainings();
+export function getTrainingNavigation(slug: string, seizoen?: string): TrainingNavigation {
+  const trainingen = getPlannedTrainings(seizoen);
   const index = trainingen.findIndex((training) => training.slug === slug);
 
   if (index === -1) {

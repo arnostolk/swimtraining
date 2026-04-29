@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
-import { formatDutchDate, getAllTrainings } from "@/lib/content";
+import { formatDutchDate, getAllTrainings, resolveSeasonForDate } from "@/lib/content";
 import { createArchiveMetadata } from "@/lib/metadata";
+import { buildSeasonTrainingPath } from "@/lib/season";
 
 export const metadata: Metadata = createArchiveMetadata();
 
@@ -30,7 +31,7 @@ export default function ArchiefPage() {
                   {training.slagfocus} • {training.totale_afstand_m}m
                 </p>
               </div>
-              <Link href={`/trainingen/${training.slug}`}>Open</Link>
+              <Link href={buildSeasonTrainingPath(resolveSeasonForDate(training.datum), training.slug)}>Open</Link>
             </article>
           ))}
         </div>

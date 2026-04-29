@@ -8,53 +8,76 @@ import {
   formatDutchLongNumericDate,
   formatDutchDate,
   getAllTrainings,
-  resolveSeasonForDate,
   getPlannedTrainings,
+  getSeasonWeekNumberForDate,
   getTrainingNavigation,
   getTrainingPageData,
+  resolveSeasonForDate,
+  resolveSeasonFromSlug,
 } from "@/lib/content";
 import { createTrainingMetadata } from "@/lib/metadata";
+import { buildSeasonTrainingCalendarPath, buildSeasonTrainingPath, buildSeasonWeekPath } from "@/lib/season";
 
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ season: string; slug: string }>;
 }): Promise<Metadata> {
-  const { slug } = await params;
-  return createTrainingMetadata(slug);
+  const { season, slug } = await params;
+  const resolvedSeason = resolveSeasonFromSlug(season);
+
+  return createTrainingMetadata(slug, resolvedSeason);
 }
 
 export function generateStaticParams() {
-  const slugs = new Set<string>();
+  const slugs = new Map<string, Set<string>>();
 
   for (const training of getAllTrainings()) {
-    slugs.add(training.slug);
+    const season = resolveSeasonForDate(training.datum);
+    const values = slugs.get(season) ?? new Set<string>();
+    values.add(training.slug);
+    slugs.set(season, values);
   }
 
   for (const training of getPlannedTrainings()) {
-    slugs.add(training.slug);
+    const season = resolveSeasonForDate(training.datum);
+    const values = slugs.get(season) ?? new Set<string>();
+    values.add(training.slug);
+    slugs.set(season, values);
   }
 
-  return Array.from(slugs).map((slug) => ({ slug }));
+  return Array.from(slugs.entries()).flatMap(([season, seasonSlugs]) =>
+    Array.from(seasonSlugs).map((slug) => ({
+      season: season.slice(2, 4) + "-" + season.slice(7, 9),
+      slug,
+    })),
+  );
 }
 
-export default async function TrainingDetailPage({
+export default async function SeasonTrainingDetailPage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ season: string; slug: string }>;
 }) {
-  const { slug } = await params;
-  const training = getTrainingPageData(slug);
-  const navigation = getTrainingNavigation(slug);
-  const season = training ? resolveSeasonForDate(training.datum) : undefined;
+  const { season: seasonSlug, slug } = await params;
+  const season = resolveSeasonFromSlug(seasonSlug);
 
-  if (!training) {
+  if (!season) {
     notFound();
   }
 
+  const training = getTrainingPageData(slug, season);
+
+  if (!training || resolveSeasonForDate(training.datum) !== season) {
+    notFound();
+  }
+
+  const navigation = getTrainingNavigation(slug, season);
+  const weekHref = buildSeasonWeekPath(season, getSeasonWeekNumberForDate(training.datum));
+
   return (
     <div className="stack-lg">
-      <Link href={`/week?datum=${training.datum}`} className="back-link">
+      <Link href={weekHref} className="back-link">
         Terug naar week
       </Link>
 
@@ -121,10 +144,10 @@ export default async function TrainingDetailPage({
             </div>
           </dl>
           <div className="actions-row">
-            <Link href={`/week?datum=${training.datum}`} className="button-secondary">
+            <Link href={weekHref} className="button-secondary">
               Terug naar week
             </Link>
-            <Link href={`/overzicht/trainingskalender?seizoen=${season}`} className="button-secondary">
+            <Link href={buildSeasonTrainingCalendarPath(season)} className="button-secondary">
               Open trainingskalender
             </Link>
           </div>
@@ -133,19 +156,19 @@ export default async function TrainingDetailPage({
 
       <section className="panel training-nav">
         {navigation.previous ? (
-          <Link href={`/trainingen/${navigation.previous.slug}`} className="button-secondary">
+          <Link href={buildSeasonTrainingPath(season, navigation.previous.slug)} className="button-secondary">
             Vorige training
           </Link>
         ) : (
           <span className="button-disabled">Vorige training</span>
         )}
 
-        <Link href={`/week?datum=${training.datum}`} className="button-secondary">
+        <Link href={weekHref} className="button-secondary">
           Week overzicht
         </Link>
 
         {navigation.next ? (
-          <Link href={`/trainingen/${navigation.next.slug}`} className="button-secondary">
+          <Link href={buildSeasonTrainingPath(season, navigation.next.slug)} className="button-secondary">
             Volgende training
           </Link>
         ) : (

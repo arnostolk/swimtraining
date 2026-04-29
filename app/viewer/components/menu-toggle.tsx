@@ -2,18 +2,28 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+import { resolveSeasonFromPathname } from "@/lib/season";
 
 type MenuToggleProps = {
+  activeSeason: string;
   seasons: Array<{
     seizoen: string;
     label: string;
-    href: string;
+    homeHref: string;
+    weekHref: string;
+    overviewHref: string;
+    trainingCalendarHref: string;
   }>;
 };
 
-export function MenuToggle({ seasons }: MenuToggleProps) {
+export function MenuToggle({ activeSeason, seasons }: MenuToggleProps) {
   const [open, setOpen] = useState(false);
   const rootRef = useRef<HTMLDivElement | null>(null);
+  const pathname = usePathname();
+  const currentSeason = resolveSeasonFromPathname(pathname, seasons.map((season) => season.seizoen)) ?? activeSeason;
+  const currentLinks = seasons.find((season) => season.seizoen === currentSeason) ?? seasons[0];
 
   useEffect(() => {
     function handlePointerDown(event: MouseEvent) {
@@ -53,18 +63,24 @@ export function MenuToggle({ seasons }: MenuToggleProps) {
 
       {open ? (
         <nav className="topnav">
-          <Link href="/" onClick={() => setOpen(false)}>
-            Vandaag
+          <Link href={currentLinks.homeHref} onClick={() => setOpen(false)}>
+            Seizoenhome
           </Link>
-          <Link href="/week" onClick={() => setOpen(false)}>
+          <Link href={currentLinks.weekHref} onClick={() => setOpen(false)}>
             Deze week
+          </Link>
+          <Link href={currentLinks.overviewHref} onClick={() => setOpen(false)}>
+            Overzicht
+          </Link>
+          <Link href={currentLinks.trainingCalendarHref} onClick={() => setOpen(false)}>
+            Trainingskalender
           </Link>
           <Link href="/archief" onClick={() => setOpen(false)}>
             Archief
           </Link>
           <div className="topnav-divider" />
           {seasons.map((season) => (
-            <Link key={season.seizoen} href={season.href} onClick={() => setOpen(false)}>
+            <Link key={season.seizoen} href={season.homeHref} onClick={() => setOpen(false)}>
               Seizoen {season.label}
             </Link>
           ))}
