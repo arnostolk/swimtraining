@@ -20,12 +20,12 @@ public: true
 - `4x50m` `25 RC` > `25 SS` `70%`
 - `2x100m` `25 benen BC` > `50 armen BC` > `25 BC` `70%` - bij `50 armen BC` alleen armactie, benen rustig mee of stil houden
 
-## Blok 1 - Techniek - BC - 800m
+## Blok 1 - Techniek - RC - 800m
 
-- `4x50m` `25 BC catch-up` > `25 BC` - bij catch-up wacht de voorste hand tot de andere hand heeft aangesloten, daarna pas de volgende doorhaal {{coach: let op een rustige insteek en direct druk op het water na de voorwaartse verlenging}}
-- `4x50m` `25 BC vingers slepen` > `25 BC` - tijdens de recovery slepen de vingers licht over het wateroppervlak {{coach: houd de elleboog hoog in de recover en voorkom optrekken van de schouder}}
-- `2x100m` `25 BC enkelvoudige arm links` > `25 BC enkelvoudige arm rechts` > `50 BC` {{coach: laat de niet-werkende arm stabiel voor blijven en houd de romplijn lang}}
-- `2x100m` `BC` `70%` - toepassen met lange slag en gelijk ritme {{coach: tel slagen per baan en bewaak dat de lengte behouden blijft zonder extra kracht}}
+- `4x50m` `25 RC enkelvoudige arm links` > `25 RC` - andere arm blijft gestrekt voor en de schouder blijft hoog op het water {{coach: let op een stabiele zijligging en laat de heuprotatie de armwissel ondersteunen}}
+- `4x50m` `25 RC enkelvoudige arm rechts` > `25 RC` - rustige herstelarm en rechte insteek naast de schouderlijn {{coach: bewaak dat de insteek smal blijft en de hand niet over de middellijn kruist}}
+- `2x100m` `25 RC 6 kicks wissel` > `25 RC` > `25 RC 6 kicks wissel` > `25 RC` - na elke zes beenslagen wisselt de ligging gecontroleerd {{coach: stuur op ritme tussen beenslag en rotatie en voorkom haast in de armdoorhaal}}
+- `2x100m` `RC` `70%` - toepassen met lange ligging en gelijk tempo {{coach: tel slagen per baan en houd de hoofdpositie stil met ontspannen schouders}}
 
 ## Blok 2 - Aerobic base - BC - 1200m
 

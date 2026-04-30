@@ -20,17 +20,16 @@ public: true
 - `4x50m` `25 RC` > `25 SS` `70%`
 - `2x100m` `25 VL benen` > `25 BC` > `25 RC` > `25 SS` `70%`
 
-## Blok 1 - Herstel - Alle slagen - 700m
+## Blok 1 - Herstel - WIS - 700m
 
-- `4x50m` `BC` `R:0:15` `50%` - ontspannen uitzwemmen met lange lijn {{coach: laat de schouders los en houd het hoofd stil}}
-- `4x50m` `RC` `R:0:15` `50%` - rustig ritme met losse recover {{coach: bewaak een ontspannen armterughaal en vlakke heupen}}
-- `2x100m` `WIS` `R:0:20` `60%` - per slag soepel door zonder versnellen {{coach: kijk of de overgangen rustig en technisch blijven}}
-- `2x50m` `SNK` `R:0:15` `50%` - houding resetten in lange stroomlijn {{coach: gebruik dit echt als herstel en laat de ademhaling zakken}}
+- `3x100m` `WIS` `R:0:20` `60%` - per slag soepel door met lange lijn en ontspannen ademhaling {{coach: kijk of iedere slag echt herstel blijft en de overgangen rustig verlopen}}
+- `2x100m` `WIS` `R:0:20` `60%` - eerste `50m` extra rustig, tweede `50m` iets actiever maar ontspannen {{coach: bewaak dat de zwemmers niet gaan jagen op tempo en de lijn lang blijft}}
+- `2x100m` `WIS` `R:0:15` `50%` - houding resetten en ritme laag houden {{coach: gebruik deze serie om de ademhaling te laten zakken en de schouders los te houden}}
 
-## Blok 2 - Techniek - Alle slagen - 1100m
+## Blok 2 - Techniek - BC/RC - 1100m
 
 - `4x50m` `25 BC catch-up` > `25 BC` - bij catch-up wacht de voorste hand tot de andere hand heeft aangesloten {{coach: let op een lange voorlijn en directe druk op het water na de insteek}}
-- `4x50m` `25 RC 6-kick switch` > `25 RC` - `6` beenslagen in stabiele zijligging, daarna pas wisselen {{coach: laat de wissel pas starten als de zijligging echt stabiel is}}
-- `4x50m` `25 SS 2 beenslagen 1 armslag` > `25 SS` - per volledige armcyclus maak je `2` duidelijke beenslagen {{coach: bewaak een smalle trap en voorkom stilvallen in de glijfase}}
-- `4x50m` `25 VL enkelvoudige arm` > `25 VL` - wissel de werkende arm per herhaling links en rechts af {{coach: stuur op rompcontrole en een rustige ademhaling over de zijkant}}
-- `3x100m` `WIS` `R:0:20` `70%` - `25 VL` > `25 BC` > `25 SS` > `25 RC`, rustig toepassen met strakke overgangen {{coach: kijk per slag naar lengte, ritme en nette wissels na de muur}}
+- `4x50m` `25 RC 6 beenslagen zijligging` > `25 RC` - `6` beenslagen in stabiele zijligging, daarna pas wisselen {{coach: laat de wissel pas starten als de zijligging echt stabiel is}}
+- `3x100m` `50 BC scull voor` > `50 BC` - kleine drukbewegingen met de handen voor het hoofd, daarna lengte vasthouden in normale slag {{coach: bewaak een hoge elleboog en laat de schouders ontspannen blijven}}
+- `4x50m` `25 RC enkelvoudige arm` > `25 RC` - wissel de werkende arm per herhaling links en rechts af {{coach: stuur op rompcontrole en een rustige insteek naast de schouder}}
+- `2x100m` `50 BC` > `50 RC` `R:0:20` `70%` - rustig toepassen met strakke lijn en nette wissel per baan {{coach: kijk of beide slagen technisch rustig blijven ondanks de overgang in het midden}}

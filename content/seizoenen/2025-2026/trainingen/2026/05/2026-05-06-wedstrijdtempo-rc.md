@@ -20,12 +20,12 @@ public: true
 - `4x50m` `25 BC` > `25 RC` `70%`
 - `2x100m` `25 benen RC` > `50 armen RC` > `25 RC` `70%` - bij `50 armen RC` alleen armactie, benen rustig mee of stil houden
 
-## Blok 1 - Techniek - RC - 700m
+## Blok 1 - Techniek - BC - 700m
 
-- `4x50m` `25 RC enkelvoudige arm` > `25 RC` - wissel werkende arm per herhaling links en rechts af {{coach: houd het hoofd stil en laat de rotatie vanuit de romp komen}}
-- `4x50m` `25 RC 6-kick switch` > `25 RC` - `6` beenslagen in stabiele zijligging, daarna pas wisselen van arm en zijde {{coach: laat de wissel pas starten als de zijligging echt stabiel is}}
-- `2x75m` `50 RC schouder aantikken` > `25 RC` - tik tijdens de recovery kort de schouder aan voor de insteek {{coach: voorkom dat de hand kruist bij de insteek en houd de armactie smal}}
-- `3x50m` `RC` `70%` - toepassen met strakke insteek en rustige beenslag {{coach: let op lange nek, stabiele heupen en constante druk in de trekfase}}
+- `4x50m` `25 BC catch-up` > `25 BC` - voorste hand blijft stil tot de andere hand aansluit {{coach: let op een lange voorlijn en directe druk op het water na de insteek}}
+- `4x50m` `25 BC vuisten` > `25 BC` - eerste `25m` met gesloten vuisten, tweede `25m` normaal gevoel meenemen {{coach: laat de onderarm het water pakken en voorkom trekken vanuit de schouder}}
+- `2x75m` `25 BC scull voor` > `25 BC scull midden` > `25 BC` - kleine drukbewegingen met de handen eerst voor het hoofd en daarna onder de schouders, daarna normaal zwemmen {{coach: bewaak een hoge elleboog en rustige romplijn tijdens de scull-fases}}
+- `3x50m` `BC` `70%` - toepassen met lange slag en rustige ademhaling {{coach: tel slagen per baan en houd de lengte vast zonder tempoverlies}}
 
 ## Blok 2 - Wedstrijdtempo - RC - 1300m
 

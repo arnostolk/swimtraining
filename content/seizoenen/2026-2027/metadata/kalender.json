@@ -2,7 +2,7 @@
   "seizoen": "2026-2027",
   "trainingsdagen": [1, 3, 5, 6],
   "vakanties": [
-    { "naam": "Herfstvakantie", "start": "2026-10-17", "einde": "2026-10-25" },
+    { "naam": "Herfstvakantie", "start": "2026-10-10", "einde": "2026-10-18" },
     { "naam": "Kerstvakantie", "start": "2026-12-19", "einde": "2027-01-03" },
     { "naam": "Voorjaarsvakantie", "start": "2027-02-20", "einde": "2027-02-28" },
     { "naam": "Meivakantie", "start": "2027-04-24", "einde": "2027-05-02" }

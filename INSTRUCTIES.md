@@ -52,7 +52,7 @@ Het doel is een werkwijze in 2 stappen:
 - Wedstrijden zijn op zondag.
 - Er zijn ongeveer `2` wedstrijden per maand.
 - Er wordt niet getraind tijdens schoolvakanties.
-- Regio voor vakanties is `midden`.
+- Regio voor vakanties is `noord`.
 - Output mag in `Markdown` worden geschreven.
 
 ## Vaste Trainingsopbouw
@@ -71,6 +71,9 @@ Het doel is een werkwijze in 2 stappen:
 - Het andere blok is een ander trainingsdoel.
 - Alternatief is `1` lang conditieblok.
 - Een lang conditieblok past vooral vroeg in het seizoen.
+- Als een training `2` blokken heeft, mogen die blokken niet dezelfde slag hebben.
+- Variatie in slagen is verplicht over die `2` blokken, ook als het hoofdblok langer is.
+- Uitzondering: `WIS` mag wel worden gecombineerd met een ander blok dat ook `WIS` gebruikt.
 
 ### Opmaak bloktitel
 
@@ -163,9 +166,9 @@ Deze thema's zijn nu vastgelegd voor de trainingskalender:
 - Alle weekdagen mogen alle thema's dragen.
 - De kans per weekdag verschilt wel.
 
-## Vakanties Regio Midden 2026-2027
+## Vakanties Regio Noord 2026-2027
 
-- Herfstvakantie: `17 okt 2026` t/m `25 okt 2026`
+- Herfstvakantie: `10 okt 2026` t/m `18 okt 2026`
 - Kerstvakantie: `19 dec 2026` t/m `3 jan 2027`
 - Voorjaarsvakantie: `20 feb 2027` t/m `28 feb 2027`
 - Meivakantie: `24 apr 2027` t/m `2 mei 2027`
@@ -173,7 +176,7 @@ Deze thema's zijn nu vastgelegd voor de trainingskalender:
 ## Aannames
 
 - We gebruiken een fictieve kalender voor seizoen `2026-2027`.
-- We gebruiken officiele vakantiedata voor regio `midden`.
+- We gebruiken officiele vakantiedata voor regio `noord`.
 - De extra adviesweek bij meivakantie is niet gebruikt.
 - Feestdagen buiten vakanties zijn nog niet apart verwerkt.
 - Wedstrijden zijn fictief gekozen op zondagen.
@@ -197,14 +200,14 @@ Deze thema's zijn nu vastgelegd voor de trainingskalender:
 
 ### Periode 1: Algemene opbouw
 
-- Datums: `17 aug 2026` t/m `16 okt 2026`
+- Datums: `17 aug 2026` t/m `9 okt 2026`
 - Doel: `Aerobic base` opbouwen
 - Focus: techniekbasis, ligging, ritme, `IM`-basis
 - Karakter: veel conditie, lage tot matige intensiteit
 
 ### Periode 2: Herstart na herfst
 
-- Datums: `26 okt 2026` t/m `18 dec 2026`
+- Datums: `19 okt 2026` t/m `18 dec 2026`
 - Doel: `Uithoudingsvermogen` en `Omslagpunt` opbouwen
 - Focus: techniek onder vermoeidheid, langere sets
 - Karakter: meer omvang en langere hoofdsets
@@ -381,14 +384,14 @@ Elke regel hieronder bevat:
 | ma 05 okt 2026 | Algemene opbouw | Aerobic base | Techniek | 2 blokken | VL | opbouwweek |
 | wo 07 okt 2026 | Algemene opbouw | Omslagpunt | Techniek | 2 blokken | SS | wedstrijdweek |
 | vr 09 okt 2026 | Algemene opbouw | Techniek | Snelheid | 2 blokken | BC | twee dagen voor wedstrijd |
-| za 10 okt 2026 | Algemene opbouw | Techniek | Start en keerpunt | Wedstrijdvoorbereiding | Alle slagen | dag voor wedstrijd |
-| ma 12 okt 2026 | Algemene opbouw | Herstel | Techniek | Herstel + techniek | Alle slagen | dag na wedstrijd |
-| wo 14 okt 2026 | Algemene opbouw | Omslagpunt | Techniek | 2 blokken | RC | wedstrijdweek |
-| vr 16 okt 2026 | Algemene opbouw | Techniek | Snelheid | 2 blokken | SS | twee dagen voor wedstrijd |
-| ma 26 okt 2026 | Herstart na herfst | Aerobic base | Techniek | 2 blokken | RC | eerste week na vakantie |
-| wo 28 okt 2026 | Herstart na herfst | Aerobic base | Uithoudingsvermogen | 2 blokken | BC | eerste week na vakantie |
-| vr 30 okt 2026 | Herstart na herfst | Techniek | Omslagpunt | 2 blokken | VL | eerste week na vakantie |
-| za 31 okt 2026 | Herstart na herfst | IM | Snelheid | 2 blokken | IM | eerste week na vakantie |
+| ma 19 okt 2026 | Herstart na herfst | Aerobic base | Techniek | 2 blokken | RC | eerste week na vakantie |
+| wo 21 okt 2026 | Herstart na herfst | Aerobic base | Uithoudingsvermogen | 2 blokken | BC | eerste week na vakantie |
+| vr 23 okt 2026 | Herstart na herfst | Techniek | Omslagpunt | 2 blokken | VL | eerste week na vakantie |
+| za 24 okt 2026 | Herstart na herfst | IM | Snelheid | 2 blokken | IM | eerste week na vakantie |
+| ma 26 okt 2026 | Herstart na herfst | Techniek | Uithoudingsvermogen | 2 blokken | VL | herstart en opbouw |
+| wo 28 okt 2026 | Herstart na herfst | Uithoudingsvermogen | Techniek | 2 blokken | SS | hoofdset |
+| vr 30 okt 2026 | Herstart na herfst | Techniek | Omslagpunt | 2 blokken | BC | opbouw na vakantie |
+| za 31 okt 2026 | Herstart na herfst | IM | Snelheid | 2 blokken | IM | slaggevoel |
 
 ### November 2026
 

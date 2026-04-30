@@ -7,12 +7,12 @@
 - Vaste opbouw: 600m inzwemmen + 2 blokken
 - Alternatief: 600m inzwemmen + 1 lang conditieblok
 - Geen trainingen tijdens schoolvakanties
-- Regio schoolvakanties: midden
+- Regio schoolvakanties: noord
 - Laatste training van het seizoen: zaterdag 4 jul 2026
 
-## Schoolvakanties Regio Midden
+## Schoolvakanties Regio Noord
 
-- Meivakantie: 20 apr 2026 t/m 3 mei 2026
+- Meivakantie: 25 apr 2026 t/m 3 mei 2026
 - Zomervakantie: vanaf 4 jul 2026
 
 ## Feestdagen en extra geen-training-dagen
@@ -54,10 +54,13 @@
 
 - Trainingsdagen:
   - za 18 apr 2026
+  - ma 20 apr 2026
+  - wo 22 apr 2026
+  - vr 24 apr 2026
 
 ### Mei 2026
 
-- Meivakantie: 20 apr 2026 t/m 3 mei 2026
+- Meivakantie: 25 apr 2026 t/m 3 mei 2026
 - Tweede Pinksterdag: 25 mei 2026
 - Trainingsdagen:
   - ma 4 mei 2026

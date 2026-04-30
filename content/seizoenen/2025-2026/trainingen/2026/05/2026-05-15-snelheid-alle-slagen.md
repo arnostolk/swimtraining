@@ -20,21 +20,18 @@ public: true
 - `2x100m` `50 RC` > `50 SS` `70%`
 - `2x100m` `25 VL benen` > `25 BC` > `25 RC` > `25 SS` `70%`
 
-## Blok 1 - Start en keerpunt - Alle slagen - 700m
+## Blok 1 - Start en keerpunt - WIS - 700m
 
-- `4x25m` `BC` `R:0:25` `95%` - start + breakout tot `10m` {{coach: houd de stroomlijn smal en laat de eerste armslag pas na volledige versnelling komen}}
-- `4x25m` `RC` `R:0:25` `95%` - rugstart + onderwaterfase met vaste telling in dolfijnbeenslagen {{coach: tel de dolfijnbeenslagen en bewaak een rechte afzet onder de lijn}}
-- `4x25m` `SS` `R:0:25` `90%` - keerpunt naar lange lijn {{coach: laat de zwemmers na de muur eerst lengte zoeken en pas dan versnellen}}
-- `4x25m` `VL` `R:0:30` `90%` - breakout tot `10m` met rustige eerste ademhaling {{coach: voorkom een te vroege eerste ademhaling en houd de eerste twee slagen krachtig}}
-- `3x100m` `WIS` `R:0:25` `80%` - `25 VL` > `25 BC` > `25 SS` > `25 RC`, overgangen en keerpunten strak uitvoeren {{coach: kijk per slagwissel naar timing, lijn en directe ritmeopbouw na de muur}}
+- `3x100m` `WIS` `R:0:25` `80%` - per slag overgang en keerpunt strak uitvoeren met direct ritme na de muur {{coach: kijk per `25m` of de lijn direct terug is na iedere afzet}}
+- `2x100m` `WIS` `R:0:25` `80%` - eerste `15m` van elke slag vanuit de muur lang en snel wegzetten {{coach: bewaak dat de breakout per slag technisch blijft en niet gehaast wordt}}
+- `2x100m` `WIS` `R:0:30` `85%` - wedstrijdmatige wissels met strakke timing tussen de slagen {{coach: let op compacte overgangen en houd de rompspanning hoog bij iedere wissel}}
 
-## Blok 2 - Snelheid - Alle slagen - 1200m
+## Blok 2 - Snelheid - BC/RC - 1200m
 
-- `4x25m` `BC` `R:0:30` `100%` - sprint uit push met snelle eerste `10m` {{coach: focus op directe druk op het water en een rechte lijn na de afzet}}
-- `4x25m` `RC` `R:0:30` `100%` - snelle eerste `10m` na breakout {{coach: laat de eerste armslag niet gehaast maar wel direct zijn}}
-- `4x25m` `SS` `R:0:35` `100%` - compacte pull-out en direct ritme {{coach: bewaak dat de timing van trek, ademhaling en trap kort en scherp blijft}}
-- `4x25m` `VL` `R:0:35` `100%` - twee snelle cycli na breakout {{coach: laat de snelheid uit timing komen en niet uit onrust in het bovenlichaam}}
-- `4x50m` `SNK` `R:0:15` `50%` - herstel met lage hartslag {{coach: laat de schouders los en houd de lijn lang}}
-- `4x50m` `25 BC` > `25 RC` `R:0:25` `95%` - eerste `25m` direct op snelheid, tweede `25m` lijn vasthouden {{coach: let op snelle overgang van afzet naar eerste slag zonder onrust}}
-- `4x50m` `25 SS` > `25 VL` `R:0:25` `95%` - korte scherpe snelheid per slagwissel {{coach: houd de technische kwaliteit gelijk wanneer de slag verandert}}
-- `4x50m` `SNK` `R:0:15` `50%` - herstel en hartslag laten zakken {{coach: zorg dat de groep fris en technisch uit het blok komt}}
+- `6x25m` `BC` `R:0:30` `100%` - sprint uit push met snelle eerste `10m` {{coach: focus op directe druk op het water en een rechte lijn na de afzet}}
+- `6x25m` `RC` `R:0:30` `100%` - snelle eerste `10m` na breakout {{coach: laat de eerste armslag niet gehaast maar wel direct zijn}}
+- `4x50m` `SNK` `R:0:15` `50%` - herstel met snorkel en lage hartslag {{coach: laat de schouders los en houd de lijn lang}}
+- `4x50m` `BC` `R:0:25` `95%` - eerste `25m` direct op snelheid, tweede `25m` lijn vasthouden {{coach: let op snelle overgang van afzet naar eerste slag zonder onrust}}
+- `4x50m` `RC` `R:0:25` `95%` - breakout tot `15m`, daarna ritme strak doorzetten {{coach: bewaak dat het tempo hoog blijft zonder verlies van ligging}}
+- `2x100m` `50 BC` > `50 RC` `R:0:25` `85%` - gecontroleerde snelheid met strakke keerpunten {{coach: kijk of de snelheid in beide slagen technisch gelijk blijft}}
+- `2x50m` `SNK` `R:0:15` `50%` - herstel met snorkel en hartslag laten zakken {{coach: zorg dat de groep fris en technisch uit het blok komt}}

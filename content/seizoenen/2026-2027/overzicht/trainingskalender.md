@@ -72,14 +72,14 @@
 | ma 05 okt 2026 | Algemene opbouw | Aerobic base | Techniek | 2 blokken | VL | opbouwweek |
 | wo 07 okt 2026 | Algemene opbouw | Omslagpunt | Techniek | 2 blokken | SS | wedstrijdweek |
 | vr 09 okt 2026 | Algemene opbouw | Techniek | Snelheid | 2 blokken | BC | twee dagen voor wedstrijd |
-| za 10 okt 2026 | Algemene opbouw | Techniek | Start en keerpunt | Wedstrijdvoorbereiding | Alle slagen | dag voor wedstrijd |
-| ma 12 okt 2026 | Algemene opbouw | Herstel | Techniek | Herstel + techniek | Alle slagen | dag na wedstrijd |
-| wo 14 okt 2026 | Algemene opbouw | Omslagpunt | Techniek | 2 blokken | RC | wedstrijdweek |
-| vr 16 okt 2026 | Algemene opbouw | Techniek | Snelheid | 2 blokken | SS | twee dagen voor wedstrijd |
-| ma 26 okt 2026 | Herstart na herfst | Aerobic base | Techniek | 2 blokken | RC | eerste week na vakantie |
-| wo 28 okt 2026 | Herstart na herfst | Aerobic base | Uithoudingsvermogen | 2 blokken | BC | eerste week na vakantie |
-| vr 30 okt 2026 | Herstart na herfst | Techniek | Omslagpunt | 2 blokken | VL | eerste week na vakantie |
-| za 31 okt 2026 | Herstart na herfst | IM | Snelheid | 2 blokken | IM | eerste week na vakantie |
+| ma 19 okt 2026 | Herstart na herfst | Aerobic base | Techniek | 2 blokken | RC | eerste week na vakantie |
+| wo 21 okt 2026 | Herstart na herfst | Aerobic base | Uithoudingsvermogen | 2 blokken | BC | eerste week na vakantie |
+| vr 23 okt 2026 | Herstart na herfst | Techniek | Omslagpunt | 2 blokken | VL | eerste week na vakantie |
+| za 24 okt 2026 | Herstart na herfst | IM | Snelheid | 2 blokken | IM | eerste week na vakantie |
+| ma 26 okt 2026 | Herstart na herfst | Techniek | Uithoudingsvermogen | 2 blokken | VL | herstart en opbouw |
+| wo 28 okt 2026 | Herstart na herfst | Uithoudingsvermogen | Techniek | 2 blokken | SS | hoofdset |
+| vr 30 okt 2026 | Herstart na herfst | Techniek | Omslagpunt | 2 blokken | BC | opbouw na vakantie |
+| za 31 okt 2026 | Herstart na herfst | IM | Snelheid | 2 blokken | IM | slaggevoel |
 
 ### November 2026
 

@@ -8,11 +8,11 @@
 - Alternatief: 600m inzwemmen + 1 lang conditieblok
 - Wedstrijden: zondag
 - Geen trainingen tijdens schoolvakanties
-- Regio schoolvakanties: midden
+- Regio schoolvakanties: noord
 
-## Schoolvakanties Regio Midden
+## Schoolvakanties Regio Noord
 
-- Herfstvakantie: 17 okt 2026 t/m 25 okt 2026
+- Herfstvakantie: 10 okt 2026 t/m 18 okt 2026
 - Kerstvakantie: 19 dec 2026 t/m 3 jan 2027
 - Voorjaarsvakantie: 20 feb 2027 t/m 28 feb 2027
 - Meivakantie: 24 apr 2027 t/m 2 mei 2027
@@ -34,14 +34,14 @@
 
 ### Periode 1: Algemene opbouw
 
-- Datums: 17 aug 2026 t/m 16 okt 2026
+- Datums: 17 aug 2026 t/m 9 okt 2026
 - Doel: aerobic base opbouwen
 - Focus: techniekbasis, ligging, ritme, IM-basis
 - Karakter: veel conditie, lage tot matige intensiteit
 
 ### Periode 2: Herstart na herfst
 
-- Datums: 26 okt 2026 t/m 18 dec 2026
+- Datums: 19 okt 2026 t/m 18 dec 2026
 - Doel: aerobic power en threshold opbouwen
 - Focus: techniek onder vermoeidheid, langere sets
 - Karakter: meer omvang en langere hoofdsets
@@ -228,17 +228,17 @@
 ### Oktober 2026
 
 - Wedstrijden: 11 okt 2026, 18 okt 2026
-- Herfstvakantie: 17 okt 2026 t/m 25 okt 2026
+- Herfstvakantie: 10 okt 2026 t/m 18 okt 2026
 - Trainingsdagen:
   - vr 02 okt 2026
   - za 03 okt 2026
   - ma 05 okt 2026
   - wo 07 okt 2026
   - vr 09 okt 2026
-  - za 10 okt 2026
-  - ma 12 okt 2026
-  - wo 14 okt 2026
-  - vr 16 okt 2026
+  - ma 19 okt 2026
+  - wo 21 okt 2026
+  - vr 23 okt 2026
+  - za 24 okt 2026
   - ma 26 okt 2026
   - wo 28 okt 2026
   - vr 30 okt 2026

@@ -20,18 +20,16 @@ public: true
 - `2x100m` `50 RC` > `50 SS` `70%`
 - `2x100m` `25 VL benen` > `25 BC` > `25 RC` > `25 SS` `70%`
 
-## Blok 1 - Techniek - Alle slagen - 700m
+## Blok 1 - Techniek - WIS - 700m
 
-- `4x50m` `25 BC catch-up` > `25 BC` {{coach: let op een rustige insteek en direct water pakken in de eerste volledige armslag}}
-- `4x50m` `25 RC enkelvoudige arm` > `25 RC` {{coach: houd het hoofd stil en laat de rotatie vanuit de romp komen, niet vanuit de schouders}}
-- `4x50m` `25 SS 2 beenslagen 1 armslag` > `25 SS` {{coach: bewaak een smalle beenslag en voorkom te lang glijden na de trap}}
-- `1x100m` `WIS` toepassen {{coach: kijk of de techniekpunten uit de drills ook zichtbaar blijven in het volledige ritme per volledige wisselslag}}
+- `3x100m` `WIS` `70%` - per `25m` technisch accent in wisselslagvolgorde `VL` > `BC` > `SS` > `RC`, met focus op ritme, lengte, timing en ligging {{coach: kijk per slag of de techniek direct doorloopt in de overgang naar de volgende slag}}
+- `2x100m` `WIS` `70%` - eerste `50m` rustig opbouwen, tweede `50m` strakke wissels en lange lijn {{coach: bewaak dat de slagwissels netjes blijven zonder versnelling uit onrust}}
+- `1x200m` `WIS` `75%` - toepassen met wedstrijdmatige overgangen en ontspannen controle {{coach: let erop dat elke slag zijn eigen ritme houdt en dat de lijn na elke muur direct terug is}}
 
-## Blok 2 - Start en keerpunt - Alle slagen - 1200m
+## Blok 2 - Start en keerpunt - BC/RC - 1200m
 
-- `8x25m` `BC` `R:0:25` `95%` - snelle breakout {{coach: focus op een strakke stroomlijn en meteen ritme pakken na de eerste armslag}}
-- `8x25m` `RC` `R:0:25` `95%` - keerpunt + onderwaterfase {{coach: tel de dolfijnbeenslagen en houd de afzet recht onder de lijn}}
-- `4x50m` `SS` `R:0:20` `80%` - keerpunt strak uitzwemmen {{coach: laat de zwemmers uit het keerpunt direct lengte houden en niet omhoog komen in de eerste slag}}
-- `4x50m` `VL` `R:0:30` `80%` - start + breakout tot 10m {{coach: houd de eerste vlinderslag gecontroleerd en voorkom dat het ritme direct te vlak wordt}}
-- `2x100m` `WIS` `R:0:30` `80%` - keerpunten per overgang strak uitvoeren {{coach: let op snelle omschakeling tussen de slagen en houd na elk keerpunt direct lijn in het water}}
-- `2x100m` `SNK` `50%` herstel
+- `6x50m` `BC` `R:0:20` `85%` - start + breakout tot `10m`, daarna lengte vasthouden {{coach: focus op een smalle stroomlijn en laat de eerste armslag pas na volledige versnelling komen}}
+- `6x50m` `RC` `R:0:20` `85%` - rugstart en onderwaterfase met vaste telling {{coach: tel de dolfijnbeenslagen en houd de afzet recht onder de lijn}}
+- `2x100m` `BC` `R:0:25` `80%` - laatste `5m` strak naar het keerpunt en direct lange lijn na de muur {{coach: bewaak dat de zwemmers hun lengte tot in de muur bewaren}}
+- `2x100m` `RC` `R:0:25` `80%` - onderwaterfase na iedere muur gelijk houden {{coach: stuur op vaste telling en directe ritmeopbouw na breakout}}
+- `2x100m` `SNK` `R:0:15` `50%` - herstel met snorkel, lange lijn en rustige ademhaling {{coach: gebruik deze serie echt als reset en laat de spanning uit nek en schouders zakken}}

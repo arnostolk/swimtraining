@@ -20,11 +20,12 @@ public: true
 - `4x50m` `25 RC` > `25 SS` `70%`
 - `2x100m` `25 VL benen` > `25 VL enkelvoudige arm` > `50 BC` `70%` - wissel de werkende arm per herhaling links en rechts af
 
-## Blok 1 - Wedstrijdtempo - VL - 700m
+## Blok 1 - Wedstrijdtempo - BC - 700m
 
-- `4x50m` `25 VL 2 beenslagen 1 armslag` > `25 VL` - per volledige armcyclus maak je `2` duidelijke beenslagen {{coach: houd de borst rustig en laat de timing van de tweede beenslag het ritme dragen}}
-- `4x50m` `25 VL enkelvoudige arm` > `25 VL` - wissel de werkende arm per herhaling links en rechts af {{coach: let op een ontspannen herstel over water en een vroege voorwaartse druk}}
-- `6x50m` `VL` `R:0:25` `95%` - eerste `15m` wedstrijdritme, daarna technisch uitzwemmen zonder weg te vallen in lijn {{coach: bewaak dat de snelheid uit timing komt en niet uit forceren van de ademhaling}}
+- `4x50m` `25 BC catch-up` > `25 BC` - lange voorlijn vasthouden en direct druk zetten na de insteek {{coach: houd de elleboog hoog onder water en laat het tempo rustig oplopen}}
+- `4x50m` `25 BC vingers slepen` > `25 BC` - tijdens de recover slepen de vingertoppen licht over het water, daarna normaal doorzwemmen {{coach: bewaak een smalle insteek en voorkom optrekken van de schouder}}
+- `2x50m` `BC` `R:0:20` `85%` - eerste `15m` naar wedstrijdritme, daarna terug naar lange slag {{coach: laat de versnelling uit ritme komen en niet uit korter gaan zwemmen}}
+- `4x50m` `BC` `R:0:20` `90%` - eerste `25m` scherp, tweede `25m` technisch door {{coach: bewaak dat de lijn op de tweede helft heel blijft en de ademhaling rustig blijft}}
 
 ## Blok 2 - Snelheid - VL - 1200m
 

@@ -23,7 +23,10 @@
 
 | Datum | Periode | Primair thema | Secundair thema | Sessievorm | Slagfocus | Reden |
 | --- | --- | --- | --- | --- | --- | --- |
-| za 18 apr 2026 | Wedstrijdspecifiek | Techniek | Start en keerpunt | Wedstrijdvoorbereiding | Alle slagen | laatste techniekprikkel voor vakantie |
+| za 18 apr 2026 | Wedstrijdspecifiek | Techniek | Start en keerpunt | Wedstrijdvoorbereiding | Alle slagen | techniek en rompcontrole |
+| ma 20 apr 2026 | Wedstrijdspecifiek | Techniek | Wedstrijdtempo | 2 blokken | BC | opbouw naar vakantie |
+| wo 22 apr 2026 | Wedstrijdspecifiek | Wedstrijdtempo | Snelheid | 2 blokken | RC | kwaliteitsprikkel voor vakantie |
+| vr 24 apr 2026 | Wedstrijdspecifiek | Techniek | Start en keerpunt | Wedstrijdvoorbereiding | Alle slagen | laatste training voor vakantie |
 
 ### Mei 2026
 
