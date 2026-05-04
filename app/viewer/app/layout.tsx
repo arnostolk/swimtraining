@@ -23,6 +23,8 @@ import { VIEWER_HOME_DESCRIPTION, VIEWER_HOME_TITLE } from "@/lib/metadata";
 
 import "./globals.css";
 
+export const revalidate = 43_200;
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

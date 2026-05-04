@@ -23,6 +23,8 @@ import {
   toSeasonSlug,
 } from "@/lib/season";
 
+export const revalidate = 43_200;
+
 export async function generateMetadata({
   params,
 }: {
