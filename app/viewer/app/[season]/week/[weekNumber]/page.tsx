@@ -5,7 +5,6 @@ import { notFound } from "next/navigation";
 import { ClickableCard } from "@/components/clickable-card";
 import {
   formatDutchDate,
-  getAvailableSeasons,
   getSeasonWeekNumberForDate,
   getWeekAnchorForSeasonNumber,
   getWeekDaysForDate,
@@ -15,6 +14,8 @@ import {
 } from "@/lib/content";
 import { createWeekMetadata } from "@/lib/metadata";
 import { buildSeasonPath, buildSeasonTrainingPath, buildSeasonWeekPath, toSeasonSlug } from "@/lib/season";
+
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,
@@ -29,10 +30,6 @@ export async function generateMetadata({
     : undefined;
 
   return createWeekMetadata(anchor);
-}
-
-export function generateStaticParams() {
-  return getAvailableSeasons().map((seizoen) => ({ season: toSeasonSlug(seizoen) }));
 }
 
 export default async function SeasonWeekPage({
@@ -54,7 +51,7 @@ export default async function SeasonWeekPage({
     notFound();
   }
 
-  const weekDays = getWeekDaysForDate(weekAnchor);
+  const weekDays = getWeekDaysForDate(weekAnchor, new Date());
   const previousWeekNumber = getSeasonWeekNumberForDate(shiftWeekAnchorDate(weekAnchor, -1));
   const nextWeekNumber = getSeasonWeekNumberForDate(shiftWeekAnchorDate(weekAnchor, 1));
   const previousWeekHref = getWeekAnchorForSeasonNumber(season, previousWeekNumber)

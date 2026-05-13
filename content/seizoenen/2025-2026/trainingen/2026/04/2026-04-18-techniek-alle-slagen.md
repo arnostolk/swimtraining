@@ -6,7 +6,7 @@ periode: Wedstrijdspecifiek
 primair_thema: Techniek
 secundair_thema: Start en keerpunt
 sessievorm: Wedstrijdvoorbereiding
-slagfocus: Alle slagen
+slagfocus: "Techniek: WIS; Start en keerpunt: BC/RC"
 totale_afstand_m: 2500
 duur_min: 60
 public: true
@@ -16,13 +16,14 @@ public: true
 
 ## Inzwemmen - 600m
 
-- `2x100m` `BC` `70%`
-- `2x100m` `50 RC` > `50 SS` `70%`
-- `2x100m` `25 VL benen` > `25 BC` > `25 RC` > `25 SS` `70%`
+- `1x150m` `BC` `R:0:15` `70%` - rustig lengte zoeken
+- `1x150m` `50 BC` > `25 SS` > `50 BC` > `25 RC` `R:0:15` `70%` - slagen ontspannen wisselen
+- `1x150m` `25 benen VL` > `100 armen BC` > `25 benen RC` `R:0:15` `70%` - benen kort activeren, armen lang houden
+- `1x150m` `25 VL` > `25 RC` > `25 SS` > `75 BC` `R:0:15` `70%` - vaste wisselslagvolgorde, rustig eindigen
 
 ## Blok 1 - Techniek - WIS - 700m
 
-- `3x100m` `WIS` `70%` - per `25m` technisch accent in wisselslagvolgorde `VL` > `BC` > `SS` > `RC`, met focus op ritme, lengte, timing en ligging {{coach: kijk per slag of de techniek direct doorloopt in de overgang naar de volgende slag}}
+- `3x100m` `WIS` `70%` - per `25m` technisch accent in wisselslagvolgorde `VL` > `RC` > `SS` > `BC`, met focus op ritme, lengte, timing en ligging {{coach: kijk per slag of de techniek direct doorloopt in de overgang naar de volgende slag}}
 - `2x100m` `WIS` `70%` - eerste `50m` rustig opbouwen, tweede `50m` strakke wissels en lange lijn {{coach: bewaak dat de slagwissels netjes blijven zonder versnelling uit onrust}}
 - `1x200m` `WIS` `75%` - toepassen met wedstrijdmatige overgangen en ontspannen controle {{coach: let erop dat elke slag zijn eigen ritme houdt en dat de lijn na elke muur direct terug is}}
 

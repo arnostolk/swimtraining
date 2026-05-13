@@ -21,6 +21,13 @@ export type Training = TrainingFrontmatter & {
   path: string;
 };
 
+export type TrainingBlockDefinition = {
+  nummer: 1 | 2;
+  thema: string;
+  slagfocus: string;
+  bron: "primair_thema" | "secundair_thema";
+};
+
 export type Vakantie = {
   naam: string;
   start: string;
@@ -46,6 +53,7 @@ export type PlannedTraining = {
   secundair_thema?: string;
   sessievorm: string;
   slagfocus: string;
+  trainingsblokken: TrainingBlockDefinition[];
   reden: string;
   slug: string;
 };
@@ -58,6 +66,7 @@ export type TrainingPageData = {
   secundair_thema?: string;
   sessievorm: string;
   slagfocus: string;
+  trainingsblokken: TrainingBlockDefinition[];
   totale_afstand_m?: number;
   duur_min?: number;
   content?: string;

@@ -73,6 +73,7 @@ export default async function SeasonTrainingDetailPage({
   }
 
   const navigation = getTrainingNavigation(slug, season);
+  const canonicalNavigation = getTrainingNavigation(training.slug, season);
   const weekHref = buildSeasonWeekPath(season, getSeasonWeekNumberForDate(training.datum));
 
   return (
@@ -106,6 +107,12 @@ export default async function SeasonTrainingDetailPage({
               <div>
                 <dt>Secundair thema</dt>
                 <dd>{training.secundair_thema}</dd>
+              </div>
+            ) : null}
+            {training.trainingsblokken.length > 0 ? (
+              <div>
+                <dt>Trainingsblokken</dt>
+                <dd>{training.trainingsblokken.map((blok) => `Blok ${blok.nummer}: ${blok.thema} - ${blok.slagfocus}`).join(" • ")}</dd>
               </div>
             ) : null}
             <div>
@@ -155,8 +162,8 @@ export default async function SeasonTrainingDetailPage({
       )}
 
       <section className="panel training-nav">
-        {navigation.previous ? (
-          <Link href={buildSeasonTrainingPath(season, navigation.previous.slug)} className="button-secondary">
+        {(canonicalNavigation.previous ?? navigation.previous) ? (
+          <Link href={buildSeasonTrainingPath(season, (canonicalNavigation.previous ?? navigation.previous)!.slug)} className="button-secondary">
             Vorige training
           </Link>
         ) : (
@@ -167,8 +174,8 @@ export default async function SeasonTrainingDetailPage({
           Week overzicht
         </Link>
 
-        {navigation.next ? (
-          <Link href={buildSeasonTrainingPath(season, navigation.next.slug)} className="button-secondary">
+        {(canonicalNavigation.next ?? navigation.next) ? (
+          <Link href={buildSeasonTrainingPath(season, (canonicalNavigation.next ?? navigation.next)!.slug)} className="button-secondary">
             Volgende training
           </Link>
         ) : (

@@ -6,7 +6,7 @@ periode: Wedstrijdspecifiek
 primair_thema: Wedstrijdtempo
 secundair_thema: Snelheid
 sessievorm: 2 blokken
-slagfocus: SS
+slagfocus: "Snelheid: BC; Wedstrijdtempo: SS"
 totale_afstand_m: 2600
 duur_min: 60
 public: true
@@ -16,9 +16,7 @@ public: true
 
 ## Inzwemmen - 600m
 
-- `2x100m` `BC` `70%`
-- `4x50m` `25 RC` > `25 SS` `70%`
-- `2x100m` `25 SS benen` > `50 armen SS` > `25 SS` `70%` - bij `50 armen SS` alleen armactie, benen rustig mee of stil houden
+- `4x150m` `R:0:15` `70%` - `1x 50 BC` > `25 SS` > `50 BC` > `25 RC`; `1x 25 benen SS` > `100 armen SS` > `25 SS`; herhaal beide vormen
 
 ## Blok 1 - Snelheid - BC - 700m
 

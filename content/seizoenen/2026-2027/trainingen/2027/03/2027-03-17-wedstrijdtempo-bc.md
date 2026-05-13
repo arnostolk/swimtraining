@@ -20,13 +20,13 @@ public: true
 - `4x50m` `25m benen BC` > `25m armen BC`
 - `2x100m` `WIS` met zoomers `70%`
 
-## Blok 1 - Techniek - BC - 700m
+## Blok 1 - Snelheid - BC - 700m
 
-- `2x75m` `50 doggypaddle BC` > `25 BC`
-- `2x75m` `BC` wrikken posities 1-4, laatste `25 BC`
-- `2x75m` `BC` versnelde doorhaal
-- `2x75m` `BC` vast ritme armen en benen
-- `1x100m` `BC` `70%` toepassen
+- `4x25m` `BC` `R:0:20` `95%` - hoge armsnelheid met vaste ligging
+- `4x50m` `BC` `R:0:30` `90%` - opbouwen naar snel maar ontspannen
+- `6x25m` `BC` `R:0:25` `100%` - explosief weg en strak doortrekken
+- `4x50m` `BC` `R:0:35` `95%` - eerste `15m` sprint, daarna technisch vasthouden
+- `2x25m` `SNK` `R:0:20` `50%` - los zwemmen en hartslag laten zakken
 
 ## Blok 2 - Wedstrijdtempo + Snelheid - BC - 1550m
 

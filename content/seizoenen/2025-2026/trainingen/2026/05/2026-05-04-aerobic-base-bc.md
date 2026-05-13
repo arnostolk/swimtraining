@@ -6,7 +6,7 @@ periode: Wedstrijdspecifiek
 primair_thema: Aerobic base
 secundair_thema: Techniek
 sessievorm: 2 blokken
-slagfocus: BC
+slagfocus: "Techniek: RC; Aerobic base: BC"
 totale_afstand_m: 2600
 duur_min: 60
 public: true
@@ -16,9 +16,9 @@ public: true
 
 ## Inzwemmen - 600m
 
-- `2x100m` `BC` `70%`
-- `4x50m` `25 RC` > `25 SS` `70%`
-- `2x100m` `25 benen BC` > `50 armen BC` > `25 BC` `70%` - bij `50 armen BC` alleen armactie, benen rustig mee of stil houden
+- `1x300m` `R:0:20` `70%` - `100 BC` > `100 WIS` > `100 BC`
+- `2x100m` `R:0:15` `70%` - `25 benen BC` > `50 armen BC` > `25 BC`
+- `2x50m` `R:0:15` `75%` - `25 RC` > `25 BC`, soepel doortrekken
 
 ## Blok 1 - Techniek - RC - 800m
 

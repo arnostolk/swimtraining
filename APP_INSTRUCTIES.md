@@ -110,6 +110,8 @@ Elke training is een los Markdown-bestand met frontmatter.
 
 Voor set-regels in de Markdown geldt: zet altijd `-` tussen de intensiteit en de vrije beschrijving, bijvoorbeeld `- ` `8x50m` `BC` `R:0:15` `95%` `-` wedstrijdtempo`.
 
+Voor `WIS` geldt altijd de vaste wisselslagvolgorde: `VL` > `RC` > `SS` > `BC`.
+
 Verplichte velden:
 
 - `slug`
@@ -126,6 +128,17 @@ Optioneel:
 
 - `secundair_thema`
 - `public`
+
+Afgeleid uit de trainingskalender:
+
+- `trainingsblokken`
+- Bij `sessievorm` = `2 blokken` bevat dit precies twee blokken.
+- Beide blokken komen uit `primair_thema` en `secundair_thema` van dezelfde kalenderregel.
+- Elk blok bevat ook een `slagfocus`.
+- Die slag komt uit de kolom `slagfocus` van dezelfde kalenderregel.
+- Bij verschillende slagen gebruikt de kalender de vorm `Thema: Slag; Thema: Slag`.
+- Bij andere sessievormen mag `trainingsblokken` leeg zijn.
+- Bij andere sessievormen mag `trainingsblokken` ook gevuld zijn als de kalender expliciete blokslagen geeft.
 
 ### Seizoensmetadata
 
@@ -188,6 +201,10 @@ Elke training heeft:
 5. `## Blok 2 - ...`
 
 Bij een sessie met `Lang conditieblok` mag `## Conditieblok - ...` worden gebruikt.
+
+Bij een sessie met `2 blokken` moeten `## Blok 1` en `## Blok 2` allebei een kalender-thema gebruiken.
+Een blokthema dat niet in de kalenderregel staat, is niet toegestaan.
+De slag in de bloktitel moet ook overeenkomen met de slag uit de kalender.
 
 ## Technische richting
 

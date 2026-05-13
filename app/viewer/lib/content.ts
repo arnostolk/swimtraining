@@ -17,6 +17,7 @@ import type {
   PlannedTraining,
   SeizoensKalender,
   Training,
+  TrainingBlockDefinition,
   TrainingFrontmatter,
   TrainingNavigation,
   TrainingPageData,
@@ -124,6 +125,85 @@ function buildPlannedTrainingSlug(datum: string, primair_thema: string, slagfocu
   return `${datum}-${slugify(primair_thema)}-${slugify(slagfocus)}`;
 }
 
+function parseBlockSlagfocus(
+  slagfocus: string,
+  primair_thema: string,
+  secundair_thema: string,
+): Array<{ thema: string; slagfocus: string }> | undefined {
+  const parts = slagfocus
+    .split(";")
+    .map((part) => part.trim())
+    .filter(Boolean);
+
+  if (parts.length !== 2 || !parts.every((part) => part.includes(":"))) {
+    return undefined;
+  }
+
+  const blockSlagfocus = parts.map((part) => {
+    const [thema, ...slagParts] = part.split(":");
+    return {
+      thema: thema.trim(),
+      slagfocus: slagParts.join(":").trim(),
+    };
+  });
+
+  const expectedThemes = new Set([primair_thema, secundair_thema]);
+  const hasExpectedThemes = blockSlagfocus.every((block) => expectedThemes.has(block.thema));
+  const hasUniqueThemes = new Set(blockSlagfocus.map((block) => block.thema)).size === 2;
+
+  return hasExpectedThemes && hasUniqueThemes ? blockSlagfocus : undefined;
+}
+
+function buildTrainingBlocks(
+  datum: string,
+  primair_thema: string,
+  secundair_thema: string | undefined,
+  sessievorm: string,
+  slagfocus: string,
+): TrainingBlockDefinition[] {
+  if (!secundair_thema) {
+    if (sessievorm === "2 blokken") {
+      throw new Error(`Kalenderregel ${datum} heeft sessievorm "2 blokken", maar geen secundair thema.`);
+    }
+
+    return [];
+  }
+
+  const explicitBlockSlagfocus = parseBlockSlagfocus(slagfocus, primair_thema, secundair_thema);
+
+  if (explicitBlockSlagfocus) {
+    return explicitBlockSlagfocus.map((block, index) => ({
+      nummer: (index + 1) as 1 | 2,
+      thema: block.thema,
+      slagfocus: block.slagfocus,
+      bron: block.thema === primair_thema ? "primair_thema" : "secundair_thema",
+    }));
+  }
+
+  if (sessievorm !== "2 blokken") {
+    return [];
+  }
+
+  const firstBlockSource: TrainingBlockDefinition["bron"] = secundair_thema === "Techniek" ? "secundair_thema" : "primair_thema";
+  const secondBlockSource: TrainingBlockDefinition["bron"] =
+    firstBlockSource === "secundair_thema" ? "primair_thema" : "secundair_thema";
+
+  return [
+    {
+      nummer: 1,
+      thema: firstBlockSource === "primair_thema" ? primair_thema : secundair_thema,
+      slagfocus,
+      bron: firstBlockSource,
+    },
+    {
+      nummer: 2,
+      thema: secondBlockSource === "primair_thema" ? primair_thema : secundair_thema,
+      slagfocus,
+      bron: secondBlockSource,
+    },
+  ];
+}
+
 export function getAllTrainings(seizoen?: string): Training[] {
   const seasons = seizoen ? [seizoen] : getAvailableSeasons();
 
@@ -152,6 +232,22 @@ export function getTrainingBySlug(slug: string, seizoen?: string): Training | un
   return getAllTrainings(seizoen).find((training) => training.slug === slug);
 }
 
+function getDateFromTrainingSlug(slug: string) {
+  return slug.match(/^(\d{4}-\d{2}-\d{2})-/)?.[1];
+}
+
+function getTrainingBySlugOrDate(slug: string, seizoen?: string): Training | undefined {
+  const trainingen = getAllTrainings(seizoen);
+  const exactTraining = trainingen.find((training) => training.slug === slug);
+
+  if (exactTraining) {
+    return exactTraining;
+  }
+
+  const datum = getDateFromTrainingSlug(slug);
+  return datum ? trainingen.find((training) => training.datum === datum) : undefined;
+}
+
 export function getSeasonCalendar(seizoen: string): SeizoensKalender {
   const filePath = path.join(getSeasonRoot(seizoen), "metadata", "kalender.json");
   const file = fs.readFileSync(filePath, "utf8");
@@ -178,6 +274,7 @@ export function getPlannedTrainings(seizoen?: string): PlannedTraining[] {
         .map((line) => line.split("|").map((part) => part.trim()).filter(Boolean))
         .map(([datum, periode, primair_thema, secundair_thema, sessievorm, slagfocus, reden]) => {
           const isoDate = parseDutchDate(datum);
+          const trainingsblokken = buildTrainingBlocks(isoDate, primair_thema, secundair_thema, sessievorm, slagfocus);
 
           return {
             datum: isoDate,
@@ -186,6 +283,7 @@ export function getPlannedTrainings(seizoen?: string): PlannedTraining[] {
             secundair_thema,
             sessievorm,
             slagfocus,
+            trainingsblokken,
             reden,
             slug: slugByDate.get(isoDate) ?? buildPlannedTrainingSlug(isoDate, primair_thema, slagfocus),
           } satisfies PlannedTraining;
@@ -243,9 +341,9 @@ export function getTrainingForDateInSeason(date: string, seizoen: string): Plann
   return getPlannedTrainings(seizoen).find((training) => training.datum === date);
 }
 
-export function getWeekDaysForDate(date: string | Date): WeekDag[] {
+export function getWeekDaysForDate(date: string | Date, today = new Date()): WeekDag[] {
   const targetDate = typeof date === "string" ? parseISO(date) : date;
-  return buildWeekDays(targetDate);
+  return buildWeekDays(targetDate, today);
 }
 
 export function getWeekAnchorDate(date: string | Date) {
@@ -288,9 +386,9 @@ function getCompetitionForDateInSeason(date: string, seizoen: string) {
   return calendar.wedstrijden.find((wedstrijd) => wedstrijd.datum === date);
 }
 
-export function buildWeekDays(today = new Date()): WeekDag[] {
-  const weekStart = startOfWeek(today, { weekStartsOn: 1 });
-  const weekEnd = endOfWeek(today, { weekStartsOn: 1 });
+export function buildWeekDays(anchorDate = new Date(), today = new Date()): WeekDag[] {
+  const weekStart = startOfWeek(anchorDate, { weekStartsOn: 1 });
+  const weekEnd = endOfWeek(anchorDate, { weekStartsOn: 1 });
   const upcoming = getUpcomingTraining(today);
   const days: WeekDag[] = [];
 
@@ -377,9 +475,20 @@ export function formatDutchShortNumericDate(date: string) {
 }
 
 export function getTrainingPageData(slug: string, seizoen?: string): TrainingPageData | undefined {
-  const uitgewerkteTraining = getTrainingBySlug(slug, seizoen);
+  const uitgewerkteTraining = getTrainingBySlugOrDate(slug, seizoen);
 
   if (uitgewerkteTraining) {
+    const geplandeTraining = getPlannedTrainings(seizoen).find((training) => training.datum === uitgewerkteTraining.datum);
+    const trainingsblokken =
+      geplandeTraining?.trainingsblokken ??
+      buildTrainingBlocks(
+        uitgewerkteTraining.datum,
+        uitgewerkteTraining.primair_thema,
+        uitgewerkteTraining.secundair_thema,
+        uitgewerkteTraining.sessievorm,
+        uitgewerkteTraining.slagfocus,
+      );
+
     return {
       slug: uitgewerkteTraining.slug,
       datum: uitgewerkteTraining.datum,
@@ -387,7 +496,8 @@ export function getTrainingPageData(slug: string, seizoen?: string): TrainingPag
       primair_thema: uitgewerkteTraining.primair_thema,
       secundair_thema: uitgewerkteTraining.secundair_thema,
       sessievorm: uitgewerkteTraining.sessievorm,
-      slagfocus: uitgewerkteTraining.slagfocus,
+      slagfocus: geplandeTraining?.slagfocus ?? uitgewerkteTraining.slagfocus,
+      trainingsblokken,
       totale_afstand_m: uitgewerkteTraining.totale_afstand_m,
       duur_min: uitgewerkteTraining.duur_min,
       content: uitgewerkteTraining.content,
@@ -395,7 +505,9 @@ export function getTrainingPageData(slug: string, seizoen?: string): TrainingPag
     };
   }
 
-  const geplandeTraining = getPlannedTrainings(seizoen).find((training) => training.slug === slug);
+  const geplandeTraining =
+    getPlannedTrainings(seizoen).find((training) => training.slug === slug) ??
+    getPlannedTrainings(seizoen).find((training) => training.datum === getDateFromTrainingSlug(slug));
 
   if (!geplandeTraining) {
     return undefined;
@@ -409,6 +521,7 @@ export function getTrainingPageData(slug: string, seizoen?: string): TrainingPag
     secundair_thema: geplandeTraining.secundair_thema,
     sessievorm: geplandeTraining.sessievorm,
     slagfocus: geplandeTraining.slagfocus,
+    trainingsblokken: geplandeTraining.trainingsblokken,
     reden: geplandeTraining.reden,
     duur_min: 60,
     isUitgewerkt: false,

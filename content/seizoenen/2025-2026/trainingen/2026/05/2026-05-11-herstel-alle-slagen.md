@@ -6,7 +6,7 @@ periode: Wedstrijdspecifiek
 primair_thema: Herstel
 secundair_thema: Techniek
 sessievorm: Herstel + techniek
-slagfocus: Alle slagen
+slagfocus: "Herstel: WIS; Techniek: BC/RC"
 totale_afstand_m: 2400
 duur_min: 60
 public: true
@@ -16,9 +16,9 @@ public: true
 
 ## Inzwemmen - 600m
 
-- `2x100m` `BC` `70%`
-- `4x50m` `25 RC` > `25 SS` `70%`
-- `2x100m` `25 VL benen` > `25 BC` > `25 RC` > `25 SS` `70%`
+- `1x200m` `BC` `R:0:20` `60%` - heel rustig, lange uitademing
+- `4x50m` `SNK` `R:0:15` `50%` - slag naar keuze, schouders los
+- `2x100m` `WIS` `R:0:20` `60%` - vaste volgorde `VL` > `RC` > `SS` > `BC`, alles ontspannen
 
 ## Blok 1 - Herstel - WIS - 700m
 

@@ -6,7 +6,7 @@ periode: Wedstrijdspecifiek
 primair_thema: Snelheid
 secundair_thema: Wedstrijdtempo
 sessievorm: Wedstrijdvoorbereiding
-slagfocus: VL
+slagfocus: "Wedstrijdtempo: BC; Snelheid: VL"
 totale_afstand_m: 2500
 duur_min: 60
 public: true
@@ -16,9 +16,10 @@ public: true
 
 ## Inzwemmen - 600m
 
-- `2x100m` `BC` `70%`
-- `4x50m` `25 RC` > `25 SS` `70%`
-- `2x100m` `25 VL benen` > `25 VL enkelvoudige arm` > `50 BC` `70%` - wissel de werkende arm per herhaling links en rechts af
+- `1x200m` `BC` `R:0:15` `70%` - rustig inzwemmen met lange lijn
+- `4x50m` `R:0:20` - oneven `25 VL benen` > `25 BC`, even `25 VL drill` > `25 VL`
+- `4x25m` `VL` `R:0:20` `80%` - makkelijk snel, technisch strak
+- `1x100m` `SNK` `R:0:20` `50%` - herstel en ademhaling rustig maken
 
 ## Blok 1 - Wedstrijdtempo - BC - 700m
 

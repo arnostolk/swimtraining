@@ -20,6 +20,7 @@ import {
   buildSeasonTrainingPath,
   toSeasonSlug,
 } from "@/lib/season";
+import type { TrainingBlockDefinition } from "@/lib/types";
 
 export async function generateMetadata({
   params,
@@ -42,6 +43,7 @@ type CalendarEntry =
       secundair_thema?: string;
       sessievorm: string;
       slagfocus: string;
+      trainingsblokken: TrainingBlockDefinition[];
       reden: string;
     }
   | {
@@ -112,6 +114,7 @@ export default async function SeasonTrainingCalendarPage({
       secundair_thema: training.secundair_thema,
       sessievorm: training.sessievorm,
       slagfocus: training.slagfocus,
+      trainingsblokken: training.trainingsblokken,
       reden: training.reden,
     })),
     ...wedstrijden.map((wedstrijd) => ({
@@ -198,8 +201,9 @@ export default async function SeasonTrainingCalendarPage({
                         </div>
 
                         <p className="calendar-training-card__themes">
-                          {entry.primair_thema}
-                          {entry.secundair_thema ? ` • ${entry.secundair_thema}` : ""}
+                          {entry.trainingsblokken.length > 0
+                            ? entry.trainingsblokken.map((blok) => `Blok ${blok.nummer}: ${blok.thema} - ${blok.slagfocus}`).join(" • ")
+                            : entry.primair_thema}
                         </p>
 
                         <p className="muted-small">{entry.reden}</p>

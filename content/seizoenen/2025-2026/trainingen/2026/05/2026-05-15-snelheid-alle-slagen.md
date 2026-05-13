@@ -6,7 +6,7 @@ periode: Wedstrijdspecifiek
 primair_thema: Snelheid
 secundair_thema: Start en keerpunt
 sessievorm: 2 blokken
-slagfocus: Alle slagen
+slagfocus: "Start en keerpunt: WIS; Snelheid: BC/RC"
 totale_afstand_m: 2500
 duur_min: 60
 public: true
@@ -16,9 +16,9 @@ public: true
 
 ## Inzwemmen - 600m
 
-- `2x100m` `BC` `70%`
-- `2x100m` `50 RC` > `50 SS` `70%`
-- `2x100m` `25 VL benen` > `25 BC` > `25 RC` > `25 SS` `70%`
+- `1x300m` `R:0:20` `70%` - `100 BC` > `100 WIS` > `100 BC`
+- `4x50m` `R:0:20` - `25 BC` opbouwend naar `85%` > `25 SNK` herstel
+- `4x25m` `R:0:25` `90%` - `1x VL`, `1x RC`, `1x SS`, `1x BC`
 
 ## Blok 1 - Start en keerpunt - WIS - 700m
 

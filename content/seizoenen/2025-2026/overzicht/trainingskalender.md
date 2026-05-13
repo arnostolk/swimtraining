@@ -23,7 +23,7 @@
 
 | Datum | Periode | Primair thema | Secundair thema | Sessievorm | Slagfocus | Reden |
 | --- | --- | --- | --- | --- | --- | --- |
-| za 18 apr 2026 | Wedstrijdspecifiek | Techniek | Start en keerpunt | Wedstrijdvoorbereiding | Alle slagen | techniek en rompcontrole |
+| za 18 apr 2026 | Wedstrijdspecifiek | Techniek | Start en keerpunt | Wedstrijdvoorbereiding | Techniek: WIS; Start en keerpunt: BC/RC | techniek en rompcontrole |
 | ma 20 apr 2026 | Wedstrijdspecifiek | Techniek | Wedstrijdtempo | 2 blokken | BC | opbouw naar vakantie |
 | wo 22 apr 2026 | Wedstrijdspecifiek | Wedstrijdtempo | Snelheid | 2 blokken | RC | kwaliteitsprikkel voor vakantie |
 | vr 24 apr 2026 | Wedstrijdspecifiek | Techniek | Start en keerpunt | Wedstrijdvoorbereiding | Alle slagen | laatste training voor vakantie |
@@ -32,21 +32,21 @@
 
 | Datum | Periode | Primair thema | Secundair thema | Sessievorm | Slagfocus | Reden |
 | --- | --- | --- | --- | --- | --- | --- |
-| ma 04 mei 2026 | Wedstrijdspecifiek | Aerobic base | Techniek | 2 blokken | BC | eerste week na vakantie |
-| wo 06 mei 2026 | Wedstrijdspecifiek | Wedstrijdtempo | Techniek | 2 blokken | RC | opbouw van kwaliteit |
-| vr 08 mei 2026 | Wedstrijdspecifiek | Snelheid | Wedstrijdtempo | Wedstrijdvoorbereiding | VL | korte kwaliteitsprikkel |
-| za 09 mei 2026 | Wedstrijdspecifiek | Techniek | Start en keerpunt | Wedstrijdvoorbereiding | Alle slagen | techniek en rompcontrole |
-| ma 11 mei 2026 | Wedstrijdspecifiek | Herstel | Techniek | Herstel + techniek | Alle slagen | herstel na snelheidswerk |
-| wo 13 mei 2026 | Wedstrijdspecifiek | Wedstrijdtempo | Snelheid | 2 blokken | SS | wedstrijdgericht |
-| vr 15 mei 2026 | Wedstrijdspecifiek | Snelheid | Start en keerpunt | 2 blokken | Alle slagen | kort en scherp |
-| za 16 mei 2026 | Wedstrijdspecifiek | Wedstrijdtempo | Start en keerpunt | 2 blokken | Alle slagen | wedstrijdgevoel |
-| ma 18 mei 2026 | Wedstrijdspecifiek | Techniek | Wedstrijdtempo | 2 blokken | BC | wedstrijdblok |
-| wo 20 mei 2026 | Wedstrijdspecifiek | Wedstrijdtempo | Techniek | 2 blokken | VL | tempocontrole |
-| vr 22 mei 2026 | Wedstrijdspecifiek | Snelheid | Wedstrijdtempo | Wedstrijdvoorbereiding | RC | korte kwaliteitsprikkel |
-| za 23 mei 2026 | Wedstrijdspecifiek | Techniek | Start en keerpunt | Wedstrijdvoorbereiding | Alle slagen | techniek en timing |
-| wo 27 mei 2026 | Wedstrijdspecifiek | Herstel | Techniek | Herstel + techniek | Alle slagen | na feestdag |
-| vr 29 mei 2026 | Wedstrijdspecifiek | Wedstrijdtempo | Snelheid | 2 blokken | SS | wedstrijdgericht |
-| za 30 mei 2026 | Wedstrijdspecifiek | Techniek | Wedstrijdtempo | 2 blokken | BC | kwaliteitsprikkel |
+| ma 04 mei 2026 | Wedstrijdspecifiek | Aerobic base | Techniek | 2 blokken | Techniek: RC; Aerobic base: BC | eerste week na vakantie |
+| wo 06 mei 2026 | Wedstrijdspecifiek | Wedstrijdtempo | Techniek | 2 blokken | Techniek: BC; Wedstrijdtempo: RC | opbouw van kwaliteit |
+| vr 08 mei 2026 | Wedstrijdspecifiek | Snelheid | Wedstrijdtempo | Wedstrijdvoorbereiding | Wedstrijdtempo: BC; Snelheid: VL | korte kwaliteitsprikkel |
+| za 09 mei 2026 | Wedstrijdspecifiek | Techniek | Start en keerpunt | Wedstrijdvoorbereiding | Techniek: WIS; Start en keerpunt: BC/RC | techniek en rompcontrole |
+| ma 11 mei 2026 | Wedstrijdspecifiek | Herstel | Techniek | Herstel + techniek | Herstel: WIS; Techniek: BC/RC | herstel na snelheidswerk |
+| wo 13 mei 2026 | Wedstrijdspecifiek | Wedstrijdtempo | Snelheid | 2 blokken | Snelheid: BC; Wedstrijdtempo: SS | wedstrijdgericht |
+| vr 15 mei 2026 | Wedstrijdspecifiek | Snelheid | Start en keerpunt | 2 blokken | Start en keerpunt: WIS; Snelheid: BC/RC | kort en scherp |
+| za 16 mei 2026 | Wedstrijdspecifiek | Wedstrijdtempo | Start en keerpunt | 2 blokken | Start en keerpunt: BC/RC; Wedstrijdtempo: WIS | wedstrijdgevoel |
+| ma 18 mei 2026 | Wedstrijdspecifiek | Techniek | Wedstrijdtempo | 2 blokken | Techniek: RC; Wedstrijdtempo: BC | wedstrijdblok |
+| wo 20 mei 2026 | Wedstrijdspecifiek | Wedstrijdtempo | Techniek | 2 blokken | Techniek: SS; Wedstrijdtempo: VL | tempocontrole |
+| vr 22 mei 2026 | Wedstrijdspecifiek | Snelheid | Wedstrijdtempo | Wedstrijdvoorbereiding | Wedstrijdtempo: VL; Snelheid: RC | korte kwaliteitsprikkel |
+| za 23 mei 2026 | Wedstrijdspecifiek | Techniek | Start en keerpunt | Wedstrijdvoorbereiding | Techniek: WIS; Start en keerpunt: SS/BC | techniek en timing |
+| wo 27 mei 2026 | Wedstrijdspecifiek | Herstel | Techniek | Herstel + techniek | Herstel: WIS; Techniek: RC/SS | na feestdag |
+| vr 29 mei 2026 | Wedstrijdspecifiek | Wedstrijdtempo | Snelheid | 2 blokken | Snelheid: BC; Wedstrijdtempo: SS | wedstrijdgericht |
+| za 30 mei 2026 | Wedstrijdspecifiek | Techniek | Wedstrijdtempo | 2 blokken | Techniek: RC; Wedstrijdtempo: BC | kwaliteitsprikkel |
 
 ### Juni 2026
 

@@ -6,7 +6,7 @@ periode: Wedstrijdspecifiek
 primair_thema: Wedstrijdtempo
 secundair_thema: Techniek
 sessievorm: 2 blokken
-slagfocus: RC
+slagfocus: "Techniek: BC; Wedstrijdtempo: RC"
 totale_afstand_m: 2600
 duur_min: 60
 public: true
@@ -16,9 +16,9 @@ public: true
 
 ## Inzwemmen - 600m
 
-- `2x100m` `RC` `70%`
-- `4x50m` `25 BC` > `25 RC` `70%`
-- `2x100m` `25 benen RC` > `50 armen RC` > `25 RC` `70%` - bij `50 armen RC` alleen armactie, benen rustig mee of stil houden
+- `3x100m` `R:0:15` `70%` - `1x BC`, `1x RC`, `1x WIS`
+- `4x50m` `R:0:15` - `RC`, opbouwen van `75%` naar `85%`
+- `1x100m` `R:0:20` `70%` - `50 RC armen` > `50 RC benen`
 
 ## Blok 1 - Techniek - BC - 700m
 

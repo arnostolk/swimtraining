@@ -63,6 +63,9 @@ Het doel is een werkwijze in 2 stappen:
 - Het inzwemmen mag per training anders zijn.
 - Het inzwemmen begint nooit met `WIS`. Altijd eerst opwarmen met een andere slag.
 - Het Excel-bestand is de inspiratiebron voor het inzwemmen.
+- Gebruik de Excel-sheet `Inzwemmen` actief voor variatie.
+- Wissel vormen af zoals `150m`-combinaties, snorkelherstel, benen/armen, opbouw en korte techniekaccenten.
+- Herhaal niet meerdere trainingen achter elkaar hetzelfde basispatroon.
 
 ### Kern van de sessie
 
@@ -71,6 +74,11 @@ Het doel is een werkwijze in 2 stappen:
 - Het andere blok is een ander trainingsdoel.
 - Alternatief is `1` lang conditieblok.
 - Een lang conditieblok past vooral vroeg in het seizoen.
+- Als de kalenderregel `2 blokken` zegt, moeten beide blokthema's uit diezelfde kalenderregel komen.
+- Bij `2 blokken` zijn `primair thema` en `secundair thema` allebei verplicht.
+- Er mag dan geen extra blokthema worden verzonnen dat niet in de kalenderregel staat.
+- De slag per blok moet ook uit de kalenderregel komen.
+- Als beide blokken een andere slag hebben, gebruikt `Slagfocus` de vorm `Thema: Slag; Thema: Slag`.
 - Als een training `2` blokken heeft, mogen die blokken niet dezelfde slag hebben.
 - Variatie in slagen is verplicht over die `2` blokken, ook als het hoofdblok langer is.
 - Uitzondering: `WIS` mag wel worden gecombineerd met een ander blok dat ook `WIS` gebruikt.
@@ -100,6 +108,9 @@ Het doel is een werkwijze in 2 stappen:
 - Termen zoals `enkelvoudige arm`, `uit push`, `breakout`, `SNK` en `WIS` krijgen waar nodig expliciete uitvoerhulp, bijvoorbeeld armwissel, startvorm, onderwaterfase, snorkel of slagvolgorde.
 - Slagen worden altijd als afkorting geschreven: `BC`, `VL`, `RC`, `SS`, `WIS`, `SNK`
 - `WIS` betekent wisselslag (alle vier slagen). `IM` is de Engelse term voor hetzelfde en wordt niet gebruikt als slagafkorting.
+- De vaste wisselslagvolgorde is altijd `VL` > `RC` > `SS` > `BC`.
+- Elke `WIS`-set, wisselslagdrill of losse volgorde van vier slagen gebruikt deze volgorde.
+- Een kortere wisselslagreeks behoudt dezelfde relatieve volgorde.
 - Als `WIS` als volledige set wordt gebruikt, is de afstand per herhaling `100m` of een veelvoud daarvan zodat alle vier slagen volledig terugkomen.
 - Nooit uitgeschreven als 'vlinder', 'rugcrawl', 'schoolslag', etc.
 - Trainerinfo per setregel wordt genoteerd als `{{coach: ...}}`
@@ -135,6 +146,7 @@ Wedstrijden en trainingen houden rekening met:
 
 - `WIS` is de enige te gebruiken slagafkorting voor wisselslag.
 - `IM` blijft alleen bestaan als themanaam en niet als slagafkorting.
+- De slagvolgorde bij wisselslag is altijd `VL` > `RC` > `SS` > `BC`.
 
 ## Thema's
 
@@ -338,6 +350,12 @@ Elke regel hieronder bevat:
 - sessievorm
 - slagfocus
 - reden
+
+Bij `Sessievorm` = `2 blokken` definieren `Primair thema` en `Secundair thema` samen de twee trainingsblokken.
+De uitgewerkte training mag dan alleen deze twee kalender-thema's gebruiken als blokthema.
+De kolom `Slagfocus` dicteert ook de slag per blok.
+Bij twee verschillende slagen staat dit bijvoorbeeld als `Snelheid: BC; Wedstrijdtempo: SS`.
+Deze `Thema: Slag; Thema: Slag` vorm mag ook bij `Wedstrijdvoorbereiding` en `Herstel + techniek` als de training twee blokken heeft.
 
 ### Augustus 2026
 
@@ -578,9 +596,9 @@ Elke regel hieronder bevat:
 ### Huidige keuzes in de voorbeeldtrainingen
 
 - Elke training start met `600m` inzwemmen.
-- Elke training heeft daarna `2` kernblokken.
-- In de voorbeelden is blok `1` steeds `Techniek`.
-- Blok `2` volgt het primaire thema van de sessie.
+- Een training kan `2` kernblokken hebben, maar dat is niet verplicht.
+- Als een training `2` kernblokken heeft, komen beide blokthema's uit de kalenderregel.
+- In oudere voorbeelden is blok `1` vaak `Techniek`; dit mag alleen als `Techniek` in de kalenderregel staat.
 - De streefafstand per sessie is **minimaal 2500m**, bij voorkeur boven de 2500m.
 - Techniekblokken tellen mee in de totale afstand maar zijn bewust korter qua meters door de lagere intensiteit en uitvoering op halve snelheid.
 - In `Afbouw` is de totale afstand lager, maar minimaal `2500m`.

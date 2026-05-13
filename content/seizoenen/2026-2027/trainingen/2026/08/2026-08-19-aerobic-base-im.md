@@ -18,7 +18,7 @@ public: true
 
 - `2x100m` `BC` `70%`
 - `2x100m` `50 RC` > `50 SS` `70%`
-- `2x100m` `25 VL benen` > `25 SS` > `25 RC` > `25 BC` `70%`
+- `2x100m` `25 VL benen` > `25 RC` > `25 SS` > `25 BC` `70%`
 
 ## Blok 1 - Techniek - WIS - 600m
 
@@ -30,4 +30,4 @@ public: true
 
 - `3x300m` `WIS` `R:0:30` `75%`
 - `3x100m` `WIS` `R:0:20` `80%` - per 25 oplopend
-- `2x150m` `50 BC` > `50 RC` > `50 SS` `R:0:20` `75%`
+- `2x150m` `50 VL` > `50 RC` > `50 SS` `R:0:20` `75%`
