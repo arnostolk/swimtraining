@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { AutoRefresh } from "@/components/auto-refresh";
 import { ClickableCard } from "@/components/clickable-card";
 import {
   formatDutchDate,
@@ -24,6 +25,8 @@ import {
 } from "@/lib/season";
 
 export const revalidate = 43_200;
+
+const TWELVE_HOURS_MS = 12 * 60 * 60 * 1000;
 
 export async function generateMetadata({
   params,
@@ -60,6 +63,8 @@ export default async function SeasonHomePage({
 
   return (
     <div className="stack-lg">
+      <AutoRefresh intervalMs={TWELVE_HOURS_MS} />
+
       {featuredTraining ? (
         <ClickableCard
           className="hero-card"
