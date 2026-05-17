@@ -11,9 +11,8 @@ rating:
   gemiddelde: null
   aantal: 0
 gebruik:
-  aantal: 1
-  trainingen:
-    - 2026-05-20
+  aantal: 0
+  trainingen: []
 wijzigingen: []
 tags:
   - tempo

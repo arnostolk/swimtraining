@@ -40,32 +40,32 @@
 | wo 13 mei 2026 | Wedstrijdspecifiek | Wedstrijdtempo | Snelheid | 2 blokken | Snelheid: BC; Wedstrijdtempo: SS | wedstrijdgericht |
 | vr 15 mei 2026 | Wedstrijdspecifiek | Snelheid | Start en keerpunt | 2 blokken | Start en keerpunt: WIS; Snelheid: BC/RC | kort en scherp |
 | za 16 mei 2026 | Wedstrijdspecifiek | Wedstrijdtempo | Start en keerpunt | 2 blokken | Start en keerpunt: BC/RC; Wedstrijdtempo: WIS | wedstrijdgevoel |
-| ma 18 mei 2026 | Wedstrijdspecifiek | Techniek | Wedstrijdtempo | 2 blokken | Techniek: RC; Wedstrijdtempo: BC | wedstrijdblok |
-| wo 20 mei 2026 | Wedstrijdspecifiek | Wedstrijdtempo | Techniek | 2 blokken | Techniek: SS; Wedstrijdtempo: VL | tempocontrole |
-| vr 22 mei 2026 | Wedstrijdspecifiek | Snelheid | Wedstrijdtempo | Wedstrijdvoorbereiding | Wedstrijdtempo: VL; Snelheid: RC | korte kwaliteitsprikkel |
+| ma 18 mei 2026 | Wedstrijdspecifiek | Techniek | Aerobic base | 2 blokken | Techniek: RC; Aerobic base: BC | technische basis met rustige duur |
+| wo 20 mei 2026 | Wedstrijdspecifiek | Uithoudingsvermogen | Techniek | 2 blokken | Techniek: SS; Uithoudingsvermogen: BC | duurprikkel met techniekcontrole |
+| vr 22 mei 2026 | Wedstrijdspecifiek | Techniek | Snelheid | 2 blokken | Techniek: RC; Snelheid: VL | korte kwaliteit zonder zwaar tempoblok |
 | za 23 mei 2026 | Wedstrijdspecifiek | Techniek | Start en keerpunt | Wedstrijdvoorbereiding | Techniek: WIS; Start en keerpunt: SS/BC | techniek en timing |
 | wo 27 mei 2026 | Wedstrijdspecifiek | Herstel | Techniek | Herstel + techniek | Herstel: WIS; Techniek: RC/SS | na feestdag |
-| vr 29 mei 2026 | Wedstrijdspecifiek | Wedstrijdtempo | Snelheid | 2 blokken | Snelheid: BC; Wedstrijdtempo: SS | wedstrijdgericht |
-| za 30 mei 2026 | Wedstrijdspecifiek | Techniek | Wedstrijdtempo | 2 blokken | Techniek: RC; Wedstrijdtempo: BC | kwaliteitsprikkel |
+| vr 29 mei 2026 | Wedstrijdspecifiek | Uithoudingsvermogen | Techniek | 2 blokken | Techniek: SS; Uithoudingsvermogen: BC | duurtraining met technische bewaking |
+| za 30 mei 2026 | Wedstrijdspecifiek | Techniek | Aerobic base | 2 blokken | Techniek: RC; Aerobic base: BC | rustige kwaliteitsprikkel |
 
 ### Juni 2026
 
 | Datum | Periode | Primair thema | Secundair thema | Sessievorm | Slagfocus | Reden |
 | --- | --- | --- | --- | --- | --- | --- |
-| ma 01 jun 2026 | Wedstrijdspecifiek | Techniek | Wedstrijdtempo | 2 blokken | RC | wedstrijdblok |
-| wo 03 jun 2026 | Wedstrijdspecifiek | Wedstrijdtempo | Techniek | 2 blokken | BC | tempocontrole |
-| vr 05 jun 2026 | Wedstrijdspecifiek | Snelheid | Wedstrijdtempo | Wedstrijdvoorbereiding | VL | korte kwaliteitsprikkel |
+| ma 01 jun 2026 | Wedstrijdspecifiek | Techniek | Aerobic base | 2 blokken | Techniek: RC; Aerobic base: BC | techniek vasthouden met rustige duur |
+| wo 03 jun 2026 | Wedstrijdspecifiek | Uithoudingsvermogen | Techniek | 2 blokken | Uithoudingsvermogen: BC; Techniek: RC | duurprikkel met slaggerichte controle |
+| vr 05 jun 2026 | Wedstrijdspecifiek | Techniek | Snelheid | 2 blokken | Techniek: VL; Snelheid: RC | korte kwaliteit, lage omvang |
 | za 06 jun 2026 | Wedstrijdspecifiek | Techniek | Start en keerpunt | Wedstrijdvoorbereiding | Alle slagen | techniek en timing |
 | ma 08 jun 2026 | Wedstrijdspecifiek | Herstel | Techniek | Herstel + techniek | Alle slagen | herstel na snelheidswerk |
-| wo 10 jun 2026 | Wedstrijdspecifiek | Wedstrijdtempo | Snelheid | 2 blokken | SS | wedstrijdgericht |
-| vr 12 jun 2026 | Wedstrijdspecifiek | Snelheid | Start en keerpunt | 2 blokken | Alle slagen | kort en scherp |
-| za 13 jun 2026 | Wedstrijdspecifiek | Wedstrijdtempo | Start en keerpunt | 2 blokken | Alle slagen | wedstrijdgevoel |
+| wo 10 jun 2026 | Wedstrijdspecifiek | Uithoudingsvermogen | Techniek | 2 blokken | Uithoudingsvermogen: BC; Techniek: SS | duurtraining met slagkwaliteit |
+| vr 12 jun 2026 | Wedstrijdspecifiek | Techniek | Start en keerpunt | 2 blokken | Alle slagen | techniek en korte scherpte |
+| za 13 jun 2026 | Wedstrijdspecifiek | Aerobic base | Techniek | 2 blokken | Aerobic base: BC; Techniek: WIS | rustige duur met slaggevoel |
 | ma 15 jun 2026 | Afbouw | Herstel | Techniek | Herstel + techniek | Alle slagen | start afbouw |
-| wo 17 jun 2026 | Afbouw | Wedstrijdtempo | Snelheid | 2 blokken | BC | scherpte |
-| vr 19 jun 2026 | Afbouw | Techniek | Wedstrijdtempo | 2 blokken | RC | lichte kwaliteit |
+| wo 17 jun 2026 | Afbouw | Techniek | Snelheid | 2 blokken | Techniek: BC; Snelheid: RC | scherpte vanuit techniek |
+| vr 19 jun 2026 | Afbouw | Techniek | Aerobic base | 2 blokken | Techniek: RC; Aerobic base: BC | lichte kwaliteit en duurgevoel |
 | za 20 jun 2026 | Afbouw | Techniek | Start en keerpunt | Wedstrijdvoorbereiding | Alle slagen | scherpe techniekprikkel |
 | ma 22 jun 2026 | Afbouw | Herstel | Techniek | Herstel + techniek | Alle slagen | herstelmoment |
-| vr 26 jun 2026 | Afbouw | Snelheid | Wedstrijdtempo | Wedstrijdvoorbereiding | SS | korte kwaliteitsprikkel |
+| vr 26 jun 2026 | Afbouw | Techniek | Snelheid | 2 blokken | Techniek: SS; Snelheid: BC | korte kwaliteitsprikkel |
 | za 27 jun 2026 | Afbouw | Techniek | Start en keerpunt | Wedstrijdvoorbereiding | Alle slagen | techniek en timing |
 | ma 29 jun 2026 | Afbouw | Herstel | Techniek | Herstel + techniek | Alle slagen | herstelmoment |
 
@@ -73,6 +73,6 @@
 
 | Datum | Periode | Primair thema | Secundair thema | Sessievorm | Slagfocus | Reden |
 | --- | --- | --- | --- | --- | --- | --- |
-| wo 01 jul 2026 | Afbouw | Wedstrijdtempo | Techniek | 2 blokken | VL | laatste scherpte |
-| vr 03 jul 2026 | Afbouw | Techniek | Wedstrijdtempo | 2 blokken | SS | lichte kwaliteit |
+| wo 01 jul 2026 | Afbouw | Uithoudingsvermogen | Techniek | 2 blokken | Uithoudingsvermogen: BC; Techniek: VL | laatste rustige duurprikkel |
+| vr 03 jul 2026 | Afbouw | Techniek | Aerobic base | 2 blokken | Techniek: SS; Aerobic base: BC | lichte kwaliteit zonder tempodruk |
 | za 04 jul 2026 | Afbouw | Herstel | Techniek | 2 blokken | Alle slagen | laatste training van het seizoen |

@@ -4,9 +4,9 @@ datum: 2026-05-18
 seizoen: 2025-2026
 periode: Wedstrijdspecifiek
 primair_thema: Techniek
-secundair_thema: Wedstrijdtempo
+secundair_thema: Aerobic base
 sessievorm: 2 blokken
-slagfocus: "Techniek: RC; Wedstrijdtempo: BC"
+slagfocus: "Techniek: RC; Aerobic base: BC"
 totale_afstand_m: 2600
 duur_min: 60
 public: true
@@ -27,10 +27,9 @@ public: true
 - `2x100m` `25 RC benen` > `25 RC armen` > `50 RC` `R:0:20` `70%` - techniek opbouwen naar volledige slag {{coach: laat de zwemmers pas versnellen als de ligging stabiel blijft na de arminzet}}
 - `2x50m` `RC` `R:0:15` `70%` - toepassen met lange lijn {{coach: tel het aantal slagen per baan en vraag om dezelfde lengte op de tweede 50m}}
 
-## Blok 2 - Wedstrijdtempo - BC - 1300m
+## Blok 2 - Aerobic base - BC - 1300m
 
-- `6x50m` `BC` `R:0:20` `95%` - wedstrijdtempo met vaste slaglengte {{coach: stuur op tempo uit ritme en niet uit korter zwemmen}}
-- `2x100m` `BC` `R:0:25` `70%` - herstel met technische controle {{coach: laat de zwemmers lengte direct terugvinden na tempo}}
-- `4x100m` `BC` `R:0:25` `95%` - eerste `50m` wedstrijdtempo, tweede `50m` `75%` strak door {{coach: bewaak vlakke houding en ontspannen ademhaling in de tweede helft}}
-- `4x50m` `BC` `R:0:25` `95%` - breakout tot `15m`, daarna ritme vasthouden {{coach: kijk of de eerste armslag pas komt na volledige versnelling}}
-- `2x100m` `SNK` `R:0:20` `50%` - herstel met snorkel {{coach: laat hartslag zakken en schouders ontspannen}}
+- `4x100m` `BC` `R:0:20` `75%` - rustige duur met vaste slaglengte {{coach: laat de zwemmers per 100m hetzelfde aantal slagen proberen te houden}}
+- `4x150m` `BC` `R:0:25` `75%` - tempo constant, ademhaling laag {{coach: kijk of de tweede 50m even lang blijft als de eerste}}
+- `4x50m` `BC` `R:0:15` `70%` - technisch ontspannen doorspoelen {{coach: laat schouders laag blijven en voorkom korter trekken}}
+- `1x100m` `SNK` `R:0:20` `50%` - rustig herstellen {{coach: laat hartslag zakken en de uitademing verlengen}}

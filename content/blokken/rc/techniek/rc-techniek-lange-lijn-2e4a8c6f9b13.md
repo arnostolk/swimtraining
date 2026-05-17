@@ -11,9 +11,10 @@ rating:
   gemiddelde: 2.3
   aantal: 3
 gebruik:
-  aantal: 1
+  aantal: 2
   trainingen:
     - 2026-05-18
+    - 2026-05-22
 wijzigingen:
   - datum: 2026-05-17
     toelichting: coach tips verduidelijkt
