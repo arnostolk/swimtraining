@@ -186,7 +186,7 @@ Voor de app betekent dit dat Markdown-trainingen uiteindelijk blok-id's moeten k
 - Excel-import mag conceptblokken maken die later gecureerd worden.
 - Bestaande Markdown-trainingen blijven voorlopig geldig.
 - Developmentfeedback wordt lokaal opgeslagen via `POST /api/block-feedback`.
-- Productiefeedback kan later via dezelfde store-abstraction naar Vercel Blob.
+- Productiefeedback wordt via dezelfde store-abstraction naar Vercel Blob geschreven wanneer `BLOB_READ_WRITE_TOKEN` gezet is. `FEEDBACK_STORE=vercel-blob` mag expliciet, maar is niet verplicht.
 
 ## Open vragen
 

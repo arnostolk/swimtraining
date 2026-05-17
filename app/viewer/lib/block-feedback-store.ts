@@ -2,10 +2,11 @@ import { randomUUID } from "node:crypto";
 import fs from "node:fs/promises";
 import path from "node:path";
 
+import { put } from "@vercel/blob";
+
 import type { BlockFeedbackEvent, BlockFeedbackInput, FeedbackStore } from "@/lib/types";
 
 const ROOT = path.resolve(process.cwd(), "..", "..");
-const LOCAL_FEEDBACK_ROOT = path.join(ROOT, "content", "blokken", "feedback-local");
 
 function assertValidRating(rating: number): asserts rating is 1 | 2 | 3 {
   if (![1, 2, 3].includes(rating)) {
@@ -24,11 +25,19 @@ function safePathSegment(value: string) {
 }
 
 function buildLocalFeedbackPath(event: BlockFeedbackEvent) {
+  return path.join(ROOT, buildFeedbackPath(event));
+}
+
+function buildFeedbackPath(event: BlockFeedbackEvent) {
   const date = event.createdAt.slice(0, 10);
   const [year, month] = date.split("-");
   const blockId = safePathSegment(event.blockId) || "unknown-block";
 
-  return path.join(LOCAL_FEEDBACK_ROOT, year, month, blockId, `${event.id}.json`);
+  return path.join("content", "blokken", "feedback-local", year, month, blockId, `${event.id}.json`);
+}
+
+function buildBlobFeedbackPath(event: BlockFeedbackEvent) {
+  return buildFeedbackPath(event).replace(/\\/g, "/").replace("content/blokken/feedback-local/", "feedback/");
 }
 
 export function createBlockFeedbackEvent(input: BlockFeedbackInput, source: BlockFeedbackEvent["source"]): BlockFeedbackEvent {
@@ -51,15 +60,29 @@ export const localFeedbackStore: FeedbackStore = {
 };
 
 export const vercelBlobFeedbackStore: FeedbackStore = {
-  async saveFeedback() {
-    throw new Error(
-      "Vercel Blob feedbackopslag is nog niet geconfigureerd. Voeg @vercel/blob en BLOB_READ_WRITE_TOKEN toe voordat FEEDBACK_STORE=vercel-blob wordt gebruikt.",
-    );
+  async saveFeedback(event) {
+    if (!process.env.BLOB_READ_WRITE_TOKEN) {
+      throw new Error("BLOB_READ_WRITE_TOKEN ontbreekt. Stel deze environment variable in voordat Vercel Blob feedbackopslag wordt gebruikt.");
+    }
+
+    await put(buildBlobFeedbackPath(event), `${JSON.stringify(event, null, 2)}\n`, {
+      access: "private",
+      contentType: "application/json",
+      addRandomSuffix: false,
+    });
   },
 };
 
 export function getFeedbackStore() {
-  return process.env.FEEDBACK_STORE === "vercel-blob" ? vercelBlobFeedbackStore : localFeedbackStore;
+  if (process.env.FEEDBACK_STORE === "local") {
+    return localFeedbackStore;
+  }
+
+  if (process.env.FEEDBACK_STORE === "vercel-blob" || process.env.BLOB_READ_WRITE_TOKEN) {
+    return vercelBlobFeedbackStore;
+  }
+
+  return localFeedbackStore;
 }
 
 export async function saveBlockFeedback(input: BlockFeedbackInput) {

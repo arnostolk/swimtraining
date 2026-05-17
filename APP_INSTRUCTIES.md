@@ -163,6 +163,30 @@ Deze map wordt niet gecommit en staat in `.gitignore`.
 
 In productie kan dezelfde eventvorm later naar Vercel Blob worden geschreven. De app gebruikt daarvoor een kleine feedback-store abstraction, zodat de UI niet hoeft te weten of feedback lokaal of in Blob wordt opgeslagen.
 
+Opslag wordt gekozen met:
+
+- `FEEDBACK_STORE=local`: schrijf lokale JSON-events naar `content/blokken/feedback-local/`
+- `FEEDBACK_STORE=vercel-blob`: schrijf JSON-events naar Vercel Blob onder `feedback/YYYY/MM/{blockId}/{eventId}.json`
+- Zonder `FEEDBACK_STORE` kiest de app automatisch Vercel Blob als `BLOB_READ_WRITE_TOKEN` aanwezig is.
+
+Voor Vercel Blob is `BLOB_READ_WRITE_TOKEN` verplicht en alleen server-side beschikbaar.
+
+Lokaal testen tegen Vercel Blob kan met:
+
+```text
+npm run test:blob-feedback
+```
+
+Dit script leest `app/viewer/.env.local` en schrijft een testevent naar Blob.
+
+De lokale app draaien met feedback naar Vercel Blob kan met:
+
+```text
+npm run dev:blob-feedback
+```
+
+Dit script eist `BLOB_READ_WRITE_TOKEN` in `app/viewer/.env.local` en start daarna `next dev` met `FEEDBACK_STORE=vercel-blob`.
+
 De app schrijft feedback via:
 
 ```text
