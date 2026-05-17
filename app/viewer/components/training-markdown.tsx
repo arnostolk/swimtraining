@@ -4,8 +4,13 @@ import { cloneElement, useMemo, useState, type ReactElement, type ReactNode } fr
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
+import { InlineBlockFeedback, type FeedbackBlock } from "@/components/block-feedback";
+
 type TrainingMarkdownProps = {
   content: string;
+  feedbackBlocks?: FeedbackBlock[];
+  trainingSlug?: string;
+  datum?: string;
 };
 
 function flattenText(children: ReactNode): string {
@@ -63,6 +68,43 @@ function stripCoachText(children: ReactNode): ReactNode {
   return children;
 }
 
+function getBlockNumberFromHeading(text: string) {
+  const match = text.match(/^Blok\s+([12])\b/i);
+  return match ? Number(match[1]) : undefined;
+}
+
+function splitContentIntoSections(content: string) {
+  const lines = content.split(/\r?\n/);
+  const sections: Array<{ content: string; blockNumber?: number }> = [];
+  let currentLines: string[] = [];
+  let currentBlockNumber: number | undefined;
+
+  for (const line of lines) {
+    if (line.startsWith("## ")) {
+      if (currentLines.length > 0) {
+        sections.push({
+          content: currentLines.join("\n").trim(),
+          blockNumber: currentBlockNumber,
+        });
+      }
+
+      currentLines = [line];
+      currentBlockNumber = getBlockNumberFromHeading(line.replace(/^##\s+/, ""));
+    } else {
+      currentLines.push(line);
+    }
+  }
+
+  if (currentLines.length > 0) {
+    sections.push({
+      content: currentLines.join("\n").trim(),
+      blockNumber: currentBlockNumber,
+    });
+  }
+
+  return sections.filter((section) => section.content.length > 0);
+}
+
 function CoachBottomSheet({ coachText, onClose }: { coachText: string; onClose: () => void }) {
   return (
     <div className="coach-sheet-backdrop" onClick={onClose} role="presentation">
@@ -80,8 +122,9 @@ function CoachBottomSheet({ coachText, onClose }: { coachText: string; onClose: 
   );
 }
 
-export function TrainingMarkdown({ content }: TrainingMarkdownProps) {
+export function TrainingMarkdown({ content, feedbackBlocks = [], trainingSlug, datum }: TrainingMarkdownProps) {
   const [activeCoachText, setActiveCoachText] = useState<string | null>(null);
+  const sections = useMemo(() => splitContentIntoSections(content), [content]);
 
   const components = useMemo(
     () => ({
@@ -122,9 +165,20 @@ export function TrainingMarkdown({ content }: TrainingMarkdownProps) {
 
   return (
     <>
-      <ReactMarkdown remarkPlugins={[remarkGfm]} components={components}>
-        {content}
-      </ReactMarkdown>
+      {sections.map((section, index) => {
+        const feedbackBlock = feedbackBlocks.find((block) => block.nummer === section.blockNumber);
+
+        return (
+          <section key={`${section.blockNumber ?? "intro"}-${index}`} className={feedbackBlock ? "markdown-training-block" : undefined}>
+            <ReactMarkdown remarkPlugins={[remarkGfm]} components={components}>
+              {section.content}
+            </ReactMarkdown>
+            {feedbackBlock && trainingSlug && datum ? (
+              <InlineBlockFeedback block={feedbackBlock} trainingSlug={trainingSlug} datum={datum} />
+            ) : null}
+          </section>
+        );
+      })}
 
       {activeCoachText ? <CoachBottomSheet coachText={activeCoachText} onClose={() => setActiveCoachText(null)} /> : null}
     </>

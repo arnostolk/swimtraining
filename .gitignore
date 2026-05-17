@@ -13,3 +13,6 @@ desktop.ini
 .idea/
 *.swp
 *.swo
+
+# Lokale feedback-events
+content/blokken/feedback-local/
