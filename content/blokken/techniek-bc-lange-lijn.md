@@ -1,15 +1,19 @@
 ---
 id: block_bc_techniek_lange-lijn_001
 type: kernblok
+categorie: techniek
 thema: Techniek
 slagfocus: BC
 afstand_m: 700
+duur_min: 0
 status: actief
-bron:
-  type: markdown
 rating:
   gemiddelde: 0
   aantal: 0
+gebruik:
+  aantal: 0
+  trainingen: []
+wijzigingen: []
 tags:
   - techniek
   - bc

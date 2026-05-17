@@ -52,7 +52,7 @@ export function InlineBlockFeedback({ block, trainingSlug, datum }: InlineBlockF
   return (
     <div className="inline-block-feedback">
       <div className="inline-block-feedback__main">
-        <span className="inline-block-feedback__label">Beoordeel blok</span>
+        <span className="inline-block-feedback__label">Beoordelen</span>
         <div className="inline-block-feedback__controls" aria-label={`Feedback voor blok ${block.nummer}`}>
           {RATINGS.map((option) => (
             <button

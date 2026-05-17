@@ -1,0 +1,29 @@
+---
+id: bc-conditie-aerobe-capaciteit-724f334627d5
+type: conditieblok
+categorie: conditie
+thema: "Aerobe capaciteit"
+slagfocus: "BC"
+afstand_m: 2400
+duur_min: 45
+status: concept
+rating:
+  gemiddelde: 0
+  aantal: 0
+gebruik:
+  aantal: 0
+  trainingen:
+    []
+wijzigingen: []
+tags:
+  - conditieblok
+  - bc
+  - aerobe
+---
+
+## Blok - Aerobe capaciteit - BC - 2400m
+
+- `2x200` - `R:0:20` - `BC` - 70%, rustig duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
+- `2x150` - `R:0:20` - `WIS` - 75%, stevig duurtempo 50 VL > 25 RC > 25 SS > 50 BC {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
+- `1x100` - `R:0:20` - `SNK` - herstel, lekker rustig {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt}}
+- HELE SET 3 KEER {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}

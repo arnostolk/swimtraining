@@ -16,16 +16,16 @@ public: true
 
 ## Inzwemmen - 600m
 
-- `3x100m` `R:0:15` `70%` - `1x BC`, `1x WIS`, `1x BC`
-- `4x50m` `R:0:15` - `25 VL drill` > `25 BC`, rustig technisch
-- `1x100m` `SNK` `R:0:20` `50%` - ademhaling laag houden
+- `3x100m` `R:0:15` `70%` - `1x BC`, `1x WIS`, `1x BC` {{coach: houd de eerste 200m ontspannen en laat WIS netjes in volgorde zwemmen}}
+- `4x50m` `25 VL benen` > `25 BC` `R:0:15` `70%` - heupactie rustig wakker maken {{coach: kijk of de VL-beweging vanuit de heupen start en niet vanuit de knieen}}
+- `1x100m` `SNK` `R:0:20` `50%` - ademhaling laag houden {{coach: gebruik dit als reset voor schouders en romp}}
 
 ## Blok 1 - Techniek - SS - 650m
 
-- `3x50m` `SS` `R:0:15` - lange glijfase, smalle benen {{coach: laat de pijlfase niet wegvallen door haast}}
-- `3x50m` `25 SS benen` > `25 SS` `R:0:15` `70%` - ritme vanuit de benen opbouwen {{coach: bewaak dat de knieën smal blijven}}
-- `2x100m` `SS` `R:0:20` `70%` - volledige slag met vaste ademhaling {{coach: kijk of de timing van armen en benen gelijk blijft}}
-- `3x50m` `SS` `R:0:15` `75%` - toepassen met iets meer druk {{coach: houd de slag lang en voorkom dat de glij uitdooft}}
+- `3x50m` `SS` `R:0:15` - lange glijfase, smalle benen {{coach: laat de pijlfase na elke beenslag zichtbaar stil en lang zijn}}
+- `3x50m` `25 SS benen` > `25 SS` `R:0:15` `70%` - ritme vanuit de benen opbouwen {{coach: kijk of de knieen smal blijven en de voeten naar buiten afzetten}}
+- `2x100m` `SS` `R:0:20` `70%` - volledige slag met vaste ademhaling {{coach: laat armen, ademhaling en benen in dezelfde volgorde terugkomen}}
+- `3x50m` `SS` `R:0:15` `75%` - toepassen met iets meer druk {{coach: bewaak dat extra druk niet ten koste gaat van de glijfase}}
 
 ## Blok 2 - Wedstrijdtempo - VL - 1300m
 

@@ -16,24 +16,23 @@ public: true
 
 ## Inzwemmen - 600m
 
-- `1x200m` `BC` `R:0:15` `70%` - rustig inzwemmen met lange lijn
-- `4x50m` `R:0:20` - oneven `25 VL benen` > `25 BC`, even `25 RC benen` > `25 RC`
-- `4x25m` `RC` `R:0:20` `80%` - makkelijk snel, technisch strak
-- `1x100m` `SNK` `R:0:20` `50%` - herstel en ademhaling rustig maken
+- `1x200m` `BC` `R:0:15` `70%` - rustig inzwemmen met lange lijn {{coach: laat de ademhaling vanaf het begin laag en regelmatig zijn}}
+- `4x50m` `25 RC benen` > `25 RC` `R:0:15` `70%` - ligging hoog houden {{coach: kijk of de heup niet zakt bij de arminzet}}
+- `4x50m` `25 VL benen` > `25 BC` `R:0:20` `70%` - heupactie activeren {{coach: laat de VL-benen klein blijven en de overgang naar BC ontspannen}}
 
-## Blok 1 - Wedstrijdtempo - VL - 700m
+## Blok 1 - Snelheid - RC - 800m
 
-- `4x50m` `25 VL` > `25 BC` `R:0:25` `85%` - wedstrijdritme kort aanraken {{coach: laat VL scherp zijn en BC direct ontspannen}}
-- `4x25m` `VL` `R:0:30` `95%` - technisch snel vanuit push {{coach: bewaak dat de ademhaling laag blijft}}
-- `2x100m` `50 VL` > `50 BC` `R:0:30` `80%` - tempogevoel zonder verzuren {{coach: laat de tweede baan actief herstellen}}
-- `4x50m` `VL` `R:0:30` `90%` - vlak en gecontroleerd {{coach: stop gejaagd zwemmen direct af en laat timing leidend zijn}}
+- `4x25m` `RC` `R:0:30` `95%` - snelle start uit afzet, technisch strak {{coach: kijk of de eerste drie slagen lang blijven ondanks de versnelling}}
+- `4x50m` `25 RC sprint` > `25 RC rustig` `R:0:35` `100%` - snelheid inzetten en direct loslaten {{coach: laat de zwemmers na de sprint bewust terug naar lengte zwemmen}}
+- `4x25m` `RC` `R:0:40` `100%` - maximale snelheid met volledige controle {{coach: stop de herhaling mentaal als de ligging inzakt of de armen te kort worden}}
+- `2x100m` `RC` `R:0:25` `70%` - techniek herstellen na sprint {{coach: vraag om hetzelfde slagritme links en rechts}}
+- `4x50m` `RC` `R:0:30` `90%` - snel maar ruim zwemmen {{coach: stuur op hoge heup, stille hoofdpositie en rechte insteek}}
 
-## Blok 2 - Snelheid - RC - 1200m
+## Blok 2 - Wedstrijdtempo - VL - 1100m
 
-- `4x25m` `RC` `R:0:30` `100%` - snelle afzet en eerste `10m` {{coach: kijk of de onderwaterfase smal en recht blijft}}
-- `4x50m` `RC` `R:0:30` `95%` - breakout tot `15m`, daarna ritme vasthouden {{coach: laat de zwemmers niet te vroeg naar lucht happen}}
-- `4x25m` `RC` `R:0:35` `100%` - sprint met vaste ligging {{coach: bewaak dat het hoofd stil blijft}}
-- `4x50m` `25 RC snel` > `25 RC rustig` `R:0:25` `90%` - snelheid direct kunnen afschakelen {{coach: let op controle na de snelle baan}}
-- `2x100m` `50 RC` > `50 BC` `R:0:25` `75%` - snelheid technisch verwerken {{coach: kijk of de lange lijn terugkomt in beide slagen}}
-- `4x50m` `SNK` `R:0:15` `50%` - herstel {{coach: laat de hartslag zakken voor de laatste trainingsfase}}
-- `2x100m` `RC` `R:0:25` `80%` - ontspannen snel afronden {{coach: houd het gevoel scherp maar niet zwaar}}
+- `6x25m` `VL` `R:0:25` `95%` - wedstrijdritme zonder verval {{coach: bewaak dat de ademhaling laag blijft en niet elke slag omhoog trekt}}
+- `4x50m` `25 VL` > `25 BC` `R:0:25` `85%` - tempo voelen, daarna ontspannen verwerken {{coach: laat de overgang naar BC direct lang en technisch worden}}
+- `4x75m` `25 VL` > `50 BC` `R:0:25` `80%` - kwaliteit vasthouden met actieve herstelbaan {{coach: kijk of de eerste 25m VL telkens dezelfde timing heeft}}
+- `4x50m` `VL` `R:0:30` `95%` - wedstrijdtempo met vaste ademhaling {{coach: tel het aantal ademhalingen en houd dat per herhaling gelijk}}
+- `1x100m` `BC` `R:0:20` `70%` - ontspannen doorspoelen {{coach: laat schouders laag en slaglengte ruim blijven}}
+- `3x50m` `SNK` `R:0:15` `50%` - rustig uitzwemmen binnen het blok {{coach: laat de hartslag zakken zonder rompspanning kwijt te raken}}
