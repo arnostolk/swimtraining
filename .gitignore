@@ -13,3 +13,14 @@ desktop.ini
 .idea/
 *.swp
 *.swo
+
+# Environment
+.env
+.env.local
+.env.*.local
+app/viewer/.env
+app/viewer/.env.local
+app/viewer/.env.*.local
+
+# Lokale feedback-events
+content/blokken/feedback-local/

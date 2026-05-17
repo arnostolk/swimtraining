@@ -141,17 +141,17 @@ a {
 .page-wrap {
   width: min(100%, 42rem);
   margin: 0 auto;
-  padding: 1rem 1rem 2rem;
+  padding: 0.5rem 0.4rem 1.5rem;
 }
 
 .stack-lg {
   display: grid;
-  gap: 1rem;
+  gap: 0.4rem;
 }
 
 .stack-md {
   display: grid;
-  gap: 0.75rem;
+  gap: 0.4rem;
 }
 
 .hero-card,
@@ -160,7 +160,7 @@ a {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 0.75rem;
   box-shadow: 0 6px 16px rgba(16, 33, 59, 0.05);
 }
 
@@ -670,6 +670,150 @@ h2 {
   cursor: pointer;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.markdown-training-block + .markdown-training-block {
+  margin-top: 0.4rem;
+}
+
+.inline-block-feedback {
+  display: grid;
+  gap: 0.45rem;
+  max-width: 100%;
+  margin: 0.75rem 0 0;
+  padding: 0.45rem;
+  border: 1px solid rgba(0, 73, 149, 0.14);
+  border-radius: 0.55rem;
+  background: rgba(216, 237, 247, 0.34);
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.inline-block-feedback__main {
+  display: grid;
+  grid-template-columns: auto auto auto minmax(1rem, auto);
+  align-items: center;
+  gap: 0.45rem;
+  min-width: 0;
+}
+
+.inline-block-feedback__label {
+  white-space: nowrap;
+}
+
+.inline-block-feedback__controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.inline-rating-button {
+  min-width: 1.75rem;
+  min-height: 1.75rem;
+  padding: 0 0.35rem;
+  border: 1px solid var(--line);
+  border-radius: 0.45rem;
+  background: var(--surface);
+  color: var(--accent);
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 800;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.inline-rating-button--active {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: white;
+}
+
+.inline-rating-button:disabled {
+  cursor: wait;
+  opacity: 0.72;
+}
+
+.inline-note-toggle {
+  flex-shrink: 0;
+  min-height: 1.75rem;
+  padding: 0.35rem 0.45rem;
+  border: 1px solid var(--line);
+  border-radius: 0.45rem;
+  background: var(--surface);
+  color: var(--accent);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+}
+
+.inline-note-toggle--active {
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 1px rgba(0, 73, 149, 0.18);
+}
+
+.inline-feedback-note input {
+  width: min(100%, 22rem);
+  min-height: 2.25rem;
+  padding: 0 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 0.55rem;
+  background: var(--surface);
+  color: var(--foreground);
+  font: inherit;
+}
+
+.inline-feedback-status {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: end;
+  width: 1rem;
+  min-height: 1.35rem;
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 800;
+}
+
+.inline-feedback-status--saved {
+  color: #067647;
+}
+
+.inline-feedback-status--error {
+  background: #fee4e2;
+  color: #b42318;
+}
+
+@media (max-width: 420px) {
+  .inline-block-feedback__main {
+    grid-template-columns: auto auto auto 1rem;
+    gap: 0.35rem;
+  }
+
+  .inline-block-feedback__label {
+    font-size: 0.74rem;
+  }
+
+  .inline-rating-button {
+    min-width: 1.55rem;
+    padding: 0 0.25rem;
+  }
+
+  .inline-note-toggle {
+    padding-inline: 0.35rem;
+  }
+}
+
 .markdown-body p + p,
 .markdown-body ul + p,
 .markdown-body p + ul {
@@ -679,5 +823,26 @@ h2 {
 @media (min-width: 720px) {
   .brand-logo {
     width: 9.5rem;
+  }
+
+  .page-wrap {
+    padding: 1rem 1rem 2rem;
+  }
+
+  .hero-card,
+  .panel {
+    padding: 1rem;
+  }
+
+  .stack-lg {
+    gap: 1rem;
+  }
+
+  .stack-md {
+    gap: 0.75rem;
+  }
+
+  .markdown-training-block + .markdown-training-block {
+    margin-top: 1rem;
   }
 }

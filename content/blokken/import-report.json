@@ -1,0 +1,364 @@
+{
+  "workbook": "Trainingen-junioren-25-26.xlsx",
+  "generated_at": "2026-05-17T11:42:04",
+  "detected_blocks": 619,
+  "unique_blocks": 327,
+  "duplicate_blocks": 292,
+  "output_root": "content/blokken",
+  "sheets": [
+    {
+      "sheet": "2025",
+      "detected": 169
+    },
+    {
+      "sheet": "2026",
+      "detected": 235
+    },
+    {
+      "sheet": "BC",
+      "detected": 51
+    },
+    {
+      "sheet": "Inzwemmen",
+      "detected": 60
+    },
+    {
+      "sheet": "Overig",
+      "detected": 25
+    },
+    {
+      "sheet": "RC",
+      "detected": 14
+    },
+    {
+      "sheet": "SS",
+      "detected": 22
+    },
+    {
+      "sheet": "VL",
+      "detected": 19
+    },
+    {
+      "sheet": "WS",
+      "detected": 24
+    }
+  ],
+  "unique_by_type": [
+    {
+      "type": "conditieblok",
+      "count": 129
+    },
+    {
+      "type": "inzwemmen",
+      "count": 56
+    },
+    {
+      "type": "kernblok",
+      "count": 142
+    }
+  ],
+  "unique_by_category": [
+    {
+      "category": "conditie",
+      "count": 99
+    },
+    {
+      "category": "herstel",
+      "count": 1
+    },
+    {
+      "category": "inzwemmen",
+      "count": 56
+    },
+    {
+      "category": "keerpunten",
+      "count": 2
+    },
+    {
+      "category": "overig",
+      "count": 32
+    },
+    {
+      "category": "sprint",
+      "count": 14
+    },
+    {
+      "category": "techniek",
+      "count": 93
+    },
+    {
+      "category": "tempo",
+      "count": 30
+    }
+  ],
+  "unique_by_stroke_and_category": [
+    {
+      "slag": "alle-slagen",
+      "category": "conditie",
+      "count": 56
+    },
+    {
+      "slag": "alle-slagen",
+      "category": "inzwemmen",
+      "count": 55
+    },
+    {
+      "slag": "alle-slagen",
+      "category": "keerpunten",
+      "count": 2
+    },
+    {
+      "slag": "alle-slagen",
+      "category": "overig",
+      "count": 21
+    },
+    {
+      "slag": "alle-slagen",
+      "category": "sprint",
+      "count": 8
+    },
+    {
+      "slag": "alle-slagen",
+      "category": "techniek",
+      "count": 38
+    },
+    {
+      "slag": "alle-slagen",
+      "category": "tempo",
+      "count": 15
+    },
+    {
+      "slag": "bc",
+      "category": "conditie",
+      "count": 26
+    },
+    {
+      "slag": "bc",
+      "category": "herstel",
+      "count": 1
+    },
+    {
+      "slag": "bc",
+      "category": "inzwemmen",
+      "count": 1
+    },
+    {
+      "slag": "bc",
+      "category": "overig",
+      "count": 6
+    },
+    {
+      "slag": "bc",
+      "category": "techniek",
+      "count": 14
+    },
+    {
+      "slag": "bc",
+      "category": "tempo",
+      "count": 4
+    },
+    {
+      "slag": "rc",
+      "category": "conditie",
+      "count": 2
+    },
+    {
+      "slag": "rc",
+      "category": "overig",
+      "count": 1
+    },
+    {
+      "slag": "rc",
+      "category": "sprint",
+      "count": 1
+    },
+    {
+      "slag": "rc",
+      "category": "techniek",
+      "count": 15
+    },
+    {
+      "slag": "ss",
+      "category": "conditie",
+      "count": 1
+    },
+    {
+      "slag": "ss",
+      "category": "sprint",
+      "count": 2
+    },
+    {
+      "slag": "ss",
+      "category": "techniek",
+      "count": 17
+    },
+    {
+      "slag": "ss",
+      "category": "tempo",
+      "count": 1
+    },
+    {
+      "slag": "vl",
+      "category": "conditie",
+      "count": 1
+    },
+    {
+      "slag": "vl",
+      "category": "overig",
+      "count": 1
+    },
+    {
+      "slag": "vl",
+      "category": "sprint",
+      "count": 2
+    },
+    {
+      "slag": "vl",
+      "category": "techniek",
+      "count": 9
+    },
+    {
+      "slag": "vl",
+      "category": "tempo",
+      "count": 3
+    },
+    {
+      "slag": "wis",
+      "category": "conditie",
+      "count": 13
+    },
+    {
+      "slag": "wis",
+      "category": "overig",
+      "count": 3
+    },
+    {
+      "slag": "wis",
+      "category": "sprint",
+      "count": 1
+    },
+    {
+      "slag": "wis",
+      "category": "tempo",
+      "count": 7
+    }
+  ],
+  "unique_by_output_path": [
+    {
+      "path": "alle-slagen/conditie",
+      "count": 56
+    },
+    {
+      "path": "alle-slagen/keerpunten",
+      "count": 2
+    },
+    {
+      "path": "alle-slagen/overig",
+      "count": 21
+    },
+    {
+      "path": "alle-slagen/sprint",
+      "count": 8
+    },
+    {
+      "path": "alle-slagen/techniek",
+      "count": 38
+    },
+    {
+      "path": "alle-slagen/tempo",
+      "count": 15
+    },
+    {
+      "path": "bc/conditie",
+      "count": 26
+    },
+    {
+      "path": "bc/herstel",
+      "count": 1
+    },
+    {
+      "path": "bc/overig",
+      "count": 6
+    },
+    {
+      "path": "bc/techniek",
+      "count": 14
+    },
+    {
+      "path": "bc/tempo",
+      "count": 4
+    },
+    {
+      "path": "inzwemmen",
+      "count": 56
+    },
+    {
+      "path": "rc/conditie",
+      "count": 2
+    },
+    {
+      "path": "rc/overig",
+      "count": 1
+    },
+    {
+      "path": "rc/sprint",
+      "count": 1
+    },
+    {
+      "path": "rc/techniek",
+      "count": 15
+    },
+    {
+      "path": "ss/conditie",
+      "count": 1
+    },
+    {
+      "path": "ss/sprint",
+      "count": 2
+    },
+    {
+      "path": "ss/techniek",
+      "count": 17
+    },
+    {
+      "path": "ss/tempo",
+      "count": 1
+    },
+    {
+      "path": "vl/conditie",
+      "count": 1
+    },
+    {
+      "path": "vl/overig",
+      "count": 1
+    },
+    {
+      "path": "vl/sprint",
+      "count": 2
+    },
+    {
+      "path": "vl/techniek",
+      "count": 9
+    },
+    {
+      "path": "vl/tempo",
+      "count": 3
+    },
+    {
+      "path": "wis/conditie",
+      "count": 13
+    },
+    {
+      "path": "wis/overig",
+      "count": 3
+    },
+    {
+      "path": "wis/sprint",
+      "count": 1
+    },
+    {
+      "path": "wis/tempo",
+      "count": 7
+    }
+  ]
+}

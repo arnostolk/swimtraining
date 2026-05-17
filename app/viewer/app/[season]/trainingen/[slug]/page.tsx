@@ -75,6 +75,10 @@ export default async function SeasonTrainingDetailPage({
   const navigation = getTrainingNavigation(slug, season);
   const canonicalNavigation = getTrainingNavigation(training.slug, season);
   const weekHref = buildSeasonWeekPath(season, getSeasonWeekNumberForDate(training.datum));
+  const feedbackBlocks = training.trainingsblokken.map((blok) => ({
+    ...blok,
+    blockId: `${training.slug}__blok-${blok.nummer}`,
+  }));
 
   return (
     <div className="stack-lg">
@@ -133,7 +137,7 @@ export default async function SeasonTrainingDetailPage({
 
       {training.isUitgewerkt && training.content ? (
         <article className="panel markdown-body">
-          <TrainingMarkdown content={training.content} />
+          <TrainingMarkdown content={training.content} feedbackBlocks={feedbackBlocks} trainingSlug={training.slug} datum={training.datum} />
         </article>
       ) : (
         <section className="panel stack-md">

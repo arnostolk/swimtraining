@@ -63,6 +63,18 @@ Nieuwe ingevingen die nog niet zijn uitgewerkt.
 
 Ideeen met duidelijke waarde die binnenkort opgepakt kunnen worden.
 
+### Blokcollectie met feedback
+
+- Probleem: Trainingsblokken worden nu vooral per training gemaakt, waardoor goede bestaande blokken niet systematisch worden hergebruikt en mindere blokken niet vanzelf uitfaseren.
+- Idee: Bouw een herbruikbare blokcollectie uit bestaande Markdown-trainingen en `Trainingen-junioren-25-26.xlsx`, voeg nieuwe blokken als concept toe en verzamel 1-3 sterren feedback per blok.
+- Waarde: Betere trainingskwaliteit, minder dubbel werk en selectie die leert van praktijkervaring aan de badrand.
+- Type: `data`
+- Impact: `hoog`
+- Inspanning: `hoog`
+- Prioriteit: `P1`
+- Status: `in uitvoering`
+- Open vraag: Wanneer schakelen we productiefeedback over van lokale JSON-events naar Vercel Blob?
+
 ### Trainingen tunen
 
 - Probleem: De inhoud en kwaliteit van trainingen kan waarschijnlijk nog scherper en consistenter.

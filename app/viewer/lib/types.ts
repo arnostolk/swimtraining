@@ -28,6 +28,37 @@ export type TrainingBlockDefinition = {
   bron: "primair_thema" | "secundair_thema";
 };
 
+export type TrainingBlockType = "inzwemmen" | "kernblok" | "conditieblok";
+
+export type TrainingBlockStatus = "actief" | "concept" | "afgekeurd";
+
+export type TrainingBlockRatingSummary = {
+  gemiddelde: number;
+  aantal: number;
+};
+
+export type TrainingBlockSource = {
+  type: "excel" | "markdown" | "generated";
+  bestand?: string;
+  sheet?: string;
+  rijen?: string;
+  trainingSlug?: string;
+};
+
+export type TrainingBlock = {
+  id: string;
+  type: TrainingBlockType;
+  thema: string;
+  slagfocus: string;
+  afstand_m: number;
+  status: TrainingBlockStatus;
+  bron?: TrainingBlockSource;
+  rating?: TrainingBlockRatingSummary;
+  tags: string[];
+  content: string;
+  path: string;
+};
+
 export type Vakantie = {
   naam: string;
   start: string;
@@ -85,6 +116,26 @@ export type TrainingNavigation = {
     datum: string;
     primair_thema: string;
   };
+};
+
+export type BlockFeedbackRating = 1 | 2 | 3;
+
+export type BlockFeedbackEvent = {
+  id: string;
+  blockId: string;
+  trainingSlug?: string;
+  datum?: string;
+  rating: BlockFeedbackRating;
+  opmerking?: string;
+  trainer?: string;
+  createdAt: string;
+  source: "local" | "vercel-blob";
+};
+
+export type BlockFeedbackInput = Omit<BlockFeedbackEvent, "id" | "createdAt" | "source">;
+
+export type FeedbackStore = {
+  saveFeedback(event: BlockFeedbackEvent): Promise<void>;
 };
 
 export type DagStatus =

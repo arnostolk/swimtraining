@@ -149,6 +149,65 @@ Per seizoen is er een JSON-bestand met:
 - wedstrijden
 - optioneel extra `geen_training_dagen`
 
+### Blokfeedback
+
+Feedback op trainingsblokken wordt vastgelegd als losse events.
+
+In development schrijft de app lokale JSON-bestanden onder:
+
+```text
+content/blokken/feedback-local/
+```
+
+Deze map wordt niet gecommit en staat in `.gitignore`.
+
+In productie kan dezelfde eventvorm later naar Vercel Blob worden geschreven. De app gebruikt daarvoor een kleine feedback-store abstraction, zodat de UI niet hoeft te weten of feedback lokaal of in Blob wordt opgeslagen.
+
+Opslag wordt gekozen met:
+
+- `FEEDBACK_STORE=local`: schrijf lokale JSON-events naar `content/blokken/feedback-local/`
+- `FEEDBACK_STORE=vercel-blob`: schrijf JSON-events naar Vercel Blob onder `feedback/YYYY/MM/{blockId}/{eventId}.json`
+- Zonder `FEEDBACK_STORE` kiest de app automatisch Vercel Blob als `BLOB_READ_WRITE_TOKEN` aanwezig is.
+
+Voor Vercel Blob is `BLOB_READ_WRITE_TOKEN` verplicht en alleen server-side beschikbaar.
+
+Lokaal testen tegen Vercel Blob kan met:
+
+```text
+npm run test:blob-feedback
+```
+
+Dit script leest `app/viewer/.env.local` en schrijft een testevent naar Blob.
+
+De lokale app draaien met feedback naar Vercel Blob kan met:
+
+```text
+npm run dev:blob-feedback
+```
+
+Dit script eist `BLOB_READ_WRITE_TOKEN` in `app/viewer/.env.local` en start daarna `next dev` met `FEEDBACK_STORE=vercel-blob`.
+
+De app schrijft feedback via:
+
+```text
+POST /api/block-feedback
+```
+
+Een feedback-event bevat minimaal:
+
+- `id`
+- `blockId`
+- `rating` met waarde `1`, `2` of `3`
+- `createdAt`
+- `source`
+
+Optioneel:
+
+- `trainingSlug`
+- `datum`
+- `opmerking`
+- `trainer`
+
 ## Multi-season gedrag
 
 - De app ondersteunt meerdere seizoenen onder `content/seizoenen/`.
@@ -162,6 +221,10 @@ Per seizoen is er een JSON-bestand met:
 
 ```text
 content/
+  blokken/
+    README.md
+    *.md
+    feedback-local/  # lokaal, genegeerd door Git
   seizoenen/
     2025-2026/
       metadata/
