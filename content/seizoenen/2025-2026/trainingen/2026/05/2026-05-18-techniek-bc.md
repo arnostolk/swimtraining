@@ -22,10 +22,11 @@ public: true
 
 ## Blok 1 - Techniek - RC - 700m
 
-- `4x50m` `25 RC 6 beenslagen zijligging` > `25 RC` `R:0:15` - eerst balans vinden, daarna volledige slag {{coach: controleer vanaf de zijkant of oor, schouder en heup in een rechte lijn blijven}}
-- `4x50m` `25 RC enkelvoudige arm links/rechts` > `25 RC` `R:0:15` - per herhaling wisselen van werkarm {{coach: benoem vooraf welke arm werkt en kijk of de niet-werkende arm stil naast het lichaam blijft}}
-- `2x100m` `25 RC benen` > `25 RC armen` > `50 RC` `R:0:20` `70%` - techniek opbouwen naar volledige slag {{coach: laat de zwemmers pas versnellen als de ligging stabiel blijft na de arminzet}}
-- `2x50m` `RC` `R:0:15` `70%` - toepassen met lange lijn {{coach: tel het aantal slagen per baan en vraag om dezelfde lengte op de tweede 50m}}
+- `2x50m` `25 RC wrikken` > `25 RC samengestelde rugslag` `R:0:15` - eerst watergevoel, daarna hele beweging {{coach: kijk of de handen druk houden zonder dat de heupen zakken}}
+- `2x50m` `25 RC 6 beenslagen zijligging` > `25 RC` `R:0:15` - balans vinden voor de arminzet {{coach: controleer of oor, schouder en heup in een rechte lijn blijven}}
+- `2x75m` `25 RC enkelvoudige arm` > `25 BC rustig` > `25 RC` `R:0:20` `70%` - RC afwisselen met een korte contrastbaan BC {{coach: laat de BC-baan ontspannen blijven en vraag daarna dezelfde lengte terug in RC}}
+- `2x100m` `50 RC vuisten` > `50 RC lange doorhaal` `R:0:20` `70%` - eerst grip zoeken, daarna druk volledig afmaken {{coach: let op versnelling in de doorhaal zonder extra hoofdbeweging}}
+- `3x50m` `25 RC opbouw` > `25 BC ontspannen` `R:0:15` `75%` - techniek meenemen naar iets meer snelheid {{coach: tel slagen op de RC-baan en laat de BC-baan echt herstel blijven}}
 
 ## Blok 2 - Aerobic base - BC - 1300m
 

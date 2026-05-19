@@ -4,6 +4,31 @@ Deze map bevat herbruikbare trainingsblokken als Markdown.
 
 Lokale feedback-events worden tijdens development onder `feedback-local/` geschreven. Die map staat in `.gitignore` en wordt niet gecommit.
 
+## Feedback Uitlezen
+
+Productiefeedback staat in Vercel Blob onder `feedback/`.
+Gebruik voor inhoudelijke verwerking altijd eerst de Blob.
+Gebruik `feedback-local/` alleen voor lokale tests.
+
+```powershell
+cd app/viewer
+node scripts/read-blob-feedback.mjs --trainingSlug=2026-05-18-techniek-bc --year=2026 --month=05
+```
+
+Zonder filters leest het script alle Blob-feedback:
+
+```powershell
+cd app/viewer
+node scripts/read-blob-feedback.mjs
+```
+
+Na het verwerken van feedback hoort de verwerkte Blob-feedback leeg gemaakt te worden:
+
+```powershell
+cd app/viewer
+node scripts/read-blob-feedback.mjs --trainingSlug=2026-05-18-techniek-bc --year=2026 --month=05 --clear
+```
+
 ## Bestandsvorm
 
 Elk blok heeft YAML-frontmatter met metadata en daarna de setregels in hetzelfde formaat als uitgewerkte trainingen.

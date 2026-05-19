@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "dev:blob-feedback": "node scripts/dev-blob-feedback.mjs",
-    "test:blob-feedback": "node scripts/test-blob-feedback.mjs"
+    "test:blob-feedback": "node scripts/test-blob-feedback.mjs",
+    "read:blob-feedback": "node scripts/read-blob-feedback.mjs"
   },
   "dependencies": {
     "@vercel/blob": "^2.3.3",
