@@ -23,8 +23,8 @@ tags:
 
 ## Blok - Techniek - SS - 1400m
 
-- `4x50m` - `R:0:15` - `SS` - 75%, 50 B (2 beenslagen per armslag) {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- `1x200m` - `R:0:15` - `BC` - 75%, BC, 50 adem 1:3 > 50 adem 1:5 > 50 adem 1:3 > 50 adem 1:5 {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- `3x100m` - `R:0:15` - `BC` - 80%, BC, stevig duurtempo {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- extra rust 40-45s na elke ronde {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- HELE SET 2 KEER {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
+- `4x50m` - `R:0:15` - `SS` - 75%, 50 B (2 beenslagen per armslag) {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `1x200m` - `R:0:15` - `BC` - 75%, BC, 50 adem 1:3 > 50 adem 1:5 > 50 adem 1:3 > 50 adem 1:5 {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `3x100m` - `R:0:15` - `BC` - 80%, BC, stevig duurtempo {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- extra rust 40-45s na elke ronde {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- HELE SET 2 KEER {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}

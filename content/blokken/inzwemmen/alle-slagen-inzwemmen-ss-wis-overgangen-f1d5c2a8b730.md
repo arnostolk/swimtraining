@@ -23,6 +23,6 @@ tags:
 
 ## Blok - Inzwemmen - Alle slagen - 600m
 
-- `1x200m` `BC` `R:0:15` `70%` - rustig openen met lange lijn {{coach: houd het tempo laag en de doorhaal ontspannen}}
-- `4x50m` `25 SS benen` > `25 BC` `R:0:15` `70%` - benen wakker maken zonder haast {{coach: kijk of de knieen smal blijven en de overgang naar BC lang is}}
-- `4x50m` `25 WIS techniek` > `25 SNK` `R:0:20` `60%` - per 50m een andere slag in WIS-volgorde {{coach: gebruik VL > RC > SS > BC en laat de snorkelbaan als reset zwemmen}}
+- `1x200m` `BC` `R:0:15` `70%` - rustig openen met lange lijn {{coach: houd het tempo laag en de doorhaal ontspannen | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `4x50m` `25 SS benen` > `25 BC` `R:0:15` `70%` - benen wakker maken zonder haast {{coach: kijk of de knieen smal blijven en de overgang naar BC lang is | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `4x50m` `25 WIS techniek` > `25 SNK` `R:0:20` `60%` - per 50m een andere slag in WIS-volgorde {{coach: gebruik VL > RC > SS > BC en laat de snorkelbaan als reset zwemmen | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}

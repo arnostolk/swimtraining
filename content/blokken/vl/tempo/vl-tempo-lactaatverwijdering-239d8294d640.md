@@ -22,9 +22,9 @@ tags:
 
 ## Blok - Lactaatverwijdering - VL - 1650m
 
-- `6x25` - `S:0:45` - ronde 1: - BC - 95%, zwem hard zonder verval {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- `2x VL - 2x RC - 2x SS` - ronde 2 en 3: - 95%, zwem hard en qua gevoel zonder verval {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- `4x100` - `S:1:50` - `BC` - 2x 75% - zwem op een stevig duurtempo {{coach: laat de beweging vanuit de heupen komen en voorkom dat de armen de slag gaan trekken}}
-- `1x 100 BC 70%` - zwem op een makkelijk en rustig tempo {{coach: laat de beweging vanuit de heupen komen en voorkom dat de armen de slag gaan trekken}}
-- `1x 100 SNK herstel` {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt}}
-- HELE SET 3 KEER {{coach: laat de beweging vanuit de heupen komen en voorkom dat de armen de slag gaan trekken}}
+- `6x25` - `S:0:45` - ronde 1: - BC - 95%, zwem hard zonder verval {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `2x VL - 2x RC - 2x SS` - ronde 2 en 3: - 95%, zwem hard en qua gevoel zonder verval {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `4x100` - `S:1:50` - `BC` - 2x 75% - zwem op een stevig duurtempo {{coach: laat de beweging vanuit de heupen komen en voorkom dat de armen de slag gaan trekken | onderbouwing: Tempo moet uit ritme en timing ontstaan, zodat de zwemmer kan versnellen zonder ligging, ademhaling of watergevoel te verliezen.}}
+- `1x 100 BC 70%` - zwem op een makkelijk en rustig tempo {{coach: laat de beweging vanuit de heupen komen en voorkom dat de armen de slag gaan trekken | onderbouwing: Tempo moet uit ritme en timing ontstaan, zodat de zwemmer kan versnellen zonder ligging, ademhaling of watergevoel te verliezen.}}
+- `1x 100 SNK herstel` {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- HELE SET 3 KEER {{coach: laat de beweging vanuit de heupen komen en voorkom dat de armen de slag gaan trekken | onderbouwing: Tempo moet uit ritme en timing ontstaan, zodat de zwemmer kan versnellen zonder ligging, ademhaling of watergevoel te verliezen.}}

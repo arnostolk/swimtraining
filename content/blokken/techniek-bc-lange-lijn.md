@@ -22,6 +22,6 @@ tags:
 
 ## Blok - Techniek - BC - 700m
 
-- `4x50m` `BC` `R:0:15` `70%` - rustige lange lijn met stabiele ligging {{coach: kijk of hoofd en heupen rustig blijven liggen}}
-- `4x75m` `BC` `R:0:20` `75%` - eerste `25m` techniek, daarna ritme vasthouden {{coach: laat de zwemmers dezelfde lengte per slag houden}}
-- `4x50m` `BC` `R:0:20` `80%` - vlot maar technisch netjes naar de muur {{coach: bewaak dat versnellen niet korter zwemmen wordt}}
+- `4x50m` `BC` `R:0:15` `70%` - rustige lange lijn met stabiele ligging {{coach: kijk of hoofd en heupen rustig blijven liggen | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `4x75m` `BC` `R:0:20` `75%` - eerste `25m` techniek, daarna ritme vasthouden {{coach: laat de zwemmers dezelfde lengte per slag houden | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `4x50m` `BC` `R:0:20` `80%` - vlot maar technisch netjes naar de muur {{coach: bewaak dat versnellen niet korter zwemmen wordt | onderbouwing: Een compacte draai, rechte afzet en smalle stroomlijn besparen snelheid en geven de zwemmer direct een stabiele lijn na de muur.}}

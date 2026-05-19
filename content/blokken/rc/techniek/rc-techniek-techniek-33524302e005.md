@@ -24,8 +24,8 @@ tags:
 
 ## Blok - Techniek - RC - 800m
 
-- `1x100` - RC benen in stroomlijn {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `1x100` - li heen/re terug {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `1x100` - lijntrekken {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `1x100` - met bekertje {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `2x200m` - RC a1 {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
+- `1x100` - RC benen in stroomlijn {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Een compacte draai, rechte afzet en smalle stroomlijn besparen snelheid en geven de zwemmer direct een stabiele lijn na de muur.}}
+- `1x100` - li heen/re terug {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `1x100` - lijntrekken {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `1x100` - met bekertje {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `2x200m` - RC a1 {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}

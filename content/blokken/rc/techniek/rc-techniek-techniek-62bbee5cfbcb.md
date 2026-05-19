@@ -23,9 +23,9 @@ tags:
 
 ## Blok - Techniek - RC - 800m
 
-- ALLES MET PADDLES {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `2x50m` - heen: appelsplukken, terug: duim eruit, pink erin {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `2x50m` - heen: linker arm langs lichaam, terug: rechter arm langs lichaam {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `2x50m` - 12 beenslagen - glijden op 45 graden {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `1x100m` - rugcrawl - A1 {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `2x` {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
+- ALLES MET PADDLES {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `2x50m` - heen: appelsplukken, terug: duim eruit, pink erin {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `2x50m` - heen: linker arm langs lichaam, terug: rechter arm langs lichaam {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `2x50m` - 12 beenslagen - glijden op 45 graden {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `1x100m` - rugcrawl - A1 {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `2x` {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}

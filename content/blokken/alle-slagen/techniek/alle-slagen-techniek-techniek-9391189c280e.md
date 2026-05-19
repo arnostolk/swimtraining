@@ -23,10 +23,10 @@ tags:
 
 ## Blok - Techniek - Alle slagen - 900m
 
-- Voor de jonge zwemmers keerpunt RUG en keerpunt VLINDER! {{coach: kijk naar een compacte draai, krachtige afzet en stabiele stroomlijn na de muur}}
-- `2x50m` - RC dubbele overhaal {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden}}
-- `2x50m` - RC met vuisten {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden}}
-- `2x50m` - lijn trekken {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden}}
-- `2x50m` - bekertje op hoofd {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden}}
-- `4x100m` - A1 {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden}}
-- `1x100m` - `SNK` {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt}}
+- Voor de jonge zwemmers keerpunt RUG en keerpunt VLINDER! {{coach: kijk naar een compacte draai, krachtige afzet en stabiele stroomlijn na de muur | onderbouwing: Een compacte draai, rechte afzet en smalle stroomlijn besparen snelheid en geven de zwemmer direct een stabiele lijn na de muur.}}
+- `2x50m` - RC dubbele overhaal {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden | onderbouwing: Een helder technisch aandachtspunt maakt feedback concreet en helpt zwemmers dezelfde kwaliteit per herhaling vast te houden.}}
+- `2x50m` - RC met vuisten {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden | onderbouwing: Een helder technisch aandachtspunt maakt feedback concreet en helpt zwemmers dezelfde kwaliteit per herhaling vast te houden.}}
+- `2x50m` - lijn trekken {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden | onderbouwing: Een helder technisch aandachtspunt maakt feedback concreet en helpt zwemmers dezelfde kwaliteit per herhaling vast te houden.}}
+- `2x50m` - bekertje op hoofd {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden | onderbouwing: Een helder technisch aandachtspunt maakt feedback concreet en helpt zwemmers dezelfde kwaliteit per herhaling vast te houden.}}
+- `4x100m` - A1 {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden | onderbouwing: Een helder technisch aandachtspunt maakt feedback concreet en helpt zwemmers dezelfde kwaliteit per herhaling vast te houden.}}
+- `1x100m` - `SNK` {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}

@@ -23,4 +23,4 @@ tags:
 
 ## Blok - Alle keerpunten 2x uitvoeren. Niet snel maar wel technisch goed uitvoeren - Alle slagen
 
-- Nog een keer alle keerpunten maar nu op wedstrijd tempo. Snel en goed! {{coach: kijk naar een compacte draai, krachtige afzet en stabiele stroomlijn na de muur}}
+- Nog een keer alle keerpunten maar nu op wedstrijd tempo. Snel en goed! {{coach: kijk naar een compacte draai, krachtige afzet en stabiele stroomlijn na de muur | onderbouwing: Een compacte draai, rechte afzet en smalle stroomlijn besparen snelheid en geven de zwemmer direct een stabiele lijn na de muur.}}

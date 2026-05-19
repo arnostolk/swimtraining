@@ -23,6 +23,6 @@ tags:
 
 ## Blok - Inzwemmen - Alle slagen - 600m
 
-- `1x300m` `R:0:20` `70%` - `100 BC` > `100 WIS` > `100 BC` {{coach: houd de eerste 100m rustig en laat WIS in de volgorde VL > RC > SS > BC zwemmen}}
-- `2x100m` `R:0:15` `70%` - `25 RC benen` > `50 RC armen` > `25 RC` {{coach: kijk of de heup hoog blijft en de ademhaling rustig is}}
-- `2x50m` `RC` > `BC` `R:0:15` `75%` - soepel doortrekken met lange lijn {{coach: laat de overgang naar BC lang blijven, zonder extra tempo te maken}}
+- `1x300m` `R:0:20` `70%` - `100 BC` > `100 WIS` > `100 BC` {{coach: houd de eerste 100m rustig en laat WIS in de volgorde VL > RC > SS > BC zwemmen | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `2x100m` `R:0:15` `70%` - `25 RC benen` > `50 RC armen` > `25 RC` {{coach: kijk of de heup hoog blijft en de ademhaling rustig is | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `2x50m` `RC` > `BC` `R:0:15` `75%` - soepel doortrekken met lange lijn {{coach: laat de overgang naar BC lang blijven, zonder extra tempo te maken | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}

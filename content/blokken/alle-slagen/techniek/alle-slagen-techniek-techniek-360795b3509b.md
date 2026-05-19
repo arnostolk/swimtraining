@@ -23,9 +23,9 @@ tags:
 
 ## Blok - Techniek - Alle slagen - 800m
 
-- `2x75m` - 50m SS benen, 25m SS doorzwemmen {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden}}
-- `2x75m` - 50m SS benen - handen op de billen - 25m SS doorzwemmen {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden}}
-- `1x100m` - SS - lekker doorzwemmen: 50m A2, 50m A1 {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden}}
-- `2x75m` - 50m 2 armslagen per beenslag - 25m 2 beenslagen per armslag {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden}}
-- `2x75m` - 50m SS met vuisten - 25m ssbenen op de rug (knieen onder water houden) {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden}}
-- `1x100m` - SS - lekker doorzwemmen: 50m A2, 50m A1 {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden}}
+- `2x75m` - 50m SS benen, 25m SS doorzwemmen {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden | onderbouwing: Een beenslag vanuit de heupen houdt de lijn lang en voorkomt dat knieen of voeten de weerstand vergroten.}}
+- `2x75m` - 50m SS benen - handen op de billen - 25m SS doorzwemmen {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden | onderbouwing: Een beenslag vanuit de heupen houdt de lijn lang en voorkomt dat knieen of voeten de weerstand vergroten.}}
+- `1x100m` - SS - lekker doorzwemmen: 50m A2, 50m A1 {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden | onderbouwing: Een helder technisch aandachtspunt maakt feedback concreet en helpt zwemmers dezelfde kwaliteit per herhaling vast te houden.}}
+- `2x75m` - 50m 2 armslagen per beenslag - 25m 2 beenslagen per armslag {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden | onderbouwing: Een beenslag vanuit de heupen houdt de lijn lang en voorkomt dat knieen of voeten de weerstand vergroten.}}
+- `2x75m` - 50m SS met vuisten - 25m ssbenen op de rug (knieen onder water houden) {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden | onderbouwing: Een beenslag vanuit de heupen houdt de lijn lang en voorkomt dat knieen of voeten de weerstand vergroten.}}
+- `1x100m` - SS - lekker doorzwemmen: 50m A2, 50m A1 {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden | onderbouwing: Een helder technisch aandachtspunt maakt feedback concreet en helpt zwemmers dezelfde kwaliteit per herhaling vast te houden.}}

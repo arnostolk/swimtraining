@@ -51,7 +51,7 @@ tags:
 
 ## Blok - Techniek - BC - 700m
 
-- `4x50m` `BC` `R:0:15` `70%` - rustige lange lijn {{coach: bewaak ontspannen ligging}}
+- `4x50m` `BC` `R:0:15` `70%` - rustige lange lijn {{coach: bewaak ontspannen ligging | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
 ```
 
 ## Import

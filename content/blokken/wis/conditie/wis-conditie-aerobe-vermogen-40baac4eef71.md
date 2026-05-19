@@ -24,8 +24,8 @@ tags:
 
 ## Blok - Aerobe vermogen - WIS - 2100m
 
-- `1x300` - `BC` - zwem op een rustig en makkelijk duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `6x50` - `1x VL > 2x RC > 1x SS > 2x BC` - Ronde 1: - 85-90%, voel dat je een klein beetje reserve hebt {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- Ronde 2 & 3: - VL > RC > SS > 3x BC - 85-90%, voel dat je een klein beetje reserve hebt {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- `1x100` - `SNK` - herstel {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt}}
-- HELE SET 3 KEER {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
+- `1x300` - `BC` - zwem op een rustig en makkelijk duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `6x50` - `1x VL > 2x RC > 1x SS > 2x BC` - Ronde 1: - 85-90%, voel dat je een klein beetje reserve hebt {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- Ronde 2 & 3: - VL > RC > SS > 3x BC - 85-90%, voel dat je een klein beetje reserve hebt {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `1x100` - `SNK` - herstel {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- HELE SET 3 KEER {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}

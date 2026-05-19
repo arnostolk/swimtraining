@@ -24,8 +24,8 @@ tags:
 
 ## Blok - RC, BC, WIS - Alle slagen - 2200m
 
-- `4x100` - `2x op 70% - 2x op 80%` - RC R:0:15 {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
-- `2x200` - `1x op 70% - 1x op 80%` - BC R:0:15 {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
-- `2x300` - RC > BC R:0:15 - 50 RC op 70% > 50 BC 75-80% {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
-- `4x100` - `2x op 70% - 2x op 80%` - BC R:0:15 {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
-- `2x200` - `1x op 70% - 1x op 80%` - WIS R:0:15 {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
+- `4x100` - `2x op 70% - 2x op 80%` - RC R:0:15 {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `2x200` - `1x op 70% - 1x op 80%` - BC R:0:15 {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `2x300` - RC > BC R:0:15 - 50 RC op 70% > 50 BC 75-80% {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `4x100` - `2x op 70% - 2x op 80%` - BC R:0:15 {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `2x200` - `1x op 70% - 1x op 80%` - WIS R:0:15 {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}

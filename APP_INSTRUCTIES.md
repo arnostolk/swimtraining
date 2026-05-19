@@ -69,7 +69,8 @@ De app is een mobile-first coach-tool waarmee trainers vooral de training van va
 - Als er geen vorige of volgende training is, wordt een disabled knop getoond.
 - Geplande trainingen zonder uitgewerkt Markdown-bestand hebben toch een detailpagina.
 - Op zo'n detailpagina is zichtbaar dat de training nog niet is uitgewerkt.
-- Setregels met `{{coach: ...}}` krijgen extra trainerinfo.
+- Setregels met `{{coach: tip | onderbouwing: zin}}` krijgen extra trainerinfo.
+- De bottom sheet toont de tip en, wanneer aanwezig, de onderbouwing direct daaronder.
 - De hele setregel wordt dan klikbaar.
 - De trainerinfo verschijnt als bottom sheet op mobiel.
 - In de gewone lijstweergave wordt de coachtekst niet voluit getoond.

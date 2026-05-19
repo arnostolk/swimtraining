@@ -24,8 +24,8 @@ tags:
 
 ## Blok - Techniek en sprints - SS - 800m
 
-- `1x50m` - 1 armslag op drie beenslagen - armen in stroomlijn {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- `1x50m` - SS armen (niet te breed) - met pullbuoy {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- `8x25m` - SS benen (armen in stroomlijn) - HARD - rust 20sec {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- `1x100m` - SS lekker doorzwemmen {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- minuutje rust - hele set herhalen {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
+- `1x50m` - 1 armslag op drie beenslagen - armen in stroomlijn {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Een compacte draai, rechte afzet en smalle stroomlijn besparen snelheid en geven de zwemmer direct een stabiele lijn na de muur.}}
+- `1x50m` - SS armen (niet te breed) - met pullbuoy {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}
+- `8x25m` - SS benen (armen in stroomlijn) - HARD - rust 20sec {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `1x100m` - SS lekker doorzwemmen {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}
+- minuutje rust - hele set herhalen {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}

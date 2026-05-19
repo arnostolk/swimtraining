@@ -30,7 +30,12 @@ function flattenText(children: ReactNode): string {
   return "";
 }
 
-function parseCoachInfo(text: string) {
+type CoachInfo = {
+  coachText?: string;
+  rationaleText?: string;
+};
+
+function parseCoachInfo(text: string): CoachInfo {
   const match = text.match(/\{\{coach:\s*(.+?)\s*\}\}/i);
 
   if (!match) {
@@ -39,8 +44,18 @@ function parseCoachInfo(text: string) {
     };
   }
 
+  const rawCoachInfo = match[1].trim();
+  const rationaleMatch = rawCoachInfo.match(/^(.*?)\s*(?:\|\s*)?onderbouwing\s*:\s*(.+)$/i);
+
+  if (rationaleMatch) {
+    return {
+      coachText: rationaleMatch[1].trim(),
+      rationaleText: rationaleMatch[2].trim(),
+    };
+  }
+
   return {
-    coachText: match[1].trim(),
+    coachText: rawCoachInfo,
   };
 }
 
@@ -105,7 +120,7 @@ function splitContentIntoSections(content: string) {
   return sections.filter((section) => section.content.length > 0);
 }
 
-function CoachBottomSheet({ coachText, onClose }: { coachText: string; onClose: () => void }) {
+function CoachBottomSheet({ coachInfo, onClose }: { coachInfo: CoachInfo; onClose: () => void }) {
   return (
     <div className="coach-sheet-backdrop" onClick={onClose} role="presentation">
       <div className="coach-sheet" onClick={(event) => event.stopPropagation()} role="dialog" aria-modal="true" aria-label="Trainerinfo">
@@ -116,23 +131,34 @@ function CoachBottomSheet({ coachText, onClose }: { coachText: string; onClose: 
             Sluiten
           </button>
         </div>
-        <p>{coachText}</p>
+        <div className="coach-sheet__body">
+          <div>
+            <h3>Tip</h3>
+            <p>{coachInfo.coachText}</p>
+          </div>
+          {coachInfo.rationaleText ? (
+            <div>
+              <h3>Onderbouwing</h3>
+              <p>{coachInfo.rationaleText}</p>
+            </div>
+          ) : null}
+        </div>
       </div>
     </div>
   );
 }
 
 export function TrainingMarkdown({ content, feedbackBlocks = [], trainingSlug, datum }: TrainingMarkdownProps) {
-  const [activeCoachText, setActiveCoachText] = useState<string | null>(null);
+  const [activeCoachInfo, setActiveCoachInfo] = useState<CoachInfo | null>(null);
   const sections = useMemo(() => splitContentIntoSections(content), [content]);
 
   const components = useMemo(
     () => ({
       li(props: { children?: ReactNode }) {
         const rawText = flattenText(props.children ?? "");
-        const { coachText } = parseCoachInfo(rawText);
+        const coachInfo = parseCoachInfo(rawText);
 
-        if (!coachText) {
+        if (!coachInfo.coachText) {
           return <li>{props.children}</li>;
         }
 
@@ -140,11 +166,11 @@ export function TrainingMarkdown({ content, feedbackBlocks = [], trainingSlug, d
           <li className="coach-line-item">
             <span
               className="coach-line-hitarea"
-              onClick={() => setActiveCoachText(coachText)}
+              onClick={() => setActiveCoachInfo(coachInfo)}
               onKeyDown={(event) => {
                 if (event.key === "Enter" || event.key === " ") {
                   event.preventDefault();
-                  setActiveCoachText(coachText);
+                  setActiveCoachInfo(coachInfo);
                 }
               }}
               role="button"
@@ -180,7 +206,7 @@ export function TrainingMarkdown({ content, feedbackBlocks = [], trainingSlug, d
         );
       })}
 
-      {activeCoachText ? <CoachBottomSheet coachText={activeCoachText} onClose={() => setActiveCoachText(null)} /> : null}
+      {activeCoachInfo ? <CoachBottomSheet coachInfo={activeCoachInfo} onClose={() => setActiveCoachInfo(null)} /> : null}
     </>
   );
 }

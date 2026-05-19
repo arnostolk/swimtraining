@@ -26,11 +26,11 @@ tags:
 
 ## Blok - Techniek - RC - 850m
 
-- `3x50m` - wrikken heen - terug RC {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `2x50m` - li heen - re terug - met paddles {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `1x100m` - RC - 3e baan hard - rest op rustig en alles op techniek {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- `2x50m` - 4 beenslagen per armslag - roteer op je zij - met bekertje op je hoofd {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `1x100m` - RC - 3e baan hard - rest op rustig en alles op techniek {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- `2x50m` - appelsplukken {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `1x100m` - RC - 3e baan hard - rest op rustig en alles op techniek {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- `2x50m` - dubbele overhaal {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
+- `3x50m` - wrikken heen - terug RC {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `2x50m` - li heen - re terug - met paddles {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `1x100m` - RC - 3e baan hard - rest op rustig en alles op techniek {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `2x50m` - 4 beenslagen per armslag - roteer op je zij - met bekertje op je hoofd {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `1x100m` - RC - 3e baan hard - rest op rustig en alles op techniek {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `2x50m` - appelsplukken {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `1x100m` - RC - 3e baan hard - rest op rustig en alles op techniek {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `2x50m` - dubbele overhaal {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}

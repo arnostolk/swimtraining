@@ -23,4 +23,4 @@ tags:
 
 ## Blok - Startjes met sprinten - Alle slagen
 
-- Keerpunten {{coach: kijk naar een compacte draai, krachtige afzet en stabiele stroomlijn na de muur}}
+- Keerpunten {{coach: kijk naar een compacte draai, krachtige afzet en stabiele stroomlijn na de muur | onderbouwing: Een strakke start en beheerste breakout zetten snelheid om in lengte, zodat de eerste slagen krachtig blijven zonder gehaast te worden.}}

@@ -22,8 +22,8 @@ tags:
 
 ## Blok - Lactaatverwijdering - Alle slagen - 1800m
 
-- `4x25` - `VL` - 90%, makkelijk hard {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- `1x100` - VL > RC - 25 VL 90% > 75 RC 75-80% op een stevig duurtempo {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- `2x200` - `BC` - 70%, zwem op een makkelijk duurtempo {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
-- HELE SET 3 KEER. 1e keer VL, 2e keer RC, 3e keer SS {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
-- 60 sec extra rust na iedere keer {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
+- `4x25` - `VL` - 90%, makkelijk hard {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `1x100` - VL > RC - 25 VL 90% > 75 RC 75-80% op een stevig duurtempo {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `2x200` - `BC` - 70%, zwem op een makkelijk duurtempo {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}
+- HELE SET 3 KEER. 1e keer VL, 2e keer RC, 3e keer SS {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}
+- 60 sec extra rust na iedere keer {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}

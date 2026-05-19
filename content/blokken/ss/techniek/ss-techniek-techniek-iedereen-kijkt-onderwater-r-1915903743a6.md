@@ -23,10 +23,10 @@ tags:
 
 ## Blok - Techniek - Iedereen kijkt onderwater recht naar beneden - SS - 1000m
 
-- `2x50m` - SS B + Plank {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- `2x50m` - SS A + Pullbuoy {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- `2x50m` - SSA Borst benen - hoog tempo! {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- `2x50m` - SS hoog tempo {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- `1x100m` - borst {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- `4x100m` - `SS` {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- `1x100m` - Borst {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
+- `2x50m` - SS B + Plank {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `2x50m` - SS A + Pullbuoy {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `2x50m` - SSA Borst benen - hoog tempo! {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `2x50m` - SS hoog tempo {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `1x100m` - borst {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `4x100m` - `SS` {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `1x100m` - Borst {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}

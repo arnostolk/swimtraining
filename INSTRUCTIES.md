@@ -113,8 +113,9 @@ Het doel is een werkwijze in 2 stappen:
 - Een kortere wisselslagreeks behoudt dezelfde relatieve volgorde.
 - Als `WIS` als volledige set wordt gebruikt, is de afstand per herhaling `100m` of een veelvoud daarvan zodat alle vier slagen volledig terugkomen.
 - Nooit uitgeschreven als 'vlinder', 'rugcrawl', 'schoolslag', etc.
-- Trainerinfo per setregel wordt genoteerd als `{{coach: ...}}`
-- Voorbeeld: `3x200m` `BC` `R:0:20` `75%` `{{coach: let op lange doorhaal en stabiele ellebooghoogte}}`
+- Trainerinfo per setregel wordt genoteerd als `{{coach: tip | onderbouwing: zin}}`
+- De tip beschrijft waar de trainer op moet letten; de onderbouwing legt in 1 zin uit wat de toegevoegde waarde van de oefening is.
+- Voorbeeld: `3x200m` `BC` `R:0:20` `75%` `{{coach: let op lange doorhaal en stabiele ellebooghoogte | onderbouwing: deze oefening ontwikkelt een efficiente ligging waardoor zwemmers tempo kunnen vasthouden met minder energieverlies}}`
 - `{{coach: ...}}` hoort direct aan het einde van de setregel
 - In elk trainingsblok krijgt elke setregel een trainerinfo. Er is altijd wel een nuttig aandachtspunt voor de trainer.
 - Bij het inzwemmen is trainerinfo optioneel: toevoegen wanneer het inhoudelijk iets oplevert, weglaten mag als de regel te basaal is.

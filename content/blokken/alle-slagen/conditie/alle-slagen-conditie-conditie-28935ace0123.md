@@ -23,7 +23,7 @@ tags:
 
 ## Blok - Conditie - Alle slagen - 800m
 
-- `8x50m` - VL > RC - 25 VL 80% > 25 RC 80%, {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `4x100m` - `2x VL > RC > BC` - 25 VL 80% > 50 RC 80%  > 25 BC rustig herstel {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt}}
-- `1x WIS` - zwem de VL makkelijk door, versnel op de rug, rest rustig door {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `1x SNK` - herstel {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt}}
+- `8x50m` - VL > RC - 25 VL 80% > 25 RC 80%, {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `4x100m` - `2x VL > RC > BC` - 25 VL 80% > 50 RC 80%  > 25 BC rustig herstel {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `1x WIS` - zwem de VL makkelijk door, versnel op de rug, rest rustig door {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `1x SNK` - herstel {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}

@@ -23,8 +23,8 @@ tags:
 
 ## Blok - BC en RC tempo - Alle slagen - 1350m
 
-- `1 x 300` - `R:0:15` - `BC` {{coach: bewaak dat het tempo uit timing komt en niet uit korter trekken}}
-- `2 x 100` - `R:0:15` - `RC` {{coach: bewaak dat het tempo uit timing komt en niet uit korter trekken}}
-- `1 x 300` - `R:0:15` - `BC` {{coach: bewaak dat het tempo uit timing komt en niet uit korter trekken}}
-- `1 x 150` - `R:0:15` - `BC` {{coach: bewaak dat het tempo uit timing komt en niet uit korter trekken}}
-- `8 x 50` - `R:0:15` - `RC` {{coach: bewaak dat het tempo uit timing komt en niet uit korter trekken}}
+- `1 x 300` - `R:0:15` - `BC` {{coach: bewaak dat het tempo uit timing komt en niet uit korter trekken | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `2 x 100` - `R:0:15` - `RC` {{coach: bewaak dat het tempo uit timing komt en niet uit korter trekken | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `1 x 300` - `R:0:15` - `BC` {{coach: bewaak dat het tempo uit timing komt en niet uit korter trekken | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `1 x 150` - `R:0:15` - `BC` {{coach: bewaak dat het tempo uit timing komt en niet uit korter trekken | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `8 x 50` - `R:0:15` - `RC` {{coach: bewaak dat het tempo uit timing komt en niet uit korter trekken | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}

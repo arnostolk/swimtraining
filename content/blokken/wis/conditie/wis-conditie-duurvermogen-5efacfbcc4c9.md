@@ -24,7 +24,7 @@ tags:
 
 ## Blok - Duurvermogen - WIS - 1800m
 
-- `4x100m` - `R:0:15` - `BC` - 50 op 75% > 50 op 80% {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `1x200m` - `R:0:30` - wisselslag - 0.8 {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- HELE SET 3 KEER {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- elke nieuwe ronde samen starten {{coach: kijk naar een compacte draai, krachtige afzet en stabiele stroomlijn na de muur}}
+- `4x100m` - `R:0:15` - `BC` - 50 op 75% > 50 op 80% {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `1x200m` - `R:0:30` - wisselslag - 0.8 {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- HELE SET 3 KEER {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- elke nieuwe ronde samen starten {{coach: kijk naar een compacte draai, krachtige afzet en stabiele stroomlijn na de muur | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}

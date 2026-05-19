@@ -24,7 +24,7 @@ tags:
 
 ## Blok - Anaerobe capaciteit - Alle slagen - 2100m
 
-- `18x25` - `S:0:35` - VL - BC - 1x VL 90-95%, makkelijk hard - 2x BC 65-70%, makkelijk duurtempo {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- `2x300` - `R:0:20` - `BC` - 70%, zwem op een makkelijk duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `18x25` - `S:0:35` - RC - BC - 1x RC 90-95%, makkelijk hard - 2x BC 65-70%, makkelijk duurtempo {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- `2x300` - `R:0:20` - SS - BC - 50 SS > 100 BC 70%, zwem op een makkelijk duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
+- `18x25` - `S:0:35` - VL - BC - 1x VL 90-95%, makkelijk hard - 2x BC 65-70%, makkelijk duurtempo {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `2x300` - `R:0:20` - `BC` - 70%, zwem op een makkelijk duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `18x25` - `S:0:35` - RC - BC - 1x RC 90-95%, makkelijk hard - 2x BC 65-70%, makkelijk duurtempo {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `2x300` - `R:0:20` - SS - BC - 50 SS > 100 BC 70%, zwem op een makkelijk duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}

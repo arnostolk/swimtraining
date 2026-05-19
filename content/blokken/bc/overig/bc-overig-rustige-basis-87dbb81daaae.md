@@ -22,7 +22,7 @@ tags:
 
 ## Blok - Rustige basis - BC - 1200m
 
-- `1x200` - `BC` - `R:20` - 70%, makkelijk duurtempo, adem 1 op 3 {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal}}
-- `2x200` - `R:20` - BC - WIS - 1e BC - 2e WIS, 75-80%, zwem stevig door {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal}}
-- `1x200` - `BC` - `R:20` - 70%, makkelijk duurtempo, adem 1 op 3 {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal}}
-- `2x200` - `R:20` - BC - WIS - 1x BC - 1x WIS, 75-80%, zwem stevig door {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal}}
+- `1x200` - `BC` - `R:20` - 70%, makkelijk duurtempo, adem 1 op 3 {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal | onderbouwing: Tempo moet uit ritme en timing ontstaan, zodat de zwemmer kan versnellen zonder ligging, ademhaling of watergevoel te verliezen.}}
+- `2x200` - `R:20` - BC - WIS - 1e BC - 2e WIS, 75-80%, zwem stevig door {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `1x200` - `BC` - `R:20` - 70%, makkelijk duurtempo, adem 1 op 3 {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal | onderbouwing: Tempo moet uit ritme en timing ontstaan, zodat de zwemmer kan versnellen zonder ligging, ademhaling of watergevoel te verliezen.}}
+- `2x200` - `R:20` - BC - WIS - 1x BC - 1x WIS, 75-80%, zwem stevig door {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}

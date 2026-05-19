@@ -23,8 +23,8 @@ tags:
 
 ## Blok - Alle slagen - aerobe capaciteit - Alle slagen - 2200m
 
-- `2x400` - `R:0:20` - `1x BC - 1x (100 WIS > 100 BC)` - 70%, zwem op een rustig duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `6x50` - `R:0:20` - 25 VL op 75% > 25 RC op 80-85% {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `1x400` - `R:0:20` - `1x BC` - 70%, zwem op een rustig duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `6x50` - `R:0:20` - 25 RC op 75% > 25 SS op 80-85% {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `1x400` - `R:0:20` - `1x BC` - 70%, zwem op een rustig duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
+- `2x400` - `R:0:20` - `1x BC - 1x (100 WIS > 100 BC)` - 70%, zwem op een rustig duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `6x50` - `R:0:20` - 25 VL op 75% > 25 RC op 80-85% {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `1x400` - `R:0:20` - `1x BC` - 70%, zwem op een rustig duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `6x50` - `R:0:20` - 25 RC op 75% > 25 SS op 80-85% {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `1x400` - `R:0:20` - `1x BC` - 70%, zwem op een rustig duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}

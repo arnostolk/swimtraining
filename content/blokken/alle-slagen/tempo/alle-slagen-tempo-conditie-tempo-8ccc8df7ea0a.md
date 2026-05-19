@@ -26,9 +26,9 @@ tags:
 
 ## Blok - Conditie - tempo - Alle slagen - 1300m
 
-- `8X25M` - `VL` - 75-80%, makkelijk doorzwemmen {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `6X100` - `3x RC A` - 70-75%, zoek een goed ritme op de armen {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `3x RC` - 70-75%, zwem zoveel mogelijk op de armen, lichte beenslag {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `2X100` - `SS` - 70-75% {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `1X200` - `BC` - 70%, makkelijk duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `1X100` - `SNK` - herstel {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt}}
+- `8X25M` - `VL` - 75-80%, makkelijk doorzwemmen {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `6X100` - `3x RC A` - 70-75%, zoek een goed ritme op de armen {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `3x RC` - 70-75%, zwem zoveel mogelijk op de armen, lichte beenslag {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `2X100` - `SS` - 70-75% {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `1X200` - `BC` - 70%, makkelijk duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `1X100` - `SNK` - herstel {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}

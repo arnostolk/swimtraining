@@ -22,7 +22,7 @@ tags:
 
 ## Blok - Snelheid - Alle slagen - 1000m
 
-- `8x75m` - `HARD` - vli of BC - start elke 2 minuten {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- `1x100m` - SNK herstel {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt}}
-- `8x25m` - rug of SS - HARD!! - rust: 90 sec {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- `1x100m` - SNK herstel {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt}}
+- `8x75m` - `HARD` - vli of BC - start elke 2 minuten {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `1x100m` - SNK herstel {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `8x25m` - rug of SS - HARD!! - rust: 90 sec {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `1x100m` - SNK herstel {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}

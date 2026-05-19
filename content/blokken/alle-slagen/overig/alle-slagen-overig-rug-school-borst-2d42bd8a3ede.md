@@ -23,7 +23,7 @@ tags:
 
 ## Blok - Rug, School Borst - Alle slagen - 2400m
 
-- `4 x 150` - RC - BC - 50 RC > 50 BC > 50 RC {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
-- `4 x 200` - `BC` {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
-- `4 x 150` - RC -SS - BC - 25 RC > 25 SS > 50 BC > 25 RC > 25 SS {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
-- `4 x 100` - `BC` {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
+- `4 x 150` - RC - BC - 50 RC > 50 BC > 50 RC {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}
+- `4 x 200` - `BC` {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}
+- `4 x 150` - RC -SS - BC - 25 RC > 25 SS > 50 BC > 25 RC > 25 SS {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}
+- `4 x 100` - `BC` {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}

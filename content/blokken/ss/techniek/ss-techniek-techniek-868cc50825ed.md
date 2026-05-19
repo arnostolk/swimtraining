@@ -23,10 +23,10 @@ tags:
 
 ## Blok - Techniek - SS - 800m
 
-- `2x50m` - SS armen - BC benen (met snorkel) {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- `2x50m` - SS 1 slag gewoon - 1 helemaal onder water - goed voor timing en reductie weerstand {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- `2x50m` - SS benen - om en om {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- `2x50m` - SS armen - BC benen - hoofd boven water houden de hele baan {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- `2x50m` - SS benen - met snorkel en pullbouy (1e 50) 2e: zonder pullbioy (armen in stroomlijn) {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- `2x50m` - op de rug - SS benen - armen in stroomlijn {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- `1x200m` - SS lekker doorzwemmen {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
+- `2x50m` - SS armen - BC benen (met snorkel) {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `2x50m` - SS 1 slag gewoon - 1 helemaal onder water - goed voor timing en reductie weerstand {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `2x50m` - SS benen - om en om {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `2x50m` - SS armen - BC benen - hoofd boven water houden de hele baan {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `2x50m` - SS benen - met snorkel en pullbouy (1e 50) 2e: zonder pullbioy (armen in stroomlijn) {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `2x50m` - op de rug - SS benen - armen in stroomlijn {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Een compacte draai, rechte afzet en smalle stroomlijn besparen snelheid en geven de zwemmer direct een stabiele lijn na de muur.}}
+- `1x200m` - SS lekker doorzwemmen {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}

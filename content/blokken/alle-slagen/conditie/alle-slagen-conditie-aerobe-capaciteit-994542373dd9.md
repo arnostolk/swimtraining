@@ -23,8 +23,8 @@ tags:
 
 ## Blok - Aerobe capaciteit - Alle slagen - 2600m
 
-- `2x600m` - BC > RC R:20 - 150 BC 70% > 50 RC  75% lichte beenslag, ritmische armslag {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `6x50m` - RC S:1:00 - 75% lichte beenslag, ritmische armslag {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- 60 sec rust {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `2x400m` - BC > RC R:20 - 150 BC 70% > 50 RC  75% lichte beenslag, ritmische armslag {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `6x50m` - BC S:1:00 - 75-80%, stevig duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
+- `2x600m` - BC > RC R:20 - 150 BC 70% > 50 RC  75% lichte beenslag, ritmische armslag {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `6x50m` - RC S:1:00 - 75% lichte beenslag, ritmische armslag {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- 60 sec rust {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `2x400m` - BC > RC R:20 - 150 BC 70% > 50 RC  75% lichte beenslag, ritmische armslag {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `6x50m` - BC S:1:00 - 75-80%, stevig duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}

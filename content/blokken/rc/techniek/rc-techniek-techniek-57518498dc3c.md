@@ -23,9 +23,9 @@ tags:
 
 ## Blok - Techniek - RC - 900m
 
-- `2x50m` - RC dubbele overhaal - met zoomers {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `2x50m` - RC met vuisten - met zoomers {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `2x50m` - lijn trekken {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `2x50m` - bekertje op hoofd {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `4x100m` - A1 - lange owfs {{coach: kijk naar een compacte draai, krachtige afzet en stabiele stroomlijn na de muur}}
-- `1x100m` - `SNK` {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt}}
+- `2x50m` - RC dubbele overhaal - met zoomers {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `2x50m` - RC met vuisten - met zoomers {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `2x50m` - lijn trekken {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `2x50m` - bekertje op hoofd {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `4x100m` - A1 - lange owfs {{coach: kijk naar een compacte draai, krachtige afzet en stabiele stroomlijn na de muur | onderbouwing: Een compacte draai, rechte afzet en smalle stroomlijn besparen snelheid en geven de zwemmer direct een stabiele lijn na de muur.}}
+- `1x100m` - `SNK` {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}

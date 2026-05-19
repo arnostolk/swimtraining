@@ -22,4 +22,4 @@ tags:
 
 ## Blok - 2 x 200 SNK - BC
 
-- `1x 100 BC benen` {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal}}
+- `1x 100 BC benen` {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}

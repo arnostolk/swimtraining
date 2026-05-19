@@ -23,9 +23,9 @@ tags:
 
 ## Blok - {Doel} - WIS - 1000m
 
-- `16 x 25` - `3x VL` - S '45 - 1x 80% - 1x 90% - 1x max {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- `1x SNK` - herstel {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt}}
-- `3 x BC` - `1x 80% - 1x 90% - 1x max` {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- `1x SNK` - herstel {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt}}
-- `3 x 200` - `R 20` - mag met Z, 75 BC > 25 RC, lekker rustig duurtempo {{coach: bewaak de volgorde en laat elke overgang met dezelfde technische aandacht zwemmen}}
-- 2 rondes {{coach: bewaak de volgorde en laat elke overgang met dezelfde technische aandacht zwemmen}}
+- `16 x 25` - `3x VL` - S '45 - 1x 80% - 1x 90% - 1x max {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `1x SNK` - herstel {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `3 x BC` - `1x 80% - 1x 90% - 1x max` {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `1x SNK` - herstel {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `3 x 200` - `R 20` - mag met Z, 75 BC > 25 RC, lekker rustig duurtempo {{coach: bewaak de volgorde en laat elke overgang met dezelfde technische aandacht zwemmen | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- 2 rondes {{coach: bewaak de volgorde en laat elke overgang met dezelfde technische aandacht zwemmen | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}

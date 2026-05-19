@@ -22,7 +22,7 @@ tags:
 
 ## Blok - Inzwemmen - Alle slagen - 700m
 
-- `4 x 150` - `R 15-20` - `2x (50 BC > 25 SS > 50 BC > 25 RC)` {{coach: laat rustig starten en controleer of techniek en ademhaling ontspannen blijven}}
-- `2x (25 B > 100 A > 25 B)` {{coach: kijk of benen en armen in de volledige slag hetzelfde ritme houden}}
-- `1 x 25` - `R 15-20` - `SNK` {{coach: gebruik deze serie als reset en laat ademhaling en schouders ontspannen}}
-- `1 x 75` - SNK herstel {{coach: gebruik deze serie als reset en laat ademhaling en schouders ontspannen}}
+- `4 x 150` - `R 15-20` - `2x (50 BC > 25 SS > 50 BC > 25 RC)` {{coach: laat rustig starten en controleer of techniek en ademhaling ontspannen blijven | onderbouwing: Een strakke start en beheerste breakout zetten snelheid om in lengte, zodat de eerste slagen krachtig blijven zonder gehaast te worden.}}
+- `2x (25 B > 100 A > 25 B)` {{coach: kijk of benen en armen in de volledige slag hetzelfde ritme houden | onderbouwing: Tempo moet uit ritme en timing ontstaan, zodat de zwemmer kan versnellen zonder ligging, ademhaling of watergevoel te verliezen.}}
+- `1 x 25` - `R 15-20` - `SNK` {{coach: gebruik deze serie als reset en laat ademhaling en schouders ontspannen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `1 x 75` - SNK herstel {{coach: gebruik deze serie als reset en laat ademhaling en schouders ontspannen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}

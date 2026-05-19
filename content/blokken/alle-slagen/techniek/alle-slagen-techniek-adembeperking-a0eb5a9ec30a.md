@@ -22,8 +22,8 @@ tags:
 
 ## Blok - Adembeperking - Alle slagen - 1400m
 
-- HELE SET 2 KEER {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
-- `4x50m` - `R:0:15` - `SS` - 75%, 50 B (2 beenslagen per armslag) {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
-- `1x200m` - `R:0:15` - `BC` - 75%, BC, 50 adem 1:3 > 50 adem 1:5 > 50 adem 1:3 > 50 adem 1:5 {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
-- `3x100m` - `R:0:15` - `BC` - 80%, BC, stevig duurtempo {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
-- extra rust 40-45s na elke ronde {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
+- HELE SET 2 KEER {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}
+- `4x50m` - `R:0:15` - `SS` - 75%, 50 B (2 beenslagen per armslag) {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}
+- `1x200m` - `R:0:15` - `BC` - 75%, BC, 50 adem 1:3 > 50 adem 1:5 > 50 adem 1:3 > 50 adem 1:5 {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}
+- `3x100m` - `R:0:15` - `BC` - 80%, BC, stevig duurtempo {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}
+- extra rust 40-45s na elke ronde {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}

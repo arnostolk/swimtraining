@@ -23,9 +23,9 @@ tags:
 
 ## Blok - Aerobe capaciteit - Alle slagen - 2500m
 
-- `2 x 300m` - BC R:20 - 70%, zwem op een rustig duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `6 x 50m` - RC: R:10 - 75%, zwem met een lichte beenslag en een ritmische armslag {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `2 x 300m` - BC R:20 - 70%, zwem op een rustig duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `6 x 50m` - VL>RC R:10 - 25m VL > 25m RC, 75%, zwem rugslag met een lichte beenslag en een ritmische armslag {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `2 x 200m` - BC R:20 - 70%, zwem op een rustig duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `6 x 50m` - RC: R:10 - 75%, zwem met een lichte beenslag en een ritmische armslag {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
+- `2 x 300m` - BC R:20 - 70%, zwem op een rustig duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `6 x 50m` - RC: R:10 - 75%, zwem met een lichte beenslag en een ritmische armslag {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `2 x 300m` - BC R:20 - 70%, zwem op een rustig duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `6 x 50m` - VL>RC R:10 - 25m VL > 25m RC, 75%, zwem rugslag met een lichte beenslag en een ritmische armslag {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `2 x 200m` - BC R:20 - 70%, zwem op een rustig duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `6 x 50m` - RC: R:10 - 75%, zwem met een lichte beenslag en een ritmische armslag {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}

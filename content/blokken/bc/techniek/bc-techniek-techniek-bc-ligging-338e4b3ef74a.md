@@ -23,11 +23,11 @@ tags:
 
 ## Blok - Techniek BC Ligging - BC - 900m
 
-- `2x50m` - BC benen, armen stroomlijnen hoofd in het water {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal}}
-- `2x50m` - Y-BC - armen super breed insteken {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal}}
-- `2x50m` - BC vingers door het water slepen, hoge elleboog {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal}}
-- `2x50m` - BC bijleggen {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal}}
-- `2x50m` - BC schouder aantikken {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal}}
-- `2x50m` - BC schouder aantikken, arm recht omhoog, schouder aantikken, door {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal}}
-- `2x50m` - BC catch beginnen als hand bij oren is {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal}}
-- `2x200m` - BC toepassen {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal}}
+- `2x50m` - BC benen, armen stroomlijnen hoofd in het water {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal | onderbouwing: Een compacte draai, rechte afzet en smalle stroomlijn besparen snelheid en geven de zwemmer direct een stabiele lijn na de muur.}}
+- `2x50m` - Y-BC - armen super breed insteken {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal | onderbouwing: Tempo moet uit ritme en timing ontstaan, zodat de zwemmer kan versnellen zonder ligging, ademhaling of watergevoel te verliezen.}}
+- `2x50m` - BC vingers door het water slepen, hoge elleboog {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal | onderbouwing: Tempo moet uit ritme en timing ontstaan, zodat de zwemmer kan versnellen zonder ligging, ademhaling of watergevoel te verliezen.}}
+- `2x50m` - BC bijleggen {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal | onderbouwing: Tempo moet uit ritme en timing ontstaan, zodat de zwemmer kan versnellen zonder ligging, ademhaling of watergevoel te verliezen.}}
+- `2x50m` - BC schouder aantikken {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal | onderbouwing: Tempo moet uit ritme en timing ontstaan, zodat de zwemmer kan versnellen zonder ligging, ademhaling of watergevoel te verliezen.}}
+- `2x50m` - BC schouder aantikken, arm recht omhoog, schouder aantikken, door {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal | onderbouwing: Tempo moet uit ritme en timing ontstaan, zodat de zwemmer kan versnellen zonder ligging, ademhaling of watergevoel te verliezen.}}
+- `2x50m` - BC catch beginnen als hand bij oren is {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal | onderbouwing: Tempo moet uit ritme en timing ontstaan, zodat de zwemmer kan versnellen zonder ligging, ademhaling of watergevoel te verliezen.}}
+- `2x200m` - BC toepassen {{coach: let op lange ligging, rustige ademhaling en een versnelling in de doorhaal | onderbouwing: Tempo moet uit ritme en timing ontstaan, zodat de zwemmer kan versnellen zonder ligging, ademhaling of watergevoel te verliezen.}}

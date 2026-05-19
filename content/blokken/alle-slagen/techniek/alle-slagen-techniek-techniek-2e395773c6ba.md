@@ -23,10 +23,10 @@ tags:
 
 ## Blok - Techniek - Alle slagen - 900m
 
-- `2x50m` - RC dubbele overhaal {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden}}
-- `2x50m` - RC met vuisten {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden}}
-- `2x50m` - lijn trekken {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden}}
-- `2x50m` - bekertje op hoofd {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden}}
-- `2x100m` - A1 {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden}}
-- `1x100m` - `BC` {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden}}
-- `1x200m` - A1 {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden}}
+- `2x50m` - RC dubbele overhaal {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden | onderbouwing: Een helder technisch aandachtspunt maakt feedback concreet en helpt zwemmers dezelfde kwaliteit per herhaling vast te houden.}}
+- `2x50m` - RC met vuisten {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden | onderbouwing: Een helder technisch aandachtspunt maakt feedback concreet en helpt zwemmers dezelfde kwaliteit per herhaling vast te houden.}}
+- `2x50m` - lijn trekken {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden | onderbouwing: Een helder technisch aandachtspunt maakt feedback concreet en helpt zwemmers dezelfde kwaliteit per herhaling vast te houden.}}
+- `2x50m` - bekertje op hoofd {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden | onderbouwing: Een helder technisch aandachtspunt maakt feedback concreet en helpt zwemmers dezelfde kwaliteit per herhaling vast te houden.}}
+- `2x100m` - A1 {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden | onderbouwing: Een helder technisch aandachtspunt maakt feedback concreet en helpt zwemmers dezelfde kwaliteit per herhaling vast te houden.}}
+- `1x100m` - `BC` {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden | onderbouwing: Een helder technisch aandachtspunt maakt feedback concreet en helpt zwemmers dezelfde kwaliteit per herhaling vast te houden.}}
+- `1x200m` - A1 {{coach: kies een helder aandachtspunt en laat de zwemmers dat per herhaling vasthouden | onderbouwing: Een helder technisch aandachtspunt maakt feedback concreet en helpt zwemmers dezelfde kwaliteit per herhaling vast te houden.}}

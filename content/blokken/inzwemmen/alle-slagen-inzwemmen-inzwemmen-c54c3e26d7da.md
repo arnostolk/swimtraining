@@ -22,6 +22,6 @@ tags:
 
 ## Blok - Inzwemmen - Alle slagen - 700m
 
-- `3 x 100` - `R 10-15` - BC - B - WIS {{coach: bewaak de vaste wisselslagvolgorde en houd elke overgang ontspannen}}
-- `4 x 50` - `R 15-20` - BC, opbouwen van 1: 75% > 4: 85% {{coach: laat het tempo geleidelijk oplopen zonder dat de slag korter wordt}}
-- `2 x 100` - `R 10-15` - WIS - B {{coach: bewaak de vaste wisselslagvolgorde en houd elke overgang ontspannen}}
+- `3 x 100` - `R 10-15` - BC - B - WIS {{coach: bewaak de vaste wisselslagvolgorde en houd elke overgang ontspannen | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `4 x 50` - `R 15-20` - BC, opbouwen van 1: 75% > 4: 85% {{coach: laat het tempo geleidelijk oplopen zonder dat de slag korter wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `2 x 100` - `R 10-15` - WIS - B {{coach: bewaak de vaste wisselslagvolgorde en houd elke overgang ontspannen | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}

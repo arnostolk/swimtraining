@@ -23,7 +23,7 @@ tags:
 
 ## Blok - Lactaatverwijdering - WIS - 2100m
 
-- `4x25` - `R:0:30` - `WIS` - 90%, zwem makkelijk hard {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- `2x100` - `R:0:20` - `WIS` - 75-80%, zwem op een stevig duurtempo {{coach: bewaak de volgorde en laat elke overgang met dezelfde technische aandacht zwemmen}}
-- `2x200` - `R:0:20` - `BC` - 70%, zwem op een rustig duurtempo {{coach: bewaak de volgorde en laat elke overgang met dezelfde technische aandacht zwemmen}}
-- HELE SET 3 KEER {{coach: bewaak de volgorde en laat elke overgang met dezelfde technische aandacht zwemmen}}
+- `4x25` - `R:0:30` - `WIS` - 90%, zwem makkelijk hard {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `2x100` - `R:0:20` - `WIS` - 75-80%, zwem op een stevig duurtempo {{coach: bewaak de volgorde en laat elke overgang met dezelfde technische aandacht zwemmen | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `2x200` - `R:0:20` - `BC` - 70%, zwem op een rustig duurtempo {{coach: bewaak de volgorde en laat elke overgang met dezelfde technische aandacht zwemmen | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- HELE SET 3 KEER {{coach: bewaak de volgorde en laat elke overgang met dezelfde technische aandacht zwemmen | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}

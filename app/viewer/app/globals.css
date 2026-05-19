@@ -670,6 +670,19 @@ h2 {
   cursor: pointer;
 }
 
+.coach-sheet__body {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.coach-sheet__body h3 {
+  margin-bottom: 0.25rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

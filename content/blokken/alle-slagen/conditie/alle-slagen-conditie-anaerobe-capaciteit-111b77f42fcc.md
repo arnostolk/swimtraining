@@ -24,8 +24,8 @@ tags:
 
 ## Blok - Anaerobe capaciteit - Alle slagen - 2400m
 
-- `16x25` - `S:0:35` - VL - RC - 1x VL 95%, makkelijk hard - 3x RC 70%, makkelijk duurtempo {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- `2x300` - `R:0:20` - `BC` - 70%, zwem op een makkelijk duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `16x25` - `S:0:35` - RC - SS - BC - 1x RC 95%, makkelijk hard - 1x SS 70%, 2x BC 70%, makkelijk duurtempo {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- `2x300` - `R:0:20` - `BC` - 70%, zwem op een makkelijk duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `16x25` - `S:0:35` - SS - BC - 1x SS 95%, makkelijk hard - 3x BC 70%, makkelijk duurtempo {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
+- `16x25` - `S:0:35` - VL - RC - 1x VL 95%, makkelijk hard - 3x RC 70%, makkelijk duurtempo {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `2x300` - `R:0:20` - `BC` - 70%, zwem op een makkelijk duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `16x25` - `S:0:35` - RC - SS - BC - 1x RC 95%, makkelijk hard - 1x SS 70%, 2x BC 70%, makkelijk duurtempo {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `2x300` - `R:0:20` - `BC` - 70%, zwem op een makkelijk duurtempo {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `16x25` - `S:0:35` - SS - BC - 1x SS 95%, makkelijk hard - 3x BC 70%, makkelijk duurtempo {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}

@@ -22,8 +22,8 @@ tags:
 
 ## Blok - Wedstrijdtempo - BC - 1300m
 
-- `6x50m` `BC` `R:0:20` `95%` - wedstrijdtempo met vaste slaglengte {{coach: stuur op tempo uit ritme en niet uit korter zwemmen}}
-- `2x100m` `BC` `R:0:25` `70%` - herstel met technische controle {{coach: laat de zwemmers lengte direct terugvinden na tempo}}
-- `4x100m` `BC` `R:0:25` `95%` - eerste `50m` wedstrijdtempo, tweede `50m` `75%` strak door {{coach: bewaak vlakke houding en ontspannen ademhaling in de tweede helft}}
-- `4x50m` `BC` `R:0:25` `95%` - breakout tot `15m`, daarna ritme vasthouden {{coach: kijk of de eerste armslag pas komt na volledige versnelling}}
-- `2x100m` `SNK` `R:0:20` `50%` - herstel met snorkel {{coach: laat hartslag zakken en schouders ontspannen}}
+- `6x50m` `BC` `R:0:20` `95%` - wedstrijdtempo met vaste slaglengte {{coach: stuur op tempo uit ritme en niet uit korter zwemmen | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}
+- `2x100m` `BC` `R:0:25` `70%` - herstel met technische controle {{coach: laat de zwemmers lengte direct terugvinden na tempo | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `4x100m` `BC` `R:0:25` `95%` - eerste `50m` wedstrijdtempo, tweede `50m` `75%` strak door {{coach: bewaak vlakke houding en ontspannen ademhaling in de tweede helft | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}
+- `4x50m` `BC` `R:0:25` `95%` - breakout tot `15m`, daarna ritme vasthouden {{coach: kijk of de eerste armslag pas komt na volledige versnelling | onderbouwing: Een strakke start en beheerste breakout zetten snelheid om in lengte, zodat de eerste slagen krachtig blijven zonder gehaast te worden.}}
+- `2x100m` `SNK` `R:0:20` `50%` - herstel met snorkel {{coach: laat hartslag zakken en schouders ontspannen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}

@@ -22,7 +22,7 @@ tags:
 
 ## Blok - Inzwemmen - Alle slagen - 700m
 
-- `3x200` - `R 10-15` - 1e 100 BC > 100 WIS {{coach: bewaak de vaste wisselslagvolgorde en houd elke overgang ontspannen}}
-- 2e 100 A > 100 B {{coach: kijk of benen en armen in de volledige slag hetzelfde ritme houden}}
-- 3e 25 SNK 80-85% > 75 SNK rustig {{coach: gebruik deze serie als reset en laat ademhaling en schouders ontspannen}}
-- `1x100` - wrikken {{coach: laat rustig starten en controleer of techniek en ademhaling ontspannen blijven}}
+- `3x200` - `R 10-15` - 1e 100 BC > 100 WIS {{coach: bewaak de vaste wisselslagvolgorde en houd elke overgang ontspannen | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- 2e 100 A > 100 B {{coach: kijk of benen en armen in de volledige slag hetzelfde ritme houden | onderbouwing: Tempo moet uit ritme en timing ontstaan, zodat de zwemmer kan versnellen zonder ligging, ademhaling of watergevoel te verliezen.}}
+- 3e 25 SNK 80-85% > 75 SNK rustig {{coach: gebruik deze serie als reset en laat ademhaling en schouders ontspannen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `1x100` - wrikken {{coach: laat rustig starten en controleer of techniek en ademhaling ontspannen blijven | onderbouwing: Een strakke start en beheerste breakout zetten snelheid om in lengte, zodat de eerste slagen krachtig blijven zonder gehaast te worden.}}

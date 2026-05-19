@@ -23,8 +23,8 @@ tags:
 
 ## Blok - Aerobe capaciteit - BC - 2100m
 
-- `5x200` - `S:3:15` - `4x BC - 1x WIS` - BC op 70% - WIS op 80% - Na 5x 60s extra rust {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `4x100` - `S:1:40` - `3x BC - 1x WIS` - BC op 75% - WIS op 80% - Na 4x 60s extra rust {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `3x100` - `S:1:40` - `2x BC - 1x WIS` - BC op 75% - WIS op 80% - Na 3x 60s extra rust {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `2x100` - `S:1:40` - `1x BC - 1x WIS` - BC op 75% - WIS op 80% - Na 2x 60s extra rust {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
-- `1x200` - `S:3:15` - `WIS` - 80-85% {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt}}
+- `5x200` - `S:3:15` - `4x BC - 1x WIS` - BC op 70% - WIS op 80% - Na 5x 60s extra rust {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `4x100` - `S:1:40` - `3x BC - 1x WIS` - BC op 75% - WIS op 80% - Na 4x 60s extra rust {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `3x100` - `S:1:40` - `2x BC - 1x WIS` - BC op 75% - WIS op 80% - Na 3x 60s extra rust {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `2x100` - `S:1:40` - `1x BC - 1x WIS` - BC op 75% - WIS op 80% - Na 2x 60s extra rust {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `1x200` - `S:3:15` - `WIS` - 80-85% {{coach: stuur op gelijkmatige doorkomst en behoud van slaglengte naarmate de serie langer wordt | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}

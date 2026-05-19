@@ -23,10 +23,10 @@ tags:
 
 ## Blok - Sprintjes - Alle slagen - 1000m
 
-- `4x25m` - SPRINT - SNK (4x dezelfde slag - rust 4 minuten op de kant) {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt}}
-- `1x200m` - benen/armen per 50 afwisselen {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
-- `4x50m` - SPRINT - SNK (4x dezelfde slag - rust 4 minuten op de kant) {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt}}
-- Als kinderen niet voluit zwemmen - terug naar 1 baan - je moet hard! {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- `1x200m` - SNK herstel {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt}}
-- `4x25m` - SPRINT - SNK (4x dezelfde slag - rust 4 minuten op de kant) {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt}}
-- `1x200m` - benen/armen per 50 afwisselen {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
+- `4x25m` - SPRINT - SNK (4x dezelfde slag - rust 4 minuten op de kant) {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `1x200m` - benen/armen per 50 afwisselen {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `4x50m` - SPRINT - SNK (4x dezelfde slag - rust 4 minuten op de kant) {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- Als kinderen niet voluit zwemmen - terug naar 1 baan - je moet hard! {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `1x200m` - SNK herstel {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `4x25m` - SPRINT - SNK (4x dezelfde slag - rust 4 minuten op de kant) {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `1x200m` - benen/armen per 50 afwisselen {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}

@@ -22,7 +22,7 @@ tags:
 
 ## Blok - Lactaatverwijdering - Alle slagen - 2100m
 
-- `4x25` - `R:0:30` - `WIS` - 90%, zwem makkelijk hard {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- `2x100` - `R:0:20` - `WIS` - 75-80%, zwem op een stevig duurtempo {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
-- `2x200` - `R:0:20` - `BC` - 70%, zwem op een rustig duurtempo {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
-- HELE SET 3 KEER {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
+- `4x25` - `R:0:30` - `WIS` - 90%, zwem makkelijk hard {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `2x100` - `R:0:20` - `WIS` - 75-80%, zwem op een stevig duurtempo {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
+- `2x200` - `R:0:20` - `BC` - 70%, zwem op een rustig duurtempo {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}
+- HELE SET 3 KEER {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}

@@ -23,7 +23,7 @@ tags:
 
 ## Blok - Tempo - Alle slagen - 1200m
 
-- HELE SET 2 KEER {{coach: bewaak dat het tempo uit timing komt en niet uit korter trekken}}
-- `4x100m` - `R:0:15` - `BC` - 50 op 75% > 50 op 80% {{coach: bewaak dat het tempo uit timing komt en niet uit korter trekken}}
-- `1x200m` - `R:0:30` - RC > SS > BC - 70%, 50 RC > 50 SS > 100 BC {{coach: bewaak dat het tempo uit timing komt en niet uit korter trekken}}
-- elke nieuwe ronde samen starten {{coach: kijk naar een compacte draai, krachtige afzet en stabiele stroomlijn na de muur}}
+- HELE SET 2 KEER {{coach: bewaak dat het tempo uit timing komt en niet uit korter trekken | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `4x100m` - `R:0:15` - `BC` - 50 op 75% > 50 op 80% {{coach: bewaak dat het tempo uit timing komt en niet uit korter trekken | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `1x200m` - `R:0:30` - RC > SS > BC - 70%, 50 RC > 50 SS > 100 BC {{coach: bewaak dat het tempo uit timing komt en niet uit korter trekken | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- elke nieuwe ronde samen starten {{coach: kijk naar een compacte draai, krachtige afzet en stabiele stroomlijn na de muur | onderbouwing: Een strakke start en beheerste breakout zetten snelheid om in lengte, zodat de eerste slagen krachtig blijven zonder gehaast te worden.}}

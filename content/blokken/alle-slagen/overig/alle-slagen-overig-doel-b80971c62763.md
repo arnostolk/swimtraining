@@ -22,9 +22,9 @@ tags:
 
 ## Blok - {Doel} - Alle slagen - 1800m
 
-- 3 - x (6 x 100) {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok}}
-- `6x100` - `R:0:20` - even: - BC op 70%, met een lichte versnelling op keerpunten en onderwaterfases {{coach: kijk naar een compacte draai, krachtige afzet en stabiele stroomlijn na de muur}}
-- 1e - 50 VL 80% > 50 RC 90-95% (race pace) {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- 3e - 50 RC 80% > 50 SS 90-95% (race pace) {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- 5e - 50 SS 80% > 50 BC 90-95% (race pace) {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen}}
-- 6e - SNK herstel, 1 minuut extra rust na 6e {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt}}
+- 3 - x (6 x 100) {{coach: controleer of de opdracht technisch netjes blijft en de intensiteit past bij het doel van het blok | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}
+- `6x100` - `R:0:20` - even: - BC op 70%, met een lichte versnelling op keerpunten en onderwaterfases {{coach: kijk naar een compacte draai, krachtige afzet en stabiele stroomlijn na de muur | onderbouwing: Een compacte draai, rechte afzet en smalle stroomlijn besparen snelheid en geven de zwemmer direct een stabiele lijn na de muur.}}
+- 1e - 50 VL 80% > 50 RC 90-95% (race pace) {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- 3e - 50 RC 80% > 50 SS 90-95% (race pace) {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- 5e - 50 SS 80% > 50 BC 90-95% (race pace) {{coach: stuur op hoge kwaliteit: strakke lijn, vaste timing en volledig herstel tussen de herhalingen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- 6e - SNK herstel, 1 minuut extra rust na 6e {{coach: laat de hartslag zakken en bewaak dat de techniek niet slordig wordt | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}

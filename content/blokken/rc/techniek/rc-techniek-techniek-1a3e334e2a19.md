@@ -23,10 +23,10 @@ tags:
 
 ## Blok - Techniek - RC - 1000m
 
-- `3x50m` - wrikken op de rug heen - terug samengestelde rugslag {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `2x50m` - rug armen met paddles - let op versnelling in doorhaal {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `1x200m` - rug HELE SLAG - rustig en vloeiend {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `2x50m` - rug benen + zoomers - heen - terug: +armen {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `2x50m` - rug - armen slowmotion - benen aan {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `1x200m` - rug hele slag - met zoomers {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
-- `2x25m` - rug - armen super snel tempo! - rust 1 minuut! {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag}}
+- `3x50m` - wrikken op de rug heen - terug samengestelde rugslag {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `2x50m` - rug armen met paddles - let op versnelling in doorhaal {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Tempo moet uit ritme en timing ontstaan, zodat de zwemmer kan versnellen zonder ligging, ademhaling of watergevoel te verliezen.}}
+- `1x200m` - rug HELE SLAG - rustig en vloeiend {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `2x50m` - rug benen + zoomers - heen - terug: +armen {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `2x50m` - rug - armen slowmotion - benen aan {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `1x200m` - rug hele slag - met zoomers {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `2x25m` - rug - armen super snel tempo! - rust 1 minuut! {{coach: let op stabiele hoofdpositie, hoge heupen en een ritmische armslag | onderbouwing: Tempo moet uit ritme en timing ontstaan, zodat de zwemmer kan versnellen zonder ligging, ademhaling of watergevoel te verliezen.}}

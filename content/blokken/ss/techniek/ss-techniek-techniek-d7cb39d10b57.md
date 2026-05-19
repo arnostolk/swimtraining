@@ -23,8 +23,8 @@ tags:
 
 ## Blok - Techniek - SS - 600m
 
-- `1x100m` - SS benen {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- `1x100m` - heen 2 SS armen 1 benen/ terug andersom {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- `1x100m` - SS met pullbouy tussen benen {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- `1x100m` - li heen/re terug - benen aan {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
-- `1x200m` - SS A1 {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft}}
+- `1x100m` - SS benen {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `1x100m` - heen 2 SS armen 1 benen/ terug andersom {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `1x100m` - SS met pullbouy tussen benen {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `1x100m` - li heen/re terug - benen aan {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
+- `1x200m` - SS A1 {{coach: bewaak de timing tussen ademhaling, armslag en beenslag zodat de lijn lang blijft | onderbouwing: Slaglengte vasthouden onder tempo voorkomt dat snelheid uit forceren komt en maakt de serie technisch controleerbaar.}}
