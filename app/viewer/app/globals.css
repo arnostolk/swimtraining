@@ -700,6 +700,7 @@ h2 {
 }
 
 .inline-block-feedback {
+  position: relative;
   display: grid;
   gap: 0.45rem;
   max-width: 100%;
@@ -710,9 +711,30 @@ h2 {
   background: rgba(216, 237, 247, 0.34);
   color: var(--muted);
   font-size: 0.8rem;
+  overflow: hidden;
+  transform-origin: center;
+}
+
+.inline-block-feedback::before {
+  position: absolute;
+  inset: 0;
+  content: "";
+  pointer-events: none;
+  background: linear-gradient(105deg, transparent 16%, rgba(255, 255, 255, 0.78) 42%, transparent 68%);
+  opacity: 0;
+  transform: translateX(-120%);
+}
+
+.inline-block-feedback--attention {
+  animation: feedback-attention-card 1.35s ease-out 2 both;
+}
+
+.inline-block-feedback--attention::before {
+  animation: feedback-attention-sheen 1.2s ease-out 2 both;
 }
 
 .inline-block-feedback__main {
+  position: relative;
   display: grid;
   grid-template-columns: auto auto auto minmax(1rem, auto);
   align-items: center;
@@ -743,6 +765,23 @@ h2 {
   font-weight: 800;
   line-height: 1;
   cursor: pointer;
+}
+
+.inline-block-feedback--attention .inline-rating-button,
+.inline-block-feedback--attention .inline-note-toggle {
+  animation: feedback-attention-control 0.7s ease-out 2 both;
+}
+
+.inline-block-feedback--attention .inline-rating-button:nth-child(2) {
+  animation-delay: 0.08s;
+}
+
+.inline-block-feedback--attention .inline-rating-button:nth-child(3) {
+  animation-delay: 0.16s;
+}
+
+.inline-block-feedback--attention .inline-note-toggle {
+  animation-delay: 0.24s;
 }
 
 .inline-rating-button--active {
@@ -805,6 +844,67 @@ h2 {
 .inline-feedback-status--error {
   background: #fee4e2;
   color: #b42318;
+}
+
+@keyframes feedback-attention-card {
+  0% {
+    border-color: rgba(0, 128, 255, 0.16);
+    box-shadow: 0 0 0 0 rgba(0, 128, 255, 0);
+    transform: scale(1);
+  }
+
+  18% {
+    border-color: rgba(0, 128, 255, 0.74);
+    box-shadow: 0 0 0 0.28rem rgba(0, 128, 255, 0.14);
+    transform: scale(1.012);
+  }
+
+  100% {
+    border-color: rgba(0, 73, 149, 0.14);
+    box-shadow: 0 0 0 0 rgba(0, 128, 255, 0);
+    transform: scale(1);
+  }
+}
+
+@keyframes feedback-attention-sheen {
+  0% {
+    opacity: 0;
+    transform: translateX(-120%);
+  }
+
+  20% {
+    opacity: 0.9;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(120%);
+  }
+}
+
+@keyframes feedback-attention-control {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  36% {
+    transform: translateY(-0.18rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .inline-block-feedback--attention,
+  .inline-block-feedback--attention::before,
+  .inline-block-feedback--attention .inline-rating-button,
+  .inline-block-feedback--attention .inline-note-toggle {
+    animation: none;
+  }
+
+  .inline-block-feedback--attention {
+    border-color: rgba(0, 128, 255, 0.58);
+    box-shadow: 0 0 0 0.18rem rgba(0, 128, 255, 0.12);
+  }
 }
 
 @media (max-width: 420px) {

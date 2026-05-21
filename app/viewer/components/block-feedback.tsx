@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import type { BlockFeedbackRating, TrainingBlockDefinition } from "@/lib/types";
 
@@ -23,10 +23,45 @@ const RATINGS: Array<{ value: BlockFeedbackRating; label: string }> = [
 ];
 
 export function InlineBlockFeedback({ block, trainingSlug, datum }: InlineBlockFeedbackProps) {
+  const feedbackRef = useRef<HTMLDivElement>(null);
   const [rating, setRating] = useState<BlockFeedbackRating | undefined>();
   const [opmerking, setOpmerking] = useState("");
   const [noteOpen, setNoteOpen] = useState(false);
+  const [attentionActive, setAttentionActive] = useState(false);
   const [submitState, setSubmitState] = useState<SubmitState>("idle");
+
+  useEffect(() => {
+    const feedbackElement = feedbackRef.current;
+    if (!feedbackElement || !("IntersectionObserver" in window)) {
+      return;
+    }
+
+    let attentionTimeout: number | undefined;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry?.isIntersecting) {
+          return;
+        }
+
+        setAttentionActive(true);
+        attentionTimeout = window.setTimeout(() => setAttentionActive(false), 3000);
+        observer.unobserve(entry.target);
+      },
+      {
+        rootMargin: "0px 0px -16% 0px",
+        threshold: 0.65,
+      },
+    );
+
+    observer.observe(feedbackElement);
+
+    return () => {
+      observer.disconnect();
+      if (attentionTimeout) {
+        window.clearTimeout(attentionTimeout);
+      }
+    };
+  }, []);
 
   async function submitFeedback(nextRating: BlockFeedbackRating) {
     setRating(nextRating);
@@ -50,7 +85,7 @@ export function InlineBlockFeedback({ block, trainingSlug, datum }: InlineBlockF
   }
 
   return (
-    <div className="inline-block-feedback">
+    <div ref={feedbackRef} className={attentionActive ? "inline-block-feedback inline-block-feedback--attention" : "inline-block-feedback"}>
       <div className="inline-block-feedback__main">
         <span className="inline-block-feedback__label">Beoordelen</span>
         <div className="inline-block-feedback__controls" aria-label={`Feedback voor blok ${block.nummer}`}>
