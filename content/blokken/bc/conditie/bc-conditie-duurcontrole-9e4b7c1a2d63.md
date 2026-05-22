@@ -11,9 +11,10 @@ rating:
   gemiddelde: null
   aantal: 0
 gebruik:
-  aantal: 1
+  aantal: 2
   trainingen:
     - 2026-05-20
+    - 2026-05-29
 wijzigingen: []
 tags:
   - conditie

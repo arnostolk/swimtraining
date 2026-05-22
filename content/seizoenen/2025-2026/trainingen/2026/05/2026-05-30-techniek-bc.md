@@ -4,9 +4,9 @@ datum: 2026-05-30
 seizoen: 2025-2026
 periode: Wedstrijdspecifiek
 primair_thema: Techniek
-secundair_thema: Wedstrijdtempo
+secundair_thema: Aerobic base
 sessievorm: 2 blokken
-slagfocus: "Techniek: RC; Wedstrijdtempo: BC"
+slagfocus: "Techniek: RC; Aerobic base: BC"
 totale_afstand_m: 2600
 duur_min: 60
 public: true
@@ -16,20 +16,21 @@ public: true
 
 ## Inzwemmen - 600m
 
-- `2x200m` `R:0:20` `70%` - `1e: 100 BC` > `100 WIS`, `2e: 50 benen` > `50 armen` > `100 BC`
-- `4x50m` `R:0:15` `70%` - `25 RC` > `25 BC`, rustige overgang
+- `1x300m` `R:0:20` `70%` - `100 BC` > `100 WIS` > `100 BC`
+- `2x100m` `R:0:15` `70%` - `25 RC benen` > `50 RC armen` > `25 RC`
+- `2x50m` `RC` > `BC` `R:0:15` `75%` - soepel doortrekken met lange lijn
 
 ## Blok 1 - Techniek - RC - 700m
 
-- `4x50m` `25 RC enkelvoudige arm links/rechts` > `25 RC` `R:0:15` - rustige herstelarm en rechte insteek {{coach: laat de werkarm per herhaling wisselen en bewaak de schouderlijn | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
-- `4x50m` `25 RC 6 beenslagen zijligging` > `25 RC` `R:0:15` - rotatie controleren {{coach: kijk of het hoofd stil blijft tijdens de wissel | onderbouwing: De vaste WIS-volgorde en rustige overgangen helpen zwemmers per slag technisch scherp te blijven zonder tempo uit onrust te halen.}}
-- `2x100m` `25 RC benen` > `25 RC armen` > `50 RC` `R:0:20` `70%` - opbouwen naar volledige slag {{coach: laat de zwemmers eerst ligging vinden en pas daarna tempo | onderbouwing: Tempo moet uit ritme en timing ontstaan, zodat de zwemmer kan versnellen zonder ligging, ademhaling of watergevoel te verliezen.}}
-- `2x50m` `RC` `R:0:15` `75%` - toepassen met iets meer druk {{coach: houd de lijn lang en de heupen hoog | onderbouwing: Rustige ademhaling en ontspannen houding houden de romp stabiel, waardoor techniek ook bij vermoeidheid netjes blijft.}}
+- `2x50m` `25 RC wrikken` > `25 RC samengestelde rugslag` `R:0:15` - eerst watergevoel, daarna hele beweging {{coach: kijk of de handen druk houden zonder dat de heupen zakken | onderbouwing: Watergevoel aan het begin maakt de rest van de rugslag rustiger en langer.}}
+- `2x50m` `25 RC 6 beenslagen zijligging` > `25 RC` `R:0:15` - balans vinden voor de arminzet {{coach: controleer of oor, schouder en heup in een rechte lijn blijven | onderbouwing: Zijligging maakt zichtbaar of de zwemmer stabiel genoeg ligt voor een lange arminzet.}}
+- `2x75m` `25 RC enkelvoudige arm` > `25 BC rustig` > `25 RC` `R:0:20` `70%` - RC afwisselen met een korte contrastbaan BC {{coach: laat de BC-baan ontspannen blijven en vraag daarna dezelfde lengte terug in RC | onderbouwing: Een contrastbaan helpt zwemmers het verschil tussen ontspanning en technische lengte voelen.}}
+- `2x100m` `50 RC vuisten` > `50 RC lange doorhaal` `R:0:20` `70%` - eerst grip zoeken, daarna druk volledig afmaken {{coach: let op versnelling in de doorhaal zonder extra hoofdbeweging | onderbouwing: Grip zoeken met vuisten maakt de volledige doorhaal daarna bewuster.}}
+- `3x50m` `25 RC opbouw` > `25 BC ontspannen` `R:0:15` `75%` - techniek meenemen naar iets meer snelheid {{coach: tel slagen op de RC-baan en laat de BC-baan echt herstel blijven | onderbouwing: De groep neemt technische lengte mee naar een iets actievere uitvoering.}}
 
-## Blok 2 - Wedstrijdtempo - BC - 1300m
+## Blok 2 - Aerobic base - BC - 1300m
 
-- `6x50m` `BC` `R:0:20` `95%` - wedstrijdtempo met vaste ademhaling {{coach: bewaak ritme zonder verkorting van de slag | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}
-- `2x100m` `BC` `R:0:25` `70%` - herstel met technische controle {{coach: laat lengte direct terugkomen | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
-- `4x100m` `BC` `R:0:25` `95%` - eerste `50m` wedstrijdtempo, tweede `50m` `75%` strak door {{coach: kijk of de tweede helft vlak blijft | onderbouwing: Korte kwaliteitsprikkels werken alleen als elke herhaling technisch scherp blijft en voldoende herstel krijgt om echte snelheid te leveren.}}
-- `4x50m` `BC` `R:0:25` `95%` - uit keerpunt naar `15m`, daarna tempo vasthouden {{coach: laat de afzet smal en recht blijven | onderbouwing: Een compacte draai, rechte afzet en smalle stroomlijn besparen snelheid en geven de zwemmer direct een stabiele lijn na de muur.}}
-- `2x100m` `SNK` `R:0:20` `50%` - herstel {{coach: laat de hartslag zakken en sluit ontspannen af | onderbouwing: Actief herstel met lage ademhaling en ontspannen schouders laat de techniek terugkomen voordat de volgende intensiteit start.}}
+- `4x100m` `BC` `R:0:20` `75%` - rustige duur met vaste slaglengte {{coach: laat de zwemmers per 100m hetzelfde aantal slagen proberen te houden | onderbouwing: Vaste slaglengte houdt de rustige zaterdagprikkel technisch en controleerbaar.}}
+- `4x150m` `BC` `R:0:25` `75%` - tempo constant, ademhaling laag {{coach: kijk of de tweede 50m even lang blijft als de eerste | onderbouwing: Gelijkmatige 150m-herhalingen versterken duurgevoel zonder wedstrijdtempo te vragen.}}
+- `4x50m` `BC` `R:0:15` `70%` - technisch ontspannen doorspoelen {{coach: laat schouders laag blijven en voorkom korter trekken | onderbouwing: Rustig doorspoelen houdt techniek schoon na de langere herhalingen.}}
+- `1x100m` `SNK` `R:0:20` `50%` - rustig herstellen {{coach: laat hartslag zakken en de uitademing verlengen | onderbouwing: Snorkelherstel sluit de training ontspannen af zonder extra technische druk.}}

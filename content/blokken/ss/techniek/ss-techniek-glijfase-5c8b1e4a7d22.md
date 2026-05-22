@@ -11,9 +11,11 @@ rating:
   gemiddelde: null
   aantal: 0
 gebruik:
-  aantal: 1
+  aantal: 3
   trainingen:
     - 2026-05-20
+    - 2026-05-27
+    - 2026-05-29
 wijzigingen: []
 tags:
   - techniek

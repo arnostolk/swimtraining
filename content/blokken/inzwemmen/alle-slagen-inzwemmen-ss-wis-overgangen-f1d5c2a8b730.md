@@ -11,9 +11,10 @@ rating:
   gemiddelde: null
   aantal: 0
 gebruik:
-  aantal: 1
+  aantal: 2
   trainingen:
     - 2026-05-23
+    - 2026-05-27
 wijzigingen: []
 tags:
   - inzwemmen
