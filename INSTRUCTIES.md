@@ -18,6 +18,8 @@ Het doel is een werkwijze in 2 stappen:
 - Uitgewerkte trainingen met een datum vóór vandaag mogen niet worden aangepast.
 - Feedback op trainingen in het verleden wordt verwerkt in algemene regels, de blokbibliotheek of toekomstige trainingen.
 - Alleen trainingen met datum vandaag of later mogen inhoudelijk worden gewijzigd.
+- Nieuw gegenereerde trainingen mogen na controle direct worden gecommit en gepusht.
+- Vraag daarvoor geen extra toestemming als de commit alleen de gegenereerde trainingen en noodzakelijke contentmetadata bevat.
 
 ## Bronnen In De Werkmap
 

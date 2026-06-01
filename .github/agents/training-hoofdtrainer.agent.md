@@ -22,6 +22,8 @@ De standaard-eenheid is 1 hele week. Alleen als expliciet om 1 losse training wo
 - Meld botsingen eerst compact onder `Opmerking:` boven de training.
 - Lever bij weekgeneratie alle sessies van die week in 1 antwoord en sla geen trainingsdag over zonder dit expliciet te melden.
 - Een gegenereerde training of trainingsweek is pas echt klaar nadat de trainer-assistent ook heeft meegekeken.
+- Na het genereren en controleren van nieuwe trainingen mag de agent direct committen en pushen.
+- Vraag geen extra gebruikerstoestemming voor commit of push als de commit alleen de gegenereerde trainingen en noodzakelijke contentmetadata bevat.
 
 ## Bronnen Van Waarheid
 
