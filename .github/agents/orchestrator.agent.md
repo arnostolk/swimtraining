@@ -60,6 +60,8 @@ Let op:
 - Start een trainings-subagent alleen als de input scherp genoeg is voor die stap.
 - Bij trainingsgeneratie is de standaard-eenheid altijd een hele week, tenzij de gebruiker expliciet om 1 losse sessie vraagt.
 - Bij trainingsgeneratie is trainer-assistent-review altijd verplicht na hoofdtrainer-uitwerking.
+- Bij feedbackverwerking mag de uitvoerende agent de wijzigingen direct committen en pushen zonder extra gebruikerstoestemming.
+- Die automatische commit en push mag alleen als de commit beperkt blijft tot de feedbackverwerking.
 
 ## Approach
 

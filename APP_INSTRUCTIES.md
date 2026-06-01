@@ -156,6 +156,8 @@ Feedback op trainingsblokken wordt vastgelegd als losse events.
 Bij verwerking van feedback mogen uitgewerkte trainingen in het verleden niet worden aangepast.
 Gebruik zulke feedback alleen voor de blokbibliotheek, instructies of toekomstige trainingen.
 Een training geldt als verleden als `datum` vóór de huidige datum ligt.
+Als feedback is verwerkt, mag de agent de bijbehorende wijzigingen direct committen en pushen.
+Daarvoor is geen extra gebruikerstoestemming nodig, zolang de commit alleen de feedbackverwerking bevat.
 
 In development schrijft de app lokale JSON-bestanden onder:
 

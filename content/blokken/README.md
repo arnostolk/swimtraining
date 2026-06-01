@@ -11,6 +11,8 @@ Gebruik voor inhoudelijke verwerking altijd eerst de Blob.
 Gebruik `feedback-local/` alleen voor lokale tests.
 Pas bij feedbackverwerking geen uitgewerkte trainingen in het verleden aan.
 Feedback op verleden trainingen mag alleen de blokbibliotheek, instructies of toekomstige trainingen wijzigen.
+Na verwerking mag de agent de wijzigingen direct committen en pushen.
+Vraag geen extra approval voor commit of push als de commit alleen feedbackverwerking bevat.
 
 ```powershell
 cd app/viewer
