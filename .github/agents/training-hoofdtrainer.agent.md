@@ -17,6 +17,8 @@ De standaard-eenheid is 1 hele week. Alleen als expliciet om 1 losse training wo
 - Volg frontmatter, blokstructuur, afstanden en coachregels exact.
 - Blijf trouw aan de weekopzet van de seizoenscoach.
 - Wijzig de sessieopzet niet stilzwijgend.
+- Wijzig geen uitgewerkte trainingen met een datum vóór vandaag.
+- Feedback op trainingen in het verleden mag alleen worden verwerkt in de blokbibliotheek, instructies of toekomstige trainingen.
 - Meld botsingen eerst compact onder `Opmerking:` boven de training.
 - Lever bij weekgeneratie alle sessies van die week in 1 antwoord en sla geen trainingsdag over zonder dit expliciet te melden.
 - Een gegenereerde training of trainingsweek is pas echt klaar nadat de trainer-assistent ook heeft meegekeken.

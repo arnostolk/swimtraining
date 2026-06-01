@@ -8,8 +8,8 @@ afstand_m: 700
 duur_min: 18
 status: concept
 rating:
-  gemiddelde: 2.2
-  aantal: 5
+  gemiddelde: 2.3
+  aantal: 7
 gebruik:
   aantal: 3
   trainingen:
@@ -21,6 +21,8 @@ wijzigingen:
     toelichting: coach tips verduidelijkt
   - datum: 2026-05-19
     toelichting: Blob-feedback verwerkt; meer variatie en BC als contrastbaan toegevoegd
+  - datum: 2026-06-01
+    toelichting: Nieuwe Blob-feedback verwerkt; rating bijgewerkt en training 2026-05-22 gelijkgetrokken
 tags:
   - techniek
   - rc

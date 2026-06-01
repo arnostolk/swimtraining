@@ -153,6 +153,9 @@ Per seizoen is er een JSON-bestand met:
 ### Blokfeedback
 
 Feedback op trainingsblokken wordt vastgelegd als losse events.
+Bij verwerking van feedback mogen uitgewerkte trainingen in het verleden niet worden aangepast.
+Gebruik zulke feedback alleen voor de blokbibliotheek, instructies of toekomstige trainingen.
+Een training geldt als verleden als `datum` vóór de huidige datum ligt.
 
 In development schrijft de app lokale JSON-bestanden onder:
 

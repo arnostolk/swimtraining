@@ -9,6 +9,8 @@ Lokale feedback-events worden tijdens development onder `feedback-local/` geschr
 Productiefeedback staat in Vercel Blob onder `feedback/`.
 Gebruik voor inhoudelijke verwerking altijd eerst de Blob.
 Gebruik `feedback-local/` alleen voor lokale tests.
+Pas bij feedbackverwerking geen uitgewerkte trainingen in het verleden aan.
+Feedback op verleden trainingen mag alleen de blokbibliotheek, instructies of toekomstige trainingen wijzigen.
 
 ```powershell
 cd app/viewer

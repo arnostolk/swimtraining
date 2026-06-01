@@ -15,6 +15,9 @@ Het doel is een werkwijze in 2 stappen:
 - Bij elke inhoudelijke wijziging aan trainingsopzet, schrijfregels of periodisering moet `INSTRUCTIES.md` worden bijgewerkt.
 - App-specifieke keuzes, UX en viewer-gedrag horen in `APP_INSTRUCTIES.md`.
 - Andere bestanden mogen bestaan, maar `INSTRUCTIES.md` blijft leidend voor trainingsinhoud.
+- Uitgewerkte trainingen met een datum vóór vandaag mogen niet worden aangepast.
+- Feedback op trainingen in het verleden wordt verwerkt in algemene regels, de blokbibliotheek of toekomstige trainingen.
+- Alleen trainingen met datum vandaag of later mogen inhoudelijk worden gewijzigd.
 
 ## Bronnen In De Werkmap
 

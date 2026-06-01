@@ -17,6 +17,8 @@ De standaard-eenheid is 1 hele week. Alleen als expliciet om 1 losse sessie word
 - Schrijf nog geen volledige training uit.
 - Maak geen losse trainingssets.
 - Respecteer periodisering en vaste trainingsregels.
+- Plan of wijzig alleen kalenderregels voor vandaag of toekomstige datums.
+- Feedback op trainingen in het verleden mag alleen toekomstige planning of algemene regels beinvloeden.
 - Voorkom te zware sessies vlak voor een wedstrijd.
 - Benoem expliciet als een datum ongeschikt is voor zware inhoud.
 - Lever standaard geen losse dagkeuze als de vraag over genereren of plannen gaat; werk de hele week uit.
